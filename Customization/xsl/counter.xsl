@@ -12,11 +12,11 @@
 >
 
   <xsl:template match="*[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]">
-      <!--span>
-      	<xsl:call-template name="commonattributes"/>
-      	<xsl:apply-templates select="." mode="otherprops-attributes"/>
-      	<xsl:apply-templates/>
-    	</span-->
+    <span>
+      <xsl:call-template name="commonattributes"/>
+      <xsl:apply-templates select="." mode="otherprops-attributes"/>
+      <xsl:apply-templates/>
+    </span>
   </xsl:template>
 
 </xsl:stylesheet>

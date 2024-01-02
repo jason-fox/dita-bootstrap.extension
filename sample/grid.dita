@@ -73,16 +73,18 @@
         >col-{breakpoint}-push-*</codeph> outputclasses also shift the other elements to the right.</p>
       <p>With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
     </section>
-    <div outputclass="row">
-      <div outputclass="col-md-6 col-md-push-1">
-        <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?e"/>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-md-6 col-md-push-1">
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?e"/>
+        </div>
+        <div outputclass="col-md-6 col-md-pull-2 mt-5">
+          <p
+            outputclass="bg-fresh text-light p-3"
+          >With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
+        </div>
       </div>
-      <div outputclass="col-md-6 col-md-pull-2 mt-5">
-        <p
-          outputclass="bg-fresh text-light p-3"
-        >With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
-      </div>
-    </div>
+    </bodydiv>
     <codeblock>&lt;div outputclass="row"&gt;
   &lt;div outputclass="col-md-6 col-md-push-1"&gt;
     ...
@@ -98,10 +100,12 @@
         >outputclass="col-{breakpoint}-pull-*"</xmlatt> modifier outputclasses.
       </p>
     </section>
-    <div outputclass="row">
-      <div outputclass="col-6 col-md-push-6 bg-primary text-light py-3">First</div>
-      <div outputclass="col-6 col-md-pull-12 bg-secondary text-light py-3">Second</div>
-    </div>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-6 col-md-push-6 bg-primary text-light py-3">First</div>
+        <div outputclass="col-6 col-md-pull-12 bg-secondary text-light py-3">Second</div>
+      </div>
+    </bodydiv>
     <codeblock>&lt;div outputclass="row"&gt;
   &lt;div outputclass="col-6 col-md-push-6 bg-primary text-light py-3"&gt;
     First
@@ -117,26 +121,28 @@
       >You can rotate the contents 0 to 90 degrees left or right. Use the .rotate-{breakpoint}-l-{degree} outputclass to rotate left or the .rotate-{breakpoint}-r-{degree} outputclass to rotate right.</p>
       <p>Where degree is one of: 0, 5, 10, 15, 20, 25, ... , 90.</p>
     </section>
-    <div outputclass="container o-hidden">
-      <div outputclass="row">
-        <div outputclass="col-12 col-sm-6 col-sm-push-4 rotate-sm-l-90">
-          <p outputclass="display-7">New York</p>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="container o-hidden">
+        <div outputclass="row">
+          <div outputclass="col-12 col-sm-6 col-sm-push-4 rotate-sm-l-90">
+            <p outputclass="display-7">New York</p>
+          </div>
+          <div outputclass="col-12 col-sm-6 col-sm-pull-4">
+            <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/376/600/600"/>
+            <p outputclass="display-9 text-secondary mb-5">Photo: Andrew Ruiz</p>
+          </div>
         </div>
-        <div outputclass="col-12 col-sm-6 col-sm-pull-4">
-          <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/376/600/600"/>
-          <p outputclass="display-9 text-secondary mb-5">Photo: Andrew Ruiz</p>
+        <div outputclass="row">
+          <div outputclass="col-12 col-sm-6 col-sm-push-2 rotate-sm-r-90">
+            <p outputclass="display-7">San Francisco</p>
+          </div>
+          <div outputclass="col-12 col-sm-6 col-sm-pull-8">
+            <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/392/600/600"/>
+            <p outputclass="display-9 text-secondary mb-5">Photo: Chris Brignola</p>
+          </div>
         </div>
       </div>
-      <div outputclass="row">
-        <div outputclass="col-12 col-sm-6 col-sm-push-2 rotate-sm-r-90">
-          <p outputclass="display-7">San Francisco</p>
-        </div>
-        <div outputclass="col-12 col-sm-6 col-sm-pull-8">
-          <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/392/600/600"/>
-          <p outputclass="display-9 text-secondary mb-5">Photo: Chris Brignola</p>
-        </div>
-      </div>
-    </div>
+    </bodydiv>
     <codeblock>&lt;div outputclass="container o-hidden"&gt;
   &lt;div outputclass="row"&gt;
     &lt;div outputclass="col-12 col-sm-6 col-sm-push-4 rotate-sm-l-90"&gt;
