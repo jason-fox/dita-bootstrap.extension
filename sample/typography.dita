@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="typography">
+  <title>Typography</title>
+  <shortdesc>Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists,
+    and more.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Typography</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+        <indexterm><xmlatt>otherprops</xmlatt></indexterm>
+        <indexterm><xmlelement>title</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+
+  </body>
+</topic>

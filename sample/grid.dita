@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="grid">
+  <title>Grid System</title>
+  <shortdesc>Extend Bootstrap’s grid system to cover larger gutters, rotations and more.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Grid</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+        <indexterm><xmlelement>bodydiv</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section outputclass="row pb-5">
+      <title>Gutter</title>
+      <p>Use the <codeph>.g-{breakpoint}-6</codeph> outputclass for larger spaces
+      (6rem).</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <bodydiv outputclass="row g-lg-6">
+        <section outputclass="col-md-3">
+          <title>Article 1</title>
+          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+        </section>
+        <section outputclass="col-md-3">
+          <title>Article 2</title>
+          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+        </section>
+        <section outputclass="col-md-3">
+          <title>Article 3</title>
+          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+        </section>
+        <section outputclass="col-md-3">
+          <title>Article 4</title>
+          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+        </section>
+      </bodydiv>
+    </bodydiv>
+    <codeblock>&lt;bodydiv outputclass="row g-lg-6"&gt;
+  &lt;section outputclass="col-md-3"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="col-md-3"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="col-md-3"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="col-md-3"&gt;
+    ...
+  &lt;/section&gt;
+&lt;/bodydiv&gt;</codeblock>
+    <section>
+      <title>Column push and pull</title>
+      <p>Use <codeph>col-{breakpoint}-push-*</codeph> or <codeph
+        >col-{breakpoint}-pull-*</codeph> outputclasses to push or pull the elements in grid system. The <codeph
+        >col-{breakpoint}-push-*</codeph> outputclasses also shift the other elements to the right.</p>
+      <p>With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
+    </section>
+    <div outputclass="row">
+      <div outputclass="col-md-6 col-md-push-1">
+        <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?e"/>
+      </div>
+      <div outputclass="col-md-6 col-md-pull-2 mt-5">
+        <p
+          outputclass="bg-fresh text-light p-3"
+        >With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
+      </div>
+    </div>
+    <codeblock>&lt;div outputclass="row"&gt;
+  &lt;div outputclass="col-md-6 col-md-push-1"&gt;
+    ...
+  &lt;/div&gt;
+  &lt;div outputclass="col-md-6 col-md-pull-2 mt-5"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;</codeblock>
+    <section>
+      <title>Column ordering</title>
+      <p>Easily change the order of built-in grid columns with <xmlatt
+        >outputclass="col-{breakpoint}-push-*"</xmlatt> and <xmlatt
+        >outputclass="col-{breakpoint}-pull-*"</xmlatt> modifier outputclasses.
+      </p>
+    </section>
+    <div outputclass="row">
+      <div outputclass="col-6 col-md-push-6 bg-primary text-light py-3">First</div>
+      <div outputclass="col-6 col-md-pull-12 bg-secondary text-light py-3">Second</div>
+    </div>
+    <codeblock>&lt;div outputclass="row"&gt;
+  &lt;div outputclass="col-6 col-md-push-6 bg-primary text-light py-3"&gt;
+    First
+  &lt;/div&gt;
+  &lt;div outputclass="col-6 col-md-pull-12 bg-secondary text-light py-3"&gt;
+    Second
+  &lt;/div&gt;
+&lt;/div&gt;</codeblock>
+
+    <section>
+      <title>Content rotate</title>
+      <p
+      >You can rotate the contents 0 to 90 degrees left or right. Use the .rotate-{breakpoint}-l-{degree} outputclass to rotate left or the .rotate-{breakpoint}-r-{degree} outputclass to rotate right.</p>
+      <p>Where degree is one of: 0, 5, 10, 15, 20, 25, ... , 90.</p>
+    </section>
+    <div outputclass="container o-hidden">
+      <div outputclass="row">
+        <div outputclass="col-12 col-sm-6 col-sm-push-4 rotate-sm-l-90">
+          <p outputclass="display-7">New York</p>
+        </div>
+        <div outputclass="col-12 col-sm-6 col-sm-pull-4">
+          <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/376/600/600"/>
+          <p outputclass="display-9 text-secondary mb-5">Photo: Andrew Ruiz</p>
+        </div>
+      </div>
+      <div outputclass="row">
+        <div outputclass="col-12 col-sm-6 col-sm-push-2 rotate-sm-r-90">
+          <p outputclass="display-7">San Francisco</p>
+        </div>
+        <div outputclass="col-12 col-sm-6 col-sm-pull-8">
+          <image outputclass="w-100 mt-5" scope="external" href="https://picsum.photos/id/392/600/600"/>
+          <p outputclass="display-9 text-secondary mb-5">Photo: Chris Brignola</p>
+        </div>
+      </div>
+    </div>
+    <codeblock>&lt;div outputclass="container o-hidden"&gt;
+  &lt;div outputclass="row"&gt;
+    &lt;div outputclass="col-12 col-sm-6 col-sm-push-4 rotate-sm-l-90"&gt;
+      &lt;p outputclass="display-7"&gt;New York&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div outputclass="col-12 col-sm-6 col-sm-pull-4"&gt;
+      &lt;image outputclass="w-100 mt-5" href="..."/&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div outputclass="row"&gt;
+    &lt;div outputclass="col-12 col-sm-6 col-sm-push-2 rotate-sm-r-90"&gt;
+      &lt;p outputclass="display-7"&gt;San Francisco&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div outputclass="col-12 col-sm-6 col-sm-pull-8"&gt;
+      &lt;image outputclass="w-100 mt-5" href="..."/&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</codeblock>
+  </body>
+</topic>

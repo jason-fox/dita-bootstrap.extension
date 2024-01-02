@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- Within the sample documentation, where necessary, the texts describing the
+   usage of each component have been copied directly from the official Bootstrap
+   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc.
+   and the Bootstrap Authors, and used under CC BY 3.0.
+
+    -->
+<topic id="spacing">
+  <title>Spacing</title>
+  <shortdesc>The classes are named using the format <codeph>{property}{sides}-{breakpoint}-{size}</codeph>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Spacing</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+        <p>
+          Where property is one of:
+        </p>
+        <ul>
+          <li><codeph>m</codeph> - for classes that set margin</li>
+          <li><codeph>p</codeph> - for classes that set padding</li>
+        </ul>
+        <p>
+          Where sides is one of:
+        </p>
+        <ul>
+          <li><codeph>t</codeph> - for classes that set margin-top or padding-top</li>
+          <li><codeph>b</codeph> - for classes that set margin-bottom or padding-bottom</li>
+          <li><codeph>s</codeph> - for classes that set margin-left or padding-left</li>
+          <li><codeph>e</codeph> - for classes that set margin-right or padding-right</li>
+          <li><codeph>x</codeph> - for classes that set both *-left and *-right</li>
+          <li><codeph>y</codeph> - for classes that set both *-top and *-bottom</li>
+        </ul>
+        <p>
+        Where size is one of:
+        </p>
+        <ul>
+          <li><codeph>6</codeph> - (by default) for classes that set the margin or padding to 6rem</li>
+          <li><codeph>7</codeph> - (by default) for classes that set the margin or padding to 10rem</li>
+          <li><codeph>8</codeph> - (by default) for classes that set the margin or padding to 20rem</li>
+        </ul>
+      <section>
+        <title>Negative margin</title>
+        <p>
+          In CSS, margin properties can utilize negative values (padding cannot). As of 4.2, we’ve added negative margin utilities for every non-zero integer size listed above (e.g., 6, 7, 8).
+        </p>
+      </section>
+      <bodydiv outputclass="bd-example" deliveryTarget="html">
+        <div outputclass="py-6 bg-primary text-white">Any div with .py-6</div>
+        <div outputclass="py-7 bg-info text-white">Any div with .py-7</div>
+        <div outputclass="py-8 bg-primary text-white">Any div with .py-8</div>
+
+        <div outputclass="w-20 p-6 bg-velvet text-white">Any div</div>
+        <div outputclass="w-20 p-6 ms-6 mt-n6 bg-rose text-white">Any div</div>
+      </bodydiv>
+      <codeblock>
+&lt;div outputclass="py-6 bg-primary text-white"&gt;
+  Any div with .py-6
+&lt;/div&gt;
+&lt;div outputclass="py-7 bg-info text-white"&gt;
+  Any div with .py-7
+&lt;/div&gt;
+&lt;div outputclass="py-8 bg-primary text-white"&gt;
+  Any div with .py-8
+&lt;/div&gt;
+&lt;div outputclass="w-20 p-6 bg-velvet text-white"&gt;
+  Any div
+&lt;/div&gt;
+&lt;div outputclass="w-20 p-6 ms-6 mt-n6 bg-rose text-white"&gt;
+  Any div
+&lt;/div&gt;</codeblock>
+  </body>
+</topic>

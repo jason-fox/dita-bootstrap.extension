@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="underlines">
+  <title>Underlines</title>
+  <shortdesc>Use <xmlatt>outputclass="divider"</xmlatt> for simple and animated underlines for titles.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Underlines</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Underlines</title>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p outputclass="h3 dividered-sky">Left aligned simple divider</p>
+      <p outputclass="h3 dividered-animated dividered-danger">Left aligned animated divider</p>
+      <p outputclass="h3 text-center dividered-center dividered-sky">Simple divider in center</p>
+      <p
+      outputclass="h3 text-center dividered-animated dividered-center dividered-danger"
+    >Animated divider in center</p>
+      <p outputclass="h3 text-end dividered-end dividered-sky">Right aligned simple divider</p>
+      <p
+      outputclass="h3 text-end dividered-end dividered-animated dividered-danger"
+    >Right aligned animated divider</p>
+      <div outputclass="text-md-center dividered-md-center dividered-sky">
+        <p outputclass="h3">Left / center aligned simple divider</p>
+        <p>(Resize the window!)</p>
+      </div>
+      <div outputclass="text-md-center dividered-md-center dividered-animated dividered-danger">
+        <p outputclass="h3">Left / center aligned animated divider</p>
+        <p>(Resize the window!)</p>
+     </div>
+    </bodydiv>
+    <codeblock>&lt;title outputclass="dividered-sky"&gt;
+  Left aligned simple divider
+&lt;/title&gt;
+&lt;title outputclass="dividered-animated dividered-danger"&gt;
+  Left aligned animated divider
+&lt;/title&gt;
+&lt;title outputclass="text-center dividered-center dividered-sky"&gt;
+  Simple divider in center
+&lt;/title&gt;
+&lt;title outputclass="text-center dividered-animated dividered-center dividered-danger"&gt;
+  Animated divider in center
+&lt;/title&gt;
+&lt;title outputclass="text-end dividered-end dividered-sky"&gt;
+  Right aligned simple divider
+&lt;/title&gt;
+&lt;title outputclass="text-end dividered-end dividered-animated dividered-danger"&gt;
+  Right aligned animated divider
+&lt;/title&gt;
+&lt;title outputclass="text-md-center dividered-md-center dividered-sky"&gt;
+  Left / center aligned simple divider
+&lt;/title&gt;
+&lt;title outputclass="text-md-center dividered-md-center dividered-animated dividered-danger"&gt;
+  Left / center aligned animated divider
+&lt;/title&gt;</codeblock>
+
+  </body>
+</topic>

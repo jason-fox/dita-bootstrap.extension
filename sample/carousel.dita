@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="carousel">
+  <title>Carousel</title>
+  <shortdesc>A slideshow component for cycling through elements—images or slides of text—like a carousel.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Carousel</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+        <indexterm><xmlatt>otherprops</xmlatt></indexterm>
+        <indexterm><xmlelement>ol</xmlelement></indexterm>
+        <indexterm><xmlelement>fig</xmlelement></indexterm>
+        <indexterm><xmlelement>image</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Indicators</title>
+      <p>Set <xmlatt>otherprops="indicators(round)"</xmlatt> to add rounded indicators to the carousel, alongside the
+        previous/next controls. The indicators let users jump directly to a particular slide.</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <ol outputclass="carousel" otherprops="indicators(round)">
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?d"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?e"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?f"/>
+        </li>
+      </ol>
+    </bodydiv>
+    <codeblock>&lt;ol outputclass="carousel" otherprops="indicators(round)"&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+
+   <section>
+      <title>With captions</title>
+      <p>Add captions by using <xmlelement>fig</xmlelement> elements</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <ol outputclass="carousel" otherprops="indicators(round)">
+        <li>
+          <fig>
+            <title outputclass="carousel-caption-readable">The First Slide</title>
+            <image scope="external" href="https://picsum.photos/1200/600?g"/>
+          </fig>
+        </li>
+        <li>
+          <fig>
+            <title outputclass="carousel-caption-readable">The Second Slide</title>
+            <image scope="external" href="https://picsum.photos/1200/600?h"/>
+          </fig>
+        </li>
+        <li>
+          <fig>
+            <title outputclass="carousel-caption-readable">The Third Slide</title>
+            <image scope="external" href="https://picsum.photos/1200/600?i"/>
+          </fig>
+        </li>
+      </ol>
+    </bodydiv>
+    <codeblock>&lt;ol outputclass="carousel" otherprops="indicators(round)"&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The First Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The Second Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The Third Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+
+
+  </body>
+</topic>

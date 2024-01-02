@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="to-top">
+  <title>toTop</title>
+  <shortdesc
+  >The Bootstrap extension supports the toTop button. Use the toTop id in the div tag and the toTop button scrolls up the page.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>To Top</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+      <div outputclass="bg-sky text-white me-5 mb-5 p-3 rounded-circle" id="toTop">
+      </div>
+      <codeblock>&lt;div outputclass="bg-sky text-white me-5 mb-5 p-3 rounded-circle"
+  id="toTop"/&gt;
+&lt;/div&gt;</codeblock>
+
+  </body>
+</topic>

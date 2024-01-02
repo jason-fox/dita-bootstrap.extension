@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="extension">
+  <title>Bootstrap Extensions</title>
+  <shortdesc
+  >Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
+
+  <body outputclass="language-markup">
+    <section>
+      <title outputclass="h3">Installing</title>
+      <p>Use the <cmdname>dita</cmdname> command to add bootstrap extentsion plug-in to your DITA Open Toolkit
+        installation:</p>
+      <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
+<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
+<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
+    </section>
+  </body>
+</topic>

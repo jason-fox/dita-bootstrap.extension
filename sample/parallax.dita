@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
+   file for applicable licenses.-->
+<topic id="to-top">
+  <title>Parallax</title>
+  <shortdesc
+  >With .parallax class and data-img-src parameter you can create simple parallax backgrounds. The data-speed parameter is a number between 0 and 1 that sets the background speed..</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Parallax</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Parallax</title>
+    </section>
+
+
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <section>
+        <title>Title 1</title>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque tempor dictum. Phasellus ex orci, placerat sed nisi a, fermentum laoreet nulla. Maecenas imperdiet urna neque. Vestibulum vel condimentum mi. Mauris convallis vel odio sit amet consequat. Cras scelerisque purus sit amet odio vestibulum elementum. Proin suscipit consectetur lectus, id semper neque laoreet et. Aliquam tincidunt vulputate pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis lacus lacus, egestas eu felis et, bibendum vestibulum erat. Quisque bibendum, quam nec semper rhoncus, purus odio dapibus ante, vel pellentesque lacus risus sit amet lorem. Vestibulum imperdiet varius elit, non euismod nunc fermentum vitae. Praesent ligula nulla, dictum quis nibh a, volutpat dignissim magna. Donec interdum ex nec nibh pellentesque, et convallis mauris
+        </p>
+      </section>
+      <section
+        outputclass="parallax py-6 px-4 text-white"
+        otherprops="data-img-src(https://picsum.photos/1200/600?d) data-speed(0.3)"
+      >
+        <title outputclass="text-center display-4">Section Title</title>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus. Nam molestie risus tempor est accumsan congue. Duis ullamcorper consequat pretium. Maecenas ut pulvinar nisl. Fusce dapibus semper lacinia. Nunc pretium pharetra imperdiet. In lorem quam, tempor quis bibendum non, tempus pretium elit. Proin nec ipsum sem. Quisque convallis, diam sed fringilla venenatis, mi sem aliquam odio, ut vulputate quam nisl quis mi. Aliquam sed finibus risus.</p>
+   
+      </section>
+      <section>
+        <title>Title 2</title>
+        <p>
+        Suspendisse aliquet dui augue, id accumsan lectus condimentum a. Etiam condimentum, nulla non dignissim vulputate, purus neque suscipit turpis, id varius neque nisl at sem. Aliquam vitae ipsum commodo, convallis velit sit amet, lobortis tortor. Ut sagittis tortor vel cursus tempus. Phasellus porta justo velit. Sed vehicula neque quis maximus sagittis. Nunc sit amet tellus vel risus posuere condimentum sed vel nisl. Morbi sem arcu, feugiat eget eleifend id, elementum et dolor. Vestibulum vitae sem vitae nisi faucibus iaculis sed et dui. Duis nec sapien a nulla condimentum consequat vestibulum at elit. Nulla eget congue metus. Duis molestie blandit ultricies. Aenean suscipit diam est, sed consequat urna blandit sit amet. Integer ultrices tincidunt ultricies.</p>
+
+      </section>
+      <section
+        outputclass="parallax py-6 px-4 text-white"
+        otherprops="data-img-src(https://picsum.photos/1200/600?e) data-speed(0.3)"
+      >
+        <title outputclass="text-center display-4">Section Title</title>
+            
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus. Nam molestie risus tempor est accumsan congue. Duis ullamcorper consequat pretium. Maecenas ut pulvinar nisl. Fusce dapibus semper lacinia. Nunc pretium pharetra imperdiet. In lorem quam, tempor quis bibendum non, tempus pretium elit. Proin nec ipsum sem. Quisque convallis, diam sed fringilla venenatis, mi sem aliquam odio, ut vulputate quam nisl quis mi. Aliquam sed finibus risus.</p>
+      </section>
+      <section>
+        <title>Title 3</title>
+        <p>
+        Mauris sit amet justo ac felis fringilla tempor. Donec dictum ac ante vel pellentesque. Maecenas venenatis tellus eget mattis sollicitudin. Etiam sed scelerisque nibh. Curabitur orci lorem, varius in massa quis, consectetur tincidunt nulla. Donec aliquam nulla elit, sagittis ultricies lorem vestibulum non. Mauris mattis sem sem, non varius turpis convallis sed. Proin mollis vulputate erat ut condimentum. Vestibulum eget risus ut ligula condimentum consequat ut ac lacus. Aenean eget ligula eu lectus pulvinar tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat posuere gravida. Proin aliquam, felis at congue consectetur, libero nisl facilisis nibh, id consequat arcu nulla id lacus. Integer nec ante sit amet lectus egestas feugiat. Aenean eu dignissim neque. Donec ut urna ac lacus congue laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare sem leo, vel ultrices quam aliquet nec. Aliquam et posuere risus. Nullam tempus et nisi dapibus malesuada. Vestibulum eleifend nulla quis augue congue ultrices. Integer eu sollicitudin urna. Aenean laoreet lorem eu purus lacinia facilisis. Integer dictum lectus quis cursus tincidunt. Maecenas in hendrerit sem. Nam tincidunt facilisis tellus, eget convallis leo. Donec metus tellus, placerat at auctor ac, tristique pellentesque lorem. Aliquam non turpis ac odio ornare bibendum eu ornare dui.</p>
+        <p>
+        Integer urna nunc, luctus non nisi non, finibus posuere magna. Aliquam erat volutpat. Pellentesque maximus sed lorem et tempus. Quisque lobortis sed augue ut malesuada. Curabitur quis ornare velit. Nam a euismod odio, vitae mollis orci. In consequat massa eget nunc malesuada condimentum. Pellentesque eget dignissim odio, tristique auctor diam. Vivamus vehicula purus dui, nec lacinia sem semper ut. Vestibulum tempus, quam aliquet condimentum convallis, purus felis molestie libero, ac scelerisque purus magna vel justo. Pellentesque condimentum iaculis ligula eu egestas. Pellentesque et tortor in purus sollicitudin euismod. In sagittis rutrum justo sit amet lobortis. Aliquam finibus, leo et cursus aliquet, tortor est lacinia nulla, ac interdum diam ex vitae ligula. Praesent dignissim erat et luctus consequat. Ut auctor feugiat lorem sit amet tempor. Nam condimentum pellentesque sapien, quis vulputate augue ultricies nec. Praesent tempor congue felis, eu mattis lectus vestibulum ut. Donec tempor condimentum risus quis tristique. Mauris viverra viverra egestas. Praesent quis pellentesque mi. Cras posuere urna sit amet quam laoreet, a semper lorem semper. Proin luctus ex gravida gravida blandit. Etiam suscipit, massa vel faucibus condimentum, nulla dui pharetra risus, ut posuere mi diam quis elit. Proin lacinia urna metus, nec scelerisque ex commodo eget.</p>
+      </section>
+    </bodydiv>
+    <codeblock>&lt;section&gt;
+  &lt;title &gt;Title 1&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section outputclass="parallax py-6 px-4 text-white" 
+  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+  &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;title&gt;Title 2&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section outputclass="parallax py-6 px-4 text-white" 
+  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+    &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
+    ...
+&lt;/section&gt;
+&lt;section&gt;
+    &lt;title&gt;Title 3&lt;/title&gt;
+    ...
+&lt;/section&gt;</codeblock>
+  </body>
+</topic>
