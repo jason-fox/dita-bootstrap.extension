@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- Within the sample documentation, where necessary, the texts describing the
+   usage of each component have been copied directly from the official Bootstrap
+   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc.
+   and the Bootstrap Authors, and used under CC BY 3.0.
+
+    -->
+<topic id="whitebox">
+  <title>Whitebox Gallery</title>
+  <shortdesc>Use <xmlelement
+    >ol outputclass="slider"</xmlelement> to hold images and create a Whitebox gallery component.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Whitebox Gallery</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <ol outputclass="whitebox">
+        <li>
+          <image scope="external" href="https://picsum.photos/id/63/1200/600"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/id/312/1200/600?e"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/id/225/1200/600?f"/>
+        </li>
+      </ol>
+    </bodydiv>
+    <codeblock>&lt;ol outputclass="whitebox"&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+  </body>
+</topic>

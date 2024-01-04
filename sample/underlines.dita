@@ -34,12 +34,10 @@
       <p outputclass="h3 dividered-animated dividered-danger">Left aligned animated divider</p>
       <p outputclass="h3 text-center dividered-center dividered-sky">Simple divider in center</p>
       <p
-      outputclass="h3 text-center dividered-animated dividered-center dividered-danger"
-    >Animated divider in center</p>
+        outputclass="h3 text-center dividered-animated dividered-center dividered-danger"
+      >Animated divider in center</p>
       <p outputclass="h3 text-end dividered-end dividered-sky">Right aligned simple divider</p>
-      <p
-      outputclass="h3 text-end dividered-end dividered-animated dividered-danger"
-    >Right aligned animated divider</p>
+      <p outputclass="h3 text-end dividered-end dividered-animated dividered-danger">Right aligned animated divider</p>
       <div outputclass="text-md-center dividered-md-center dividered-sky">
         <p outputclass="h3">Left / center aligned simple divider</p>
         <p>(Resize the window!)</p>

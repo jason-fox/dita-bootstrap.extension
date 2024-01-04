@@ -14,7 +14,8 @@
    file for applicable licenses.-->
 <topic id="carousel">
   <title>Carousel</title>
-  <shortdesc>Additional options for the slideshow component for cycling through elements—images or slides of text—like a carousel.</shortdesc>
+  <shortdesc
+  >Additional options for the slideshow component for cycling through elements—images or slides of text—like a carousel.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

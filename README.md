@@ -2,7 +2,7 @@
 
 <a href="https://www.dita-ot.org"><img src="https://www.dita-ot.org/images/dita-ot-logo.svg" align="right" height="55"></a>
 
-Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.
+Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from Bootstrap 5.x.
 as a DITA-OT Plugin.
 
 <!-- MarkdownTOC levels="2,3" -->
@@ -40,8 +40,6 @@ dita install dita-bootstrap
 dita install https://github.com/jason-fox/dita-bootstrap/archive/master.zip
 ```
 
-
 ## License
 
 [Apache 2.0](LICENSE) © 2024 Jason Fox
-

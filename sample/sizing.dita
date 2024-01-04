@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- Within the sample documentation, where necessary, the texts describing the
+   usage of each component have been copied directly from the official Bootstrap
+   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc.
+   and the Bootstrap Authors, and used under CC BY 3.0.
+
+    -->
+<topic id="sizing">
+  <title>Sizing</title>
+  <shortdesc>Easily make an element as wide (relative to its parent) with using the <xmlatt
+    >outputclass="w-*"</xmlatt> utilities.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Sizing</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <p>
+      Additional Bootstrap extension width options <xmlatt>outputclass="w-*"</xmlatt> available at 5% increments.
+    </p>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p outputclass="w-5 p-3 bg-cream">Width 5%</p>
+      <p outputclass="w-10 p-3 bg-cream">Width 10%</p>
+      <p outputclass="w-15 p-3 bg-cream">Width 15%</p>
+      <p outputclass="w-20 p-3 bg-cream">Width 20%</p>
+      <p outputclass="w-30 p-3 bg-cream">Width 30%</p>
+      <p outputclass="w-35 p-3 bg-cream">Width 35%</p>
+      <p outputclass="w-40 p-3 bg-cream">Width 40%</p>
+      <p outputclass="w-45 p-3 bg-cream">Width 45%</p>
+      <p outputclass="w-55 p-3 bg-cream">Width 55%</p>
+      <p outputclass="w-60 p-3 bg-cream">Width 60%</p>
+      <p outputclass="w-65 p-3 bg-cream">Width 65%</p>
+      <p outputclass="w-70 p-3 bg-cream">Width 70%</p>
+      <p outputclass="w-80 p-3 bg-cream">Width 80%</p>
+      <p outputclass="w-85 p-3 bg-cream">Width 85%</p>
+      <p outputclass="w-90 p-3 bg-cream">Width 90%</p>
+      <p outputclass="w-95 p-3 bg-cream">Width 95%</p>
+          </bodydiv>
+    <codeblock>&lt;p outputclass="w-5 p-3 bg-cream"&gt;Width 5%&lt;/p&gt;
+&lt;p outputclass="w-10 p-3 bg-cream"&gt;Width 10%&lt;/p&gt;
+&lt;p outputclass="w-15 p-3 bg-cream"&gt;Width 15%&lt;/p&gt;
+&lt;p outputclass="w-20 p-3 bg-cream"&gt;Width 20%&lt;/p&gt;
+&lt;p outputclass="w-30 p-3 bg-cream"&gt;Width 30%&lt;/p&gt;
+&lt;p outputclass="w-35 p-3 bg-cream"&gt;Width 35%&lt;/p&gt;
+&lt;p outputclass="w-40 p-3 bg-cream"&gt;Width 40%&lt;/p&gt;
+&lt;p outputclass="w-45 p-3 bg-cream"&gt;Width 45%&lt;/p&gt;
+&lt;p outputclass="w-55 p-3 bg-cream"&gt;Width 55%&lt;/p&gt;
+&lt;p outputclass="w-60 p-3 bg-cream"&gt;Width 60%&lt;/p&gt;
+&lt;p outputclass="w-65 p-3 bg-cream"&gt;Width 65%&lt;/p&gt;
+&lt;p outputclass="w-70 p-3 bg-cream"&gt;Width 70%&lt;/p&gt;
+&lt;p outputclass="w-80 p-3 bg-cream"&gt;Width 80%&lt;/p&gt;
+&lt;p outputclass="w-85 p-3 bg-cream"&gt;Width 85%&lt;/p&gt;
+&lt;p outputclass="w-90 p-3 bg-cream"&gt;Width 90%&lt;/p&gt;
+&lt;p outputclass="w-95 p-3 bg-cream"&gt;Width 95%&lt;/p&gt;</codeblock>
+  </body>
+</topic>

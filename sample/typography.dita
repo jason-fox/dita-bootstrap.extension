@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<!--
-
-   Bootstrap Extension is designed and built by Peter Joiner.
-   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
-
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation however DITA
+<!-- Within the sample documentation, where necessary, the texts describing the
+   usage of each component have been copied directly from the official Bootstrap
+   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
    markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
-
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.-->
+   components correctly using outputclass. -->
 <topic id="typography">
   <title>Typography</title>
   <shortdesc>Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists,
@@ -29,6 +22,63 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-
+    <section>
+      <title>Display headings</title>
+      <p
+      >Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a display heading—a larger, slightly more opinionated heading style.</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p outputclass="display-7">Display 7</p>
+      <p outputclass="display-8">Display 8</p>
+    </bodydiv>
+    <codeblock>&lt;title outputclass="display-7"&gt;Display 7&lt;/title&gt;
+&lt;title outputclass="display-8"&gt;Display 8&lt;/title&gt;</codeblock>
+    <section>
+      <title>Letter spacing</title>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p outputclass="display-8 text-uppercase">Text without letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-1">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-2">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-3">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-4">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-5">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-6">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-7">Text with letter spacing</p>
+      <p outputclass="display-8 text-uppercase ls-8">Text with letter spacing</p>
+    </bodydiv>
+    <codeblock>&lt;p outputclass="display-8 text-uppercase"&gt;Text without letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-1"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-2"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-3"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-4"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-5"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-6"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-7"&gt;Text with letter spacing&lt;/p&gt;
+&lt;p outputclass="display-8 text-uppercase ls-8"&gt;Text with letter spacing&lt;/p&gt;</codeblock>
+    <section>
+      <title>Web safe fonts</title>
+      <p>To access web safe fonts, use the <xmlatt>outputclasses</xmlatt> below.</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p outputclass="font-arial">Arial</p>
+      <p outputclass="font-brush-script-mt">Brush Script MT</p>
+      <p outputclass="font-courier-new">Courier New</p>
+      <p outputclass="font-garamond">Garamond</p>
+      <p outputclass="font-georgia">Georgia</p>
+      <p outputclass="font-helvetica">Helvetica</p>
+      <p outputclass="font-trebuchet-ms">Trebuchet MS</p>
+      <p outputclass="font-times-new-roman">Times New Roman</p>
+      <p outputclass="font-verdana">Verdana</p>
+    </bodydiv>
+    <codeblock>&lt;p outputclass="font-arial"&gt;Arial&lt;/p&gt;
+&lt;p outputclass="font-brush-script-mt"&gt;Brush Script MT&lt;/p&gt;
+&lt;p outputclass="font-courier-new"&gt;Courier New&lt;/p&gt;
+&lt;p outputclass="font-garamond"&gt;Garamond&lt;/p&gt;
+&lt;p outputclass="font-georgia"&gt;Georgia&lt;/p&gt;
+&lt;p outputclass="font-helvetica"&gt;Helvetica&lt;/p&gt;
+&lt;p outputclass="font-trebuchet-ms"&gt;Trebuchet MS&lt;/p&gt;
+&lt;p outputclass="font-times-new-roman"&gt;Times New Roman&lt;/p&gt;
+&lt;p outputclass="font-verdana"&gt;Verdana&lt;/p&gt;</codeblock>
   </body>
 </topic>

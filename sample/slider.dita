@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- Within the sample documentation, where necessary, the texts describing the
+   usage of each component have been copied directly from the official Bootstrap
+   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+   markup is used throughout the examples describing how to implement these
+   components correctly using outputclass.
+
+   This work, is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc.
+   and the Bootstrap Authors, and used under CC BY 3.0.
+
+    -->
+<topic id="slider">
+  <title>Slider</title>
+  <shortdesc>Use <xmlelement
+    >bodydiv outputclass="slider"</xmlelement> to hold cards and create a Slider component.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Slider</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <bodydiv outputclass="slider">
+        <section outputclass="card">
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?a"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <xref outputclass="btn-primary" href="#">Go Somewhere</xref>
+        </section>
+        <section outputclass="card">
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?b"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <xref outputclass="btn-primary" href="#">Go Somewhere</xref>
+        </section>
+        <section outputclass="card">
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?c"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <xref outputclass="btn-primary" href="#">Go Somewhere</xref>
+        </section>
+      </bodydiv>
+    </bodydiv>
+    <codeblock>&lt;bodydiv outputclass="slider"&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+&lt;/bodydiv&gt;</codeblock>
+  </body>
+</topic>

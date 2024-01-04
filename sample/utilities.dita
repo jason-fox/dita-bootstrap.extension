@@ -130,7 +130,7 @@
       <title>Colors</title>
       <p>
         Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in some cases you’ll want to use <xmlatt
-          >outputclass="text-*"</xmlatt> utilities.
+        >outputclass="text-*"</xmlatt> utilities.
       </p>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">

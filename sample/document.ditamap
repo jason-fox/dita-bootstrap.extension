@@ -43,6 +43,8 @@
     <topicref href="counter.dita"/>
     <topicref href="parallax.dita"/>
     <topicref href="to-top.dita"/>
+    <topicref href="slider.dita"/>
+    <topicref href="whitebox.dita"/>
   </chapter>
   <chapter>
     <topicmeta>
@@ -51,6 +53,7 @@
       <othermeta name="icon-style" content="color: var(--bs-pink)"/>
     </topicmeta>
     <topicref href="utilities.dita" navtitle="Borders and Colors" locktitle="yes"/>
+    <topicref href="sizing.dita"/>
     <topicref href="spacing.dita"/>
   </chapter>
   <backmatter deliveryTarget="pdf">
