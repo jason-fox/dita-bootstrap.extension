@@ -39,42 +39,42 @@
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col">
-          <div outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream">.border-6, .rounded-6</div>
+          <div outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark">.border-6, .rounded-6</div>
         </div>
         <div outputclass="col">
-          <div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream">.border-7</div>
+          <div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream text-dark">.border-7</div>
          </div>
         <div outputclass="col">
-          <div outputclass="border-end border-8 border-secondary m-3 p-3 bg-cream">.border-8</div>
+          <div outputclass="border-end border-8 border-secondary m-3 p-3 bg-cream text-dark">.border-8</div>
         </div>
       </div>
       <div outputclass="row">
         <div outputclass="col">
-          <div outputclass="border-top border-9 border-info m-3 p-3 bg-cream">.border-9</div>
+          <div outputclass="border-top border-9 border-info m-3 p-3 bg-cream text-dark">.border-9</div>
         </div>
         <div outputclass="col">
-          <div outputclass="border-bottom border-10 border-warning m-3 p-3 bg-cream">.border-10</div>
+          <div outputclass="border-bottom border-10 border-warning m-3 p-3 bg-cream text-dark">.border-10</div>
         </div>
         <div outputclass="col">
-          <div outputclass="border-start border-20 border-danger m-3 p-3 w-100 bg-cream">.border-20</div>
+          <div outputclass="border-start border-20 border-danger m-3 p-3 w-100 bg-cream text-dark">.border-20</div>
         </div>
       </div>
     </bodydiv>
-    <codeblock>&lt;div outputclass="border border-6 border-fresh rounded-6 p-3 bg-cream"&gt;
+    <codeblock>&lt;div outputclass="border border-6 border-fresh rounded-6 p-3 bg-cream text-dark"&gt;
   .border-6, .rounded-6
 &lt;/div&gt;
-&lt;div outputclass="border-start border-7 border-primary p-3 bg-cream"&gt;
+&lt;div outputclass="border-start border-7 border-primary p-3 bg-cream text-dark"&gt;
   .border-7&lt;/div&gt;
-&lt;div outputclass="border-end border-8 border-secondary p-3 bg-cream"&gt;
+&lt;div outputclass="border-end border-8 border-secondary p-3 bg-cream text-dark"&gt;
   .border-8
 &lt;/div&gt;
-&lt;div outputclass="border-top border-9 border-info p-3 bg-cream"&gt;
+&lt;div outputclass="border-top border-9 border-info p-3 bg-cream text-dark"&gt;
   .border-9
 &lt;/div&gt;
-&lt;div outputclass="border-bottom border-10 border-warning p-3 bg-cream"&gt;
+&lt;div outputclass="border-bottom border-10 border-warning p-3 bg-cream text-dark"&gt;
   .border-10
 &lt;/div&gt;
-&lt;div outputclass="border-start border-20 border-danger p-3 bg-cream"&gt;
+&lt;div outputclass="border-start border-20 border-danger p-3 bg-cream text-dark"&gt;
   .border-20
 &lt;/div&gt;</codeblock>
     <section>
@@ -141,7 +141,7 @@
       <div outputclass="p-3 mb-2 bg-sky text-white">.bg-sky</div>
       <div outputclass="p-3 mb-2 bg-fresh text-white">.bg-fresh</div>
       <div outputclass="p-3 mb-2 bg-rose text-white">.bg-rose</div>
-      <div outputclass="p-3 mb-2 bg-cream text-chocolate">.bg-cream</div>
+      <div outputclass="p-3 mb-2 bg-cream text-dark text-chocolate">.bg-cream text-dark</div>
     </bodydiv>
     <codeblock>&lt;div outputclass="p-3 mb-2 bg-chocolate text-white"&gt;
   .bg-chocolate
