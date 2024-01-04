@@ -13,7 +13,7 @@
 <topic id="whitebox">
   <title>Whitebox Gallery</title>
   <shortdesc>Use <xmlelement
-    >ol outputclass="slider"</xmlelement> to hold images and create a Whitebox gallery component.</shortdesc>
+    >ol outputclass="whitebox"</xmlelement> to hold images and create a Whitebox gallery component.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,7 +25,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-
+    <p>click on the image below</p>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <ol outputclass="whitebox">
         <li>
