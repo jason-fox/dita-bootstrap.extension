@@ -7,12 +7,16 @@
 <project
   name="dita.plugin.net.infotexture.dita-bootstrap.extension"
   xmlns:if="ant:if"
-  xmlns:unless="ant:unless">
+  xmlns:unless="ant:unless"
+>
 
   <!--
     Setting up Extension processing. Sets up ANT variables
   -->
-  <target name="dita-bootstrap.extension.init" description="Setting up Bootstrap Extension processing">
+  <target
+    name="dita-bootstrap.extension.init"
+    description="Setting up Bootstrap Extension processing"
+  >
     <property
       name="args.xsl"
       location="${dita.plugin.net.infotexture.dita-bootstrap.extension.dir}/xsl/html5-bootstrap.xsl"

@@ -17,7 +17,7 @@ as a DITA-OT Plugin.
 
 ## Installation
 
-The _DITA Bootstrap CSS Theme Switcher_ plug-in has been tested with [DITA-OT 4.x](http://www.dita-ot.org/download). Use the latest version for best results.
+The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](http://www.dita-ot.org/download). Use the latest version for best results.
 
 ### Installing DITA-OT
 
@@ -39,6 +39,18 @@ dita install fox.jason.extend.css
 dita install dita-bootstrap
 dita install https://github.com/jason-fox/dita-bootstrap/archive/master.zip
 ```
+
+### Common Bootstrap utility classes
+
+The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
+
+- `bootstrap.css.to-top` – common Bootstrap utility classes for the to top button
+
+### Optional elements
+
+opt-in to-top-button can be included with the following parameter
+
+- `to-top.include` – add Bootstrap to-top button
 
 ## License
 

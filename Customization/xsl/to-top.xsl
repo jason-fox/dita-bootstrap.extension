@@ -11,7 +11,8 @@
   exclude-result-prefixes="xs dita-ot"
 >
 
-  <xsl:param name="TO_TOP_CONTROL" select="'yes'"/>
+  <xsl:param name="BOOTSTRAP_TO_TOP_INCLUDE" select="'no'"/>
+  <xsl:param name="BOOTSTRAP_CSS_TO_TOP" select="'bg-primary text-white me-1 mb-1 p-3 rounded-circle'"/>
 
   <xsl:template match="/ | @* | node()" mode="gen-endnotes">
     <!-- Skip any footnotes that are in draft elements when draft = no -->
@@ -20,9 +21,11 @@
       mode="genEndnote"
     />
   
-    <xsl:if test="$TO_TOP_CONTROL = 'yes'">
+    <xsl:if test="$BOOTSTRAP_TO_TOP_INCLUDE = 'yes'">
       <div outputclass="d-none d-md-block">
-        <div class="bg-primary text-white me-1 mb-1 p-3 rounded-circle" id="toTop"/>
+        <div id="toTop">
+          <xsl:attribute name="class" select="$BOOTSTRAP_CSS_TO_TOP"/>
+        </div>
       </div>
     </xsl:if>
   </xsl:template>

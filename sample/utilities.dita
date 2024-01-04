@@ -39,7 +39,9 @@
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col">
-          <div outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark">.border-6, .rounded-6</div>
+          <div
+            outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark"
+          >.border-6, .rounded-6</div>
         </div>
         <div outputclass="col">
           <div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream text-dark">.border-7</div>

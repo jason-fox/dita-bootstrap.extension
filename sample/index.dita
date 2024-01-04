@@ -26,5 +26,31 @@
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
     </section>
+    <section>
+      <title outputclass="h3">Common Bootstrap utility classes</title>
+      <p>
+        The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
+      </p>
+      <ul>
+        <li>
+          <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the <xref
+            href="./to-top.dita"
+            format="dita"
+          >to top button</xref>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <title outputclass="h3">Optional elements</title>
+      <p>The opt-in to-top-button can be included with the following parameter:</p>
+      <ul>
+        <li>
+          <parmname>to-top.include</parmname> – add Bootstrap <xref
+            href="./to-top.dita"
+            format="dita"
+          >to-top button</xref>
+        </li>
+      </ul>
+    </section>
   </body>
 </topic>
