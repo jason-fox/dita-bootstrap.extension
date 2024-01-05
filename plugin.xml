@@ -18,5 +18,10 @@
       <val>yes</val>
       <val default="true">no</val>
     </param>
+    <param
+      name="bootstrap.css.to-top"
+      type="string"
+      desc="CSS for the to top button"
+    />
   </transtype>
 </plugin>
