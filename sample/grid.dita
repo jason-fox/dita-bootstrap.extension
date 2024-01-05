@@ -6,7 +6,7 @@
    The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
    Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation however DITA
+   documentation (found at https://bootstrapextensions.com/) however DITA
    markup is used throughout the examples describing how to implement these
    components correctly using outputclass.
 

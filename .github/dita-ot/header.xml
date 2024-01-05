@@ -65,8 +65,8 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="https://getbootstrap.com/docs/5.3"
-          >Bootstrap Docs</a>
+            href="https://bootstrapextensions.com/"
+          >Bootstrap Extension Docs</a>
         </li>
       </ul>
       <ul class="navbar-nav ms-auto">

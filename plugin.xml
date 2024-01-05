@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
 <!--
-  This file is part of the DITA Bootstrap CSS Toggler plug-in for DITA Open Toolkit.
+  This file is part of the DITA Bootstrap Extension plug-in for DITA Open Toolkit.
   See the accompanying LICENSE file for applicable licenses.
 -->
 <plugin id="net.infotexture.dita-bootstrap.extension" version="1.0.0">

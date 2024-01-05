@@ -6,7 +6,7 @@
    The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
    Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation however DITA
+   documentation (found at https://bootstrapextensions.com/) however DITA
    markup is used throughout the examples describing how to implement these
    components correctly using outputclass.
 
@@ -15,16 +15,44 @@
 <topic id="extension">
   <title>Bootstrap Extensions</title>
   <shortdesc
-  >Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
+  >Incorporate the <xref href="https://bootstrapextensions.com/" scope="external">Bootstrap Extension</xref> as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
 
   <body outputclass="language-markup">
     <section>
       <title outputclass="h3">Installing</title>
       <p>Use the <cmdname>dita</cmdname> command to add bootstrap extentsion plug-in to your DITA Open Toolkit
         installation:</p>
-      <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
+    </section>
+    <bodydiv outputclass="nav-tabs">
+      <section>
+        <title>DITA-OT 3.5 and newer:</title>
+          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+          >install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
+      </section>
+      <section>
+        <title>DITA-OT 3.3 and newer:</title>
+          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+          >--install</parmname> fox.jason.extend.css
+<cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap
+<cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
+      </section>
+      <section>
+        <title>DITA-OT 3.2 and older:</title>
+        <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+          >--install</parmname> https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+<cmdname>dita</cmdname> <parmname
+          >--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
+<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
+      </section>
+    </bodydiv>
+    <section>
+      <title>Using</title>
+      <p>Specify the <option>html5-bootstrap</option> format when building output with the <cmdname>dita</cmdname>
+        command:</p>
+      <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+        >--input</parmname>=path/to/your.ditamap <parmname>--format</parmname>=html5-bootstrap</codeblock>
     </section>
     <section>
       <title outputclass="h3">Common Bootstrap utility classes</title>
@@ -51,6 +79,18 @@
           >to-top button</xref>
         </li>
       </ul>
+    </section>
+    <section>
+      <note
+        type="note"
+      >Within the sample documentation, the texts describing the usage of each component have been copied directly
+        from the
+        <xref href="https://bootstrapextensions.com/" format="html" scope="external">official Bootstrap Extension
+          documentation</xref>, however DITA markup is used throughout the examples describing how to implement these
+        components correctly using the DITA <xmlatt>outputclass</xmlatt> attribute. This text is therefore a derivative
+        of <cite>Bootstrap Extension</cite> AKK IT, Inc, and used under
+        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>
+      </note>
     </section>
   </body>
 </topic>
