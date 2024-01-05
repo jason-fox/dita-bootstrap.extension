@@ -10,7 +10,7 @@ as a DITA-OT Plugin.
 - [Installation](#installation)
   - [Installing DITA-OT](#installing-dita-ot)
   - [Installing the Plug-in](#installing-the-plug-in)
-- [Usage](#usage)
+- [Using](#using)
 - [License](#license)
 
 <!-- /MarkdownTOC -->
@@ -40,6 +40,15 @@ dita install dita-bootstrap
 dita install https://github.com/jason-fox/dita-bootstrap/archive/master.zip
 ```
 
+## Using
+
+Specify the `html5-bootstrap` format when building output with the `dita` command:
+
+```console
+dita --input=path/to/your.ditamap \
+     --format=html5-bootstrap
+```
+
 ### Common Bootstrap utility classes
 
 The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
@@ -55,3 +64,11 @@ opt-in to-top-button can be included with the following parameter
 ## License
 
 [Apache 2.0](LICENSE) © 2024 Jason Fox
+
+The generated HTML created by this software includes the following additional software components which are obtained under license:
+
+- Bootstrap Extension – https://github.com/slackero/bootstrap-extension – **MIT license**
+
+Within the documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the 
+[Bootstrap Extension documentation](https://bootstrapextensions.com/) however DITA markup is used throughout the examples describing how to implement these
+components correctly using `outputclass`. The text, is therefore a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
