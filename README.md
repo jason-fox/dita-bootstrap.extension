@@ -2,8 +2,8 @@
 
 <a href="https://www.dita-ot.org"><img src="https://www.dita-ot.org/images/dita-ot-logo.svg" align="right" height="55"></a>
 
-Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from Bootstrap 5.x.
-as a DITA-OT Plugin.
+Incorporate the [Bootstrap Extension](https://bootstrapextensions.com) as a separate DITA-OT plugin to add everything that may be useful 
+but missing from Bootstrap 5.x. as a DITA-OT Plugin.
 
 <!-- MarkdownTOC levels="2,3" -->
 
