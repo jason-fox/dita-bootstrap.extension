@@ -26,7 +26,10 @@
             name="href"
             select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')][1]/@href"
           />
-            <xsl:attribute name="title" select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')][1]/alt"/>
+            <xsl:attribute
+            name="title"
+            select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')][1]/alt"
+          />
 
             <xsl:apply-templates select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')]"/>
           </a>
