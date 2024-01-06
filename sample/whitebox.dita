@@ -27,17 +27,17 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <p>click on the image below</p>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p>click on the image below</p>
       <ol outputclass="whitebox">
         <li>
-          <image scope="external" href="https://picsum.photos/id/63/1200/600"/>
+          <image scope="external" href="https://picsum.photos/1200/600?a"/>
         </li>
         <li>
-          <image scope="external" href="https://picsum.photos/id/312/1200/600?e"/>
+          <image scope="external" href="https://picsum.photos/1200/600?b"/>
         </li>
         <li>
-          <image scope="external" href="https://picsum.photos/id/225/1200/600?f"/>
+          <image scope="external" href="https://picsum.photos/1200/600?c"/>
         </li>
       </ol>
     </bodydiv>
@@ -50,6 +50,49 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;image href="..."/&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+    <section>
+      <title>Whitebox Gallery Titles</title>
+      <p>
+        Use the <xmlelement>alt</xmlelement> element to display a title with each image.
+      </p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p>click on the image below</p>
+      <ol outputclass="whitebox">
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?d">
+            <alt>First Image</alt>
+          </image>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?e">
+            <alt>Second Image</alt>
+          </image>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?f">
+            <alt>Third Image</alt>
+          </image>
+        </li>
+      </ol>
+    </bodydiv>
+      <codeblock>&lt;ol outputclass="whitebox"&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;First Image&lt;/alt&gt;
+    &lt;/image&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;Second Image&lt;/alt&gt;
+    &lt;/image&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;Third Image&lt;/alt&gt;
+    &lt;/image&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</codeblock>
   </body>
