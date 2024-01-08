@@ -20,7 +20,7 @@
     "prepare": "husky install",
     "prettier": "prettier --write \"**/*.{css,dita*,json,md,xml,xsl,yml}\"",
     "prettier-check": "prettier --check \"**/*.{css,dita*,json,md,xml,xsl,yml}\"",
-    "stylelint": "stylelint \"css/*.css\"",
+    "stylelint": "stylelint \"**/*.css\"",
     "test": "prettier --list-different \"**/*.{css,dita*,json,md,xml,xsl,yml}\""
   },
   "lint-staged": {
