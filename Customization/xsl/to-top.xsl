@@ -10,7 +10,6 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-
   <xsl:param name="BOOTSTRAP_TO_TOP_INCLUDE" select="'no'"/>
   <xsl:param name="BOOTSTRAP_CSS_TO_TOP" select="'bg-primary text-white me-1 mb-1 p-3 rounded-circle'"/>
 
@@ -20,7 +19,7 @@
       select="//*[contains(@class, ' topic/fn ')][not( (ancestor::*[contains(@class, ' topic/draft-comment ')] or ancestor::*[contains(@class, ' topic/required-cleanup ')]) and $DRAFT = 'no')]"
       mode="genEndnote"
     />
-  
+
     <xsl:if test="$BOOTSTRAP_TO_TOP_INCLUDE = 'yes'">
       <div outputclass="d-none d-md-block">
         <div id="toTop">
@@ -29,5 +28,4 @@
       </div>
     </xsl:if>
   </xsl:template>
-
 </xsl:stylesheet>

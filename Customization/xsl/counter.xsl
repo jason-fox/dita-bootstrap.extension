@@ -10,7 +10,6 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-
   <xsl:template match="*[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]">
     <span>
       <xsl:call-template name="commonattributes"/>
@@ -18,5 +17,4 @@
       <xsl:apply-templates/>
     </span>
   </xsl:template>
-
 </xsl:stylesheet>

@@ -61,7 +61,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;</codeblock>
 
-   <section>
+    <section>
       <title>With captions</title>
       <p>Add captions by using <xmlelement>fig</xmlelement> elements</p>
     </section>
@@ -107,7 +107,5 @@
     &lt;/fig&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</codeblock>
-
-
   </body>
 </topic>

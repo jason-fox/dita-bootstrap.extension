@@ -9,7 +9,6 @@
   xmlns:if="ant:if"
   xmlns:unless="ant:unless"
 >
-
   <!--
     Setting up Extension processing. Sets up ANT variables
   -->
@@ -21,5 +20,5 @@
       name="args.xsl"
       location="${dita.plugin.net.infotexture.dita-bootstrap.extension.dir}/xsl/html5-bootstrap.xsl"
     />
-	</target>
+  </target>
 </project>

@@ -31,7 +31,6 @@
       <title>Parallax</title>
     </section>
 
-
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <section>
         <title>Title 1</title>
@@ -46,20 +45,17 @@
         <title outputclass="text-center display-4">Section Title</title>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus. Nam molestie risus tempor est accumsan congue. Duis ullamcorper consequat pretium. Maecenas ut pulvinar nisl. Fusce dapibus semper lacinia. Nunc pretium pharetra imperdiet. In lorem quam, tempor quis bibendum non, tempus pretium elit. Proin nec ipsum sem. Quisque convallis, diam sed fringilla venenatis, mi sem aliquam odio, ut vulputate quam nisl quis mi. Aliquam sed finibus risus.</p>
-   
       </section>
       <section>
         <title>Title 2</title>
         <p>
         Suspendisse aliquet dui augue, id accumsan lectus condimentum a. Etiam condimentum, nulla non dignissim vulputate, purus neque suscipit turpis, id varius neque nisl at sem. Aliquam vitae ipsum commodo, convallis velit sit amet, lobortis tortor. Ut sagittis tortor vel cursus tempus. Phasellus porta justo velit. Sed vehicula neque quis maximus sagittis. Nunc sit amet tellus vel risus posuere condimentum sed vel nisl. Morbi sem arcu, feugiat eget eleifend id, elementum et dolor. Vestibulum vitae sem vitae nisi faucibus iaculis sed et dui. Duis nec sapien a nulla condimentum consequat vestibulum at elit. Nulla eget congue metus. Duis molestie blandit ultricies. Aenean suscipit diam est, sed consequat urna blandit sit amet. Integer ultrices tincidunt ultricies.</p>
-
       </section>
       <section
         outputclass="parallax py-6 px-4 text-white"
         otherprops="data-img-src(https://picsum.photos/1200/600?e) data-speed(0.3)"
       >
         <title outputclass="text-center display-4">Section Title</title>
-            
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus. Nam molestie risus tempor est accumsan congue. Duis ullamcorper consequat pretium. Maecenas ut pulvinar nisl. Fusce dapibus semper lacinia. Nunc pretium pharetra imperdiet. In lorem quam, tempor quis bibendum non, tempus pretium elit. Proin nec ipsum sem. Quisque convallis, diam sed fringilla venenatis, mi sem aliquam odio, ut vulputate quam nisl quis mi. Aliquam sed finibus risus.</p>
       </section>

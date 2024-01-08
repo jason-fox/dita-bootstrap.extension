@@ -47,7 +47,7 @@
       <p outputclass="w-85 p-3 bg-cream text-dark">Width 85%</p>
       <p outputclass="w-90 p-3 bg-cream text-dark">Width 90%</p>
       <p outputclass="w-95 p-3 bg-cream text-dark">Width 95%</p>
-          </bodydiv>
+    </bodydiv>
     <codeblock>&lt;p outputclass="w-5 p-3 bg-cream text-dark"&gt;Width 5%&lt;/p&gt;
 &lt;p outputclass="w-10 p-3 bg-cream text-dark"&gt;Width 10%&lt;/p&gt;
 &lt;p outputclass="w-15 p-3 bg-cream text-dark"&gt;Width 15%&lt;/p&gt;
