@@ -78,7 +78,7 @@
         </li>
       </ol>
     </bodydiv>
-      <codeblock>&lt;ol outputclass="whitebox"&gt;
+    <codeblock>&lt;ol outputclass="whitebox"&gt;
   &lt;li&gt;
     &lt;image href="..."&gt;
       &lt;alt&gt;First Image&lt;/alt&gt;

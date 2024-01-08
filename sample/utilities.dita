@@ -47,7 +47,7 @@
         </div>
         <div outputclass="col">
           <div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream text-dark">.border-7</div>
-         </div>
+        </div>
         <div outputclass="col">
           <div outputclass="border-end border-8 border-secondary m-3 p-3 bg-cream text-dark">.border-8</div>
         </div>
@@ -94,7 +94,7 @@
       <div outputclass="row">
         <div outputclass="col-12 col-lg-4">
           <div outputclass="hover-zoom">
-              <image
+            <image
               outputclass="offset-border"
               otherprops="data-border(20 20 -40 -40 1 #fff)"
               scope="external"

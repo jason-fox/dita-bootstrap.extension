@@ -76,9 +76,9 @@
           <image scope="external" href="https://picsum.photos/1200/600?q"/>
           <p>Large zoom</p>
         </div>
-    </div>
+      </div>
     </bodydiv>
-<codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
+    <codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
   &lt;image href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-zoom"&gt;
@@ -108,10 +108,10 @@
       <div outputclass="row">
         <div outputclass="col-md">
           <div outputclass="hover-fade-in-overlay">
-              <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
-              <div outputclass="overlay-100">
-                  <p outputclass="display-7 text-light">Strawberries!</p>
-              </div>
+            <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
+            <div outputclass="overlay-100">
+              <p outputclass="display-7 text-light">Strawberries!</p>
+            </div>
           </div>
           <p outputclass="text-secondary">Photo: Veeterzy</p>
         </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	This file is part of the DITA Bootstrap Toggle plug-in for DITA Open Toolkit.
-	See the accompanying LICENSE file for applicable licenses.
+  This file is part of the DITA Bootstrap Toggle plug-in for DITA Open Toolkit.
+  See the accompanying LICENSE file for applicable licenses.
 -->
 <xsl:stylesheet
   version="2.0"
@@ -11,7 +11,6 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   exclude-result-prefixes="xs dita-ot"
 >
-  
   <!-- Import the standard net.infotexture.dita-bootstrap customizations -->
   <xsl:import href="plugin:net.infotexture.dita-bootstrap:xsl/html5-bootstrap.xsl"/>
 
@@ -22,8 +21,6 @@
   <xsl:include href="../Customization/xsl/to-top.xsl"/>
   <xsl:include href="../Customization/xsl/utility-classes.xsl"/>
   <xsl:include href="../Customization/xsl/whitebox.xsl"/>
-
-
 
   <xsl:template match="/ | @* | node()" mode="processHDF">
     <xsl:next-match/>
@@ -46,8 +43,4 @@
     padding-bottom: 50px;
 }</style>
   </xsl:template>
-
-
-
-
 </xsl:stylesheet>

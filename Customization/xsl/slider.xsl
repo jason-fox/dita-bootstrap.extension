@@ -10,7 +10,6 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-
   <xsl:template match="*[contains(@class,' topic/bodydiv ') and contains(@outputclass, 'slider')]">
     <div>
       <xsl:call-template name="commonattributes"/>
@@ -26,5 +25,4 @@
       <xsl:apply-templates select="."/>
     </div>
   </xsl:template>
-
 </xsl:stylesheet>
