@@ -52,15 +52,15 @@ dita --input=path/to/your.ditamap \
 
 ### Common Bootstrap utility classes
 
-The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
+The HTML output can be annotated with common Bootstrap utility classes using additional command line parameters:
 
-- `bootstrap.css.to-top` – common Bootstrap utility classes for the to top button
+- `bootstrap.css.to-top` – common Bootstrap utility classes for the `toTop` button
 
 ### Optional elements
 
-opt-in to-top-button can be included with the following parameter
+The optional `toTop` button can be included with the following parameter:
 
-- `to-top.include` – add Bootstrap to-top button
+- `to-top.include` – add a `toTop` button that scrolls to the top of the page
 
 ## License
 
