@@ -5,23 +5,28 @@
    Bootstrap Extension is designed and built by Peter Joiner.
    The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation (found at https://bootstrapextensions.com/) however DITA
-   markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have
+   been copied directly from the Bootstrap Extension documentation however DITA markup is used throughout the examples
+   describing how to implement these components correctly using outputclass.
 
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.-->
+   This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. 
+   See the accompanying LICENSE file for applicable licenses.
+-->
 <topic id="extension">
-  <title>Bootstrap Extensions</title>
-  <shortdesc
-  >Incorporate the <xref href="https://bootstrapextensions.com/" scope="external">Bootstrap Extension</xref> as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
+  <title>DITA Bootstrap Extension</title>
+  
+  <shortdesc>A plug-in for
+    <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the 
+    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref>
+    HTML output with additional features from the
+    <xref href="https://bootstrapextensions.com" format="html" scope="external">Bootstrap Extension</xref> library.
+  </shortdesc>
 
   <body outputclass="language-markup">
     <section>
       <title outputclass="h3">Installing</title>
-      <p>Use the <cmdname>dita</cmdname> command to add bootstrap extentsion plug-in to your DITA Open Toolkit
-        installation:</p>
+      <p>Use the <cmdname>dita</cmdname> command to add the <term>DITA Bootstrap Extension</term> plug-in to your DITA
+        Open Toolkit installation:</p>
     </section>
     <bodydiv outputclass="nav-tabs">
       <section>
@@ -64,7 +69,7 @@
           <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the <xref
             href="./to-top.dita"
             format="dita"
-          >to top button</xref>
+          >to-top button</xref>
         </li>
       </ul>
     </section>
