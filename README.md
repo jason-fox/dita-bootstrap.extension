@@ -2,8 +2,7 @@
 
 <a href="https://www.dita-ot.org"><img src="https://www.dita-ot.org/images/dita-ot-logo.svg" align="right" height="55"></a>
 
-Incorporate the [Bootstrap Extension](https://bootstrapextensions.com) as a separate DITA-OT plugin to add everything that may be useful 
-but missing from Bootstrap 5.x. as a DITA-OT Plugin.
+_DITA Bootstrap Extension_ is a [DITA Open Toolkit plug-in](https://www.dita-ot.org/plugins) that extends the [DITA Bootstrap](https://infotexture.github.io/dita-bootstrap/) HTML output with additional features from the [Bootstrap Extension](https://bootstrapextensions.com) library.
 
 <!-- MarkdownTOC levels="2,3" -->
 
@@ -11,13 +10,15 @@ but missing from Bootstrap 5.x. as a DITA-OT Plugin.
   - [Installing DITA-OT](#installing-dita-ot)
   - [Installing the Plug-in](#installing-the-plug-in)
 - [Using](#using)
+  - [Common Bootstrap utility classes](#common-bootstrap-utility-classes)
+  - [Optional elements](#optional-elements)
 - [License](#license)
 
 <!-- /MarkdownTOC -->
 
 ## Installation
 
-The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](http://www.dita-ot.org/download). Use the latest version for best results.
+The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](https://www.dita-ot.org/download). Use the latest version for best results.
 
 ### Installing DITA-OT
 
@@ -28,7 +29,7 @@ The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](http:/
 
     This defines the necessary environment variable to run the `dita` command from the command line.
 
-See the [DITA-OT documentation](https://www.dita-ot.org/4.0/topics/installing-client.html) for detailed installation instructions.
+See the [DITA-OT documentation](https://www.dita-ot.org/dev/topics/installing-client.html) for detailed installation instructions.
 
 ### Installing the Plug-in
 
@@ -37,7 +38,7 @@ See the [DITA-OT documentation](https://www.dita-ot.org/4.0/topics/installing-cl
 ```console
 dita install fox.jason.extend.css
 dita install dita-bootstrap
-dita install https://github.com/jason-fox/dita-bootstrap/archive/master.zip
+dita install https://github.com/infotexture/dita-bootstrap.extension/archive/develop.zip
 ```
 
 ## Using
