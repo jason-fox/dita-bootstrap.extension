@@ -47,9 +47,9 @@
         <title>DITA-OT 3.2 and older:</title>
         <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
 <cmdname>dita</cmdname> <parmname
-          >--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
-<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
+          >--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
       </section>
     </bodydiv>
     <section>
@@ -94,7 +94,7 @@
           documentation</xref>, however DITA markup is used throughout the examples describing how to implement these
         components correctly using the DITA <xmlatt>outputclass</xmlatt> attribute. This text is therefore a derivative
         of <cite>Bootstrap Extension</cite> AKK IT, Inc, and used under
-        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>
+        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>.
       </note>
     </section>
   </body>
