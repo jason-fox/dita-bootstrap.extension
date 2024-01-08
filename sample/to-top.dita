@@ -12,12 +12,13 @@
   See the accompanying LICENSE file for applicable licenses.
 -->
 <topic id="to-top">
-  <title>toTop</title>
-  <shortdesc>The Bootstrap extension supports the toTop button, a navigation aide that scrolls up the page.</shortdesc>
+  <title>toTop Button</title>
+  <shortdesc>The Bootstrap extension supports the <codeph>toTop</codeph> button, a navigation aide that scrolls up the
+    page.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>To Top</indexterm>
+        <indexterm>toTop button</indexterm>
         <indexterm>CSS
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
         </indexterm>
@@ -29,9 +30,9 @@
       <image scalefit="no" href="./src/to-top-button.png"/>
     </fig>
     <section>
-      <title>Adding to top button</title>
-      <p>The to top button is not included by default. You can add a top button to each page by setting the parameter
-          <parmname>--to-top.include</parmname>=<option>yes</option>
+      <title>Adding <codeph>toTop</codeph> button</title>
+      <p>The <codeph>toTop</codeph> button is not included by default. You can add a button to each page by setting the
+        parameter <parmname>--to-top.include</parmname>=<option>yes</option>
       </p>
       <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>--input</parmname>=<filepath
         >path/to/your.ditamap</filepath> \
