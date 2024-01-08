@@ -14,8 +14,8 @@
     -->
 <topic id="sizing">
   <title>Sizing</title>
-  <shortdesc>Easily make an element as wide (relative to its parent) with using the <xmlatt
-    >outputclass="w-*"</xmlatt> utilities.</shortdesc>
+  <shortdesc>Easily make an element as wide (relative to its parent) with using the <xmlatt>outputclass="w-*"</xmlatt>
+    utilities.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -27,9 +27,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <p>
-      Additional Bootstrap extension width options <xmlatt>outputclass="w-*"</xmlatt> available at 5% increments.
-    </p>
+    <p>Additional Bootstrap extension width options <xmlatt>outputclass="w-*"</xmlatt> available at 5% increments.</p>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <p outputclass="w-5 p-3 bg-cream text-dark">Width 5%</p>
       <p outputclass="w-10 p-3 bg-cream text-dark">Width 10%</p>

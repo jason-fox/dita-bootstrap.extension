@@ -14,8 +14,8 @@
    file for applicable licenses.-->
 <topic id="Counter">
   <title>Counter</title>
-  <shortdesc>You can create counters with <xmlatt>outputclass="counter"</xmlatt> and <xmlatt
-    >otherprops</xmlatt></shortdesc>
+  <shortdesc>You can create counters with <xmlatt>outputclass="counter"</xmlatt> and
+    <xmlatt>otherprops</xmlatt></shortdesc>
   <prolog>
     <metadata>
       <keywords>

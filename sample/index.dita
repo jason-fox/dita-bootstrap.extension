@@ -14,13 +14,16 @@
 -->
 <topic id="extension">
   <title>DITA Bootstrap Extension</title>
-  
+
   <shortdesc>A plug-in for
-    <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the 
-    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref>
-    HTML output with additional features from the
-    <xref href="https://bootstrapextensions.com" format="html" scope="external">Bootstrap Extension</xref> library.
-  </shortdesc>
+    <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the
+    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref> HTML
+    output with additional features from the
+    <xref
+      href="https://bootstrapextensions.com"
+      format="html"
+      scope="external"
+    >Bootstrap Extension</xref> library. </shortdesc>
 
   <body outputclass="language-markup">
     <section>
@@ -31,14 +34,13 @@
     <bodydiv outputclass="nav-tabs">
       <section>
         <title>DITA-OT 3.5 and newer:</title>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
-          >install</parmname> fox.jason.extend.css
+        <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
       </section>
       <section>
         <title>DITA-OT 3.3 and newer:</title>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+        <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
@@ -61,15 +63,12 @@
     </section>
     <section>
       <title outputclass="h3">Common Bootstrap utility classes</title>
-      <p>
-        The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
-      </p>
+      <p>The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for
+        borders, background, text, spacing, etc. using additional command line parameters:</p>
       <ul>
         <li>
-          <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the <xref
-            href="./to-top.dita"
-            format="dita"
-          >to-top button</xref>
+          <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the
+          <xref href="./to-top.dita" format="dita">to-top button</xref>
         </li>
       </ul>
     </section>
@@ -78,24 +77,19 @@
       <p>The opt-in to-top-button can be included with the following parameter:</p>
       <ul>
         <li>
-          <parmname>to-top.include</parmname> – add Bootstrap <xref
-            href="./to-top.dita"
-            format="dita"
-          >to-top button</xref>
+          <parmname>to-top.include</parmname> – add Bootstrap
+          <xref href="./to-top.dita" format="dita">to-top button</xref>
         </li>
       </ul>
     </section>
     <section>
-      <note
-        type="note"
-      >Within the sample documentation, the texts describing the usage of each component have been copied directly
-        from the
+      <note type="note">Within the sample documentation, the texts describing the usage of each component have been
+        copied directly from the
         <xref href="https://bootstrapextensions.com/" format="html" scope="external">official Bootstrap Extension
           documentation</xref>, however DITA markup is used throughout the examples describing how to implement these
         components correctly using the DITA <xmlatt>outputclass</xmlatt> attribute. This text is therefore a derivative
         of <cite>Bootstrap Extension</cite> AKK IT, Inc, and used under
-        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>.
-      </note>
+        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>.</note>
     </section>
   </body>
 </topic>

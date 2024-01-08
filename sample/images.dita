@@ -29,8 +29,8 @@
   <body outputclass="language-markup">
     <section>
       <title>Grayscale images</title>
-      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph
-        >.hover-grayscale</codeph> outputclasses to the grayscale figures and images.</p>
+      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph>.hover-grayscale</codeph>
+        outputclasses to the grayscale figures and images.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
@@ -59,8 +59,8 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Hover zoom</title>
-      <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and <codeph
-        >hover-zoom-lg</codeph> outputclasses will magnify them.</p>
+      <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and
+          <codeph>hover-zoom-lg</codeph> outputclasses will magnify them.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
@@ -89,14 +89,10 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Fade in overlay</title>
-        <p>Hover over the image to see the effect. Just use the <codeph
-        >hover-fade-in-overlay</codeph> outputclass and the <codeph
-        >overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and <codeph
-        >from-b</codeph> classes to specify the direction of the sliding content.
-      </p>
-      <p>
-        Where visibility is one of:
-      </p>
+      <p>Hover over the image to see the effect. Just use the <codeph>hover-fade-in-overlay</codeph> outputclass and the
+          <codeph>overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and
+          <codeph>from-b</codeph> classes to specify the direction of the sliding content.</p>
+      <p>Where visibility is one of:</p>
       <ul>
         <li>25 - for class that set opacity 25%</li>
         <li>50 - for class that set opacity 50%</li>
@@ -130,7 +126,8 @@
             <div outputclass="overlay-75 from-b bg-black">
               <p outputclass="display-7 text-light">It is a tulip!</p>
               <p outputclass="text-light">It is a paragraph!</p>
-              <p><xref outputclass="btn btn-warning" href="#">Button</xref></p>
+              <p>
+                <xref outputclass="btn btn-warning" href="#">Button</xref></p>
             </div>
           </div>
           <p outputclass="text-secondary">Photo: Ales Krivec</p>

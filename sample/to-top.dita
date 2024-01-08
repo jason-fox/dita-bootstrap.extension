@@ -31,8 +31,8 @@
     </fig>
     <section>
       <title>Adding to top button</title>
-      <p>The to top button is not included by default. You can add a top button  to each page by setting the
-        parameter <parmname>--to-top.include</parmname>=<option>yes</option>
+      <p>The to top button is not included by default. You can add a top button to each page by setting the parameter
+          <parmname>--to-top.include</parmname>=<option>yes</option>
       </p>
       <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>--input</parmname>=<filepath
         >path/to/your.ditamap</filepath> \

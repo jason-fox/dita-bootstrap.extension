@@ -14,8 +14,8 @@
     -->
 <topic id="slider">
   <title>Slider</title>
-  <shortdesc>Use <xmlelement
-    >bodydiv outputclass="slider"</xmlelement> to hold cards and create a Slider component.</shortdesc>
+  <shortdesc>Use <xmlelement>bodydiv outputclass="slider"</xmlelement> to hold cards and create a Slider
+    component.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

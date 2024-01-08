@@ -14,8 +14,8 @@
     -->
 <topic id="whitebox">
   <title>Whitebox Gallery</title>
-  <shortdesc>Use <xmlelement
-    >ol outputclass="whitebox"</xmlelement> to hold images and create a Whitebox gallery component.</shortdesc>
+  <shortdesc>Use <xmlelement>ol outputclass="whitebox"</xmlelement> to hold images and create a Whitebox gallery
+    component.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -54,9 +54,7 @@
 &lt;/ol&gt;</codeblock>
     <section>
       <title>Whitebox Gallery Titles</title>
-      <p>
-        Use the <xmlelement>alt</xmlelement> element to display a title with each image.
-      </p>
+      <p>Use the <xmlelement>alt</xmlelement> element to display a title with each image.</p>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <p>click on the image below</p>
