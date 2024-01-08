@@ -61,6 +61,16 @@
         >--input</parmname>=path/to/your.ditamap <parmname>--format</parmname>=html5-bootstrap</codeblock>
     </section>
     <section>
+      <title outputclass="h3">Optional elements</title>
+      <p>The optional <codeph>toTop</codeph> button can be included with the following parameter:</p>
+      <ul>
+        <li>
+          <parmname>to-top.include</parmname> – add a
+          <xref href="./to-top.dita" format="dita">toTop button</xref> that scrolls to the top of the page
+        </li>
+      </ul>
+    </section>
+    <section>
       <title outputclass="h3">Common Bootstrap utility classes</title>
       <p>The HTML output can be annotated with common Bootstrap utility classes using additional command line
         parameters:</p>
@@ -68,16 +78,6 @@
         <li>
           <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the
           <xref href="./to-top.dita" format="dita">toTop button</xref>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <title outputclass="h3">Optional elements</title>
-      <p>The optional <codeph>toTop</codeph> button can be included with the following parameter:</p>
-      <ul>
-        <li>
-          <parmname>to-top.include</parmname> – add a
-          <xref href="./to-top.dita" format="dita">toTop button</xref> that scrolls to the top of the page
         </li>
       </ul>
     </section>

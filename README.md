@@ -10,8 +10,8 @@ _DITA Bootstrap Extension_ is a [DITA Open Toolkit plug-in](https://www.dita-ot.
   - [Installing DITA-OT](#installing-dita-ot)
   - [Installing the Plug-in](#installing-the-plug-in)
 - [Using](#using)
-  - [Common Bootstrap utility classes](#common-bootstrap-utility-classes)
   - [Optional elements](#optional-elements)
+  - [Common Bootstrap utility classes](#common-bootstrap-utility-classes)
 - [License](#license)
 
 <!-- /MarkdownTOC -->
@@ -50,17 +50,17 @@ dita --input=path/to/your.ditamap \
      --format=html5-bootstrap
 ```
 
-### Common Bootstrap utility classes
-
-The HTML output can be annotated with common Bootstrap utility classes using additional command line parameters:
-
-- `bootstrap.css.to-top` – common Bootstrap utility classes for the `toTop` button
-
 ### Optional elements
 
 The optional `toTop` button can be included with the following parameter:
 
 - `to-top.include` – add a `toTop` button that scrolls to the top of the page
+
+### Common Bootstrap utility classes
+
+The HTML output can be annotated with common Bootstrap utility classes using additional command line parameters:
+
+- `bootstrap.css.to-top` – common Bootstrap utility classes for the `toTop` button
 
 ## License
 
