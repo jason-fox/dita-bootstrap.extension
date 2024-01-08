@@ -70,4 +70,4 @@ The generated HTML created by this software includes the following additional so
 
 - Bootstrap Extension – https://github.com/slackero/bootstrap-extension – **MIT license**
 
-Within the documentation, where necessary, the texts describing the Bootstrap extension usage of each component have been copied directly from the [Bootstrap Extension documentation](https://bootstrapextensions.com/) however DITA markup is used throughout the examples describing how to implement these components correctly using `outputclass`. The text, is therefore a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+Within the documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have been copied directly from the [Bootstrap Extension documentation](https://bootstrapextensions.com/) however DITA markup is used throughout the examples describing how to implement these components correctly using `outputclass`. The text is therefore a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
