@@ -42,7 +42,7 @@
   "devDependencies": {
     "@prettier/plugin-xml": "3.2.2",
     "husky": "^9.0.10",
-    "lint-staged": "15.2.0",
+    "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "stylelint": "^16.2.0",
     "stylelint-config-twbs-bootstrap": "^13.0.0"
