@@ -4,7 +4,7 @@
   This file is part of the DITA Bootstrap Extension plug-in for DITA Open Toolkit.
   See the accompanying LICENSE file for applicable licenses.
 -->
-<plugin id="net.infotexture.dita-bootstrap.extension" version="1.0.0">
+<plugin id="net.infotexture.dita-bootstrap.extension" version="5.3.0">
   <require plugin="net.infotexture.dita-bootstrap"/>
   <feature extension="ant.import" file="process_extension.xml"/>
   <feature
@@ -14,14 +14,18 @@
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
 
   <transtype name="html5-bootstrap" extends="html5">
-    <param name="to-top.include" type="enum">
+    <param
+      name="to-top.include"
+      type="enum"
+      desc="Add a navigation aide that scrolls to the top of the page"
+    >
       <val>yes</val>
       <val default="true">no</val>
     </param>
     <param
       name="bootstrap.css.to-top"
       type="string"
-      desc="CSS for the to top button"
+      desc="Common Bootstrap utility classes for the toTop button"
     />
   </transtype>
 </plugin>

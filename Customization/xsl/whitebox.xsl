@@ -10,7 +10,6 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-
   <xsl:template
     match="*[ (contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'whitebox')]"
   >
@@ -19,20 +18,20 @@
     </xsl:variable>
 
     <div class="row">
-       <div class="col-6 col-sm-4">
-          <a class="wb-link">
-            <xsl:attribute name="data-whitebox" select="concat('#', $id)"/>
-            <xsl:attribute
+      <div class="col-6 col-sm-4">
+        <a class="wb-link">
+          <xsl:attribute name="data-whitebox" select="concat('#', $id)"/>
+          <xsl:attribute
             name="href"
             select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')][1]/@href"
           />
-            <xsl:attribute
+          <xsl:attribute
             name="title"
             select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')][1]/alt"
           />
 
-            <xsl:apply-templates select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')]"/>
-          </a>
+          <xsl:apply-templates select="*[contains(@class,' topic/li ')][1]/*[contains(@class,' topic/image ')]"/>
+        </a>
       </div>
       <div class="visually-hidden">
         <xsl:for-each select="./*[contains(@class,' topic/li ')]">
@@ -48,5 +47,4 @@
       </div>
     </div>
   </xsl:template>
-
 </xsl:stylesheet>

@@ -10,14 +10,13 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-  
   <xsl:template name="carousel-indicators-round">
     <xsl:param name="id"/>
     <ul class="carousel-indicators carousel-indicators-circle list-unstyled">
       <xsl:for-each select="*[contains(@class, ' topic/li ')]">
         <li>
           <xsl:attribute name="class">
-           <xsl:if test="count(preceding-sibling::*[contains(@class, ' topic/li ')]) = 0">
+            <xsl:if test="count(preceding-sibling::*[contains(@class, ' topic/li ')]) = 0">
               <xsl:text> active</xsl:text>
             </xsl:if>
           </xsl:attribute>
@@ -30,8 +29,6 @@
       </xsl:for-each>
     </ul>
   </xsl:template>
-
-
 
   <xsl:template
     match="*[ (contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'carousel')]"
@@ -58,7 +55,7 @@
           <xsl:with-param name="id" select="$id"/>
         </xsl:call-template>
       </xsl:if>
-       <xsl:if test="contains(@otherprops, 'indicators(round)')">
+      <xsl:if test="contains(@otherprops, 'indicators(round)')">
         <xsl:call-template name="carousel-indicators-round">
           <xsl:with-param name="id" select="$id"/>
         </xsl:call-template>
@@ -67,13 +64,12 @@
         <xsl:apply-templates mode="carousel"/>
       </div>
       <xsl:call-template name="carousel-previous-next">
-      	<xsl:with-param name="id" select="$id"/>
+        <xsl:with-param name="id" select="$id"/>
       </xsl:call-template>
     </div>
   </xsl:template>
 
-
-   <!-- Slide Caption -->
+  <!-- Slide Caption -->
   <xsl:template
     match="*[contains(@class,' topic/title ') and contains(@outputclass, 'carousel-caption-readable')]"
     mode="carousel"

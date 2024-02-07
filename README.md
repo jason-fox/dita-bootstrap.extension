@@ -2,8 +2,7 @@
 
 <a href="https://www.dita-ot.org"><img src="https://www.dita-ot.org/images/dita-ot-logo.svg" align="right" height="55"></a>
 
-Incorporate the [Bootstrap Extension](https://bootstrapextensions.com) as a separate DITA-OT plugin to add everything that may be useful 
-but missing from Bootstrap 5.x. as a DITA-OT Plugin.
+_DITA Bootstrap Extension_ is a [DITA Open Toolkit plug-in](https://www.dita-ot.org/plugins) that extends the [DITA Bootstrap](https://infotexture.github.io/dita-bootstrap/) HTML output with additional features from the [Bootstrap Extension](https://bootstrapextensions.com) library.
 
 <!-- MarkdownTOC levels="2,3" -->
 
@@ -11,13 +10,15 @@ but missing from Bootstrap 5.x. as a DITA-OT Plugin.
   - [Installing DITA-OT](#installing-dita-ot)
   - [Installing the Plug-in](#installing-the-plug-in)
 - [Using](#using)
+  - [Optional elements](#optional-elements)
+  - [Common Bootstrap utility classes](#common-bootstrap-utility-classes)
 - [License](#license)
 
 <!-- /MarkdownTOC -->
 
 ## Installation
 
-The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](http://www.dita-ot.org/download). Use the latest version for best results.
+The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](https://www.dita-ot.org/download). Use the latest version for best results.
 
 ### Installing DITA-OT
 
@@ -28,7 +29,7 @@ The _DITA Bootstrap Extension_ plug-in has been tested with [DITA-OT 4.x](http:/
 
     This defines the necessary environment variable to run the `dita` command from the command line.
 
-See the [DITA-OT documentation](https://www.dita-ot.org/4.0/topics/installing-client.html) for detailed installation instructions.
+See the [DITA-OT documentation](https://www.dita-ot.org/dev/topics/installing-client.html) for detailed installation instructions.
 
 ### Installing the Plug-in
 
@@ -37,7 +38,7 @@ See the [DITA-OT documentation](https://www.dita-ot.org/4.0/topics/installing-cl
 ```console
 dita install fox.jason.extend.css
 dita install dita-bootstrap
-dita install https://github.com/jason-fox/dita-bootstrap/archive/master.zip
+dita install https://github.com/infotexture/dita-bootstrap.extension/archive/develop.zip
 ```
 
 ## Using
@@ -49,17 +50,17 @@ dita --input=path/to/your.ditamap \
      --format=html5-bootstrap
 ```
 
-### Common Bootstrap utility classes
-
-The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
-
-- `bootstrap.css.to-top` – common Bootstrap utility classes for the to top button
-
 ### Optional elements
 
-opt-in to-top-button can be included with the following parameter
+The optional `toTop` button can be included with the following parameter:
 
-- `to-top.include` – add Bootstrap to-top button
+- `to-top.include` – add a `toTop` button that scrolls to the top of the page
+
+### Common Bootstrap utility classes
+
+The HTML output can be annotated with common Bootstrap utility classes using additional command line parameters:
+
+- `bootstrap.css.to-top` – common Bootstrap utility classes for the `toTop` button
 
 ## License
 
@@ -69,6 +70,4 @@ The generated HTML created by this software includes the following additional so
 
 - Bootstrap Extension – https://github.com/slackero/bootstrap-extension – **MIT license**
 
-Within the documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the 
-[Bootstrap Extension documentation](https://bootstrapextensions.com/) however DITA markup is used throughout the examples describing how to implement these
-components correctly using `outputclass`. The text, is therefore a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+Within the documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have been copied directly from the [Bootstrap Extension documentation](https://bootstrapextensions.com/) however DITA markup is used throughout the examples describing how to implement these components correctly using `outputclass`. The text is therefore a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.

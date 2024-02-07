@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<!-- Bootstrap Extension is designed and built by Peter Joiner.
-   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+<!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation (found at https://bootstrapextensions.com/) however DITA
-   markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
 
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.
-
-    -->
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
 <topic id="utilities">
   <title>Background, Borders, and Colors</title>
   <shortdesc>Use border utilities to quickly style the border and border-radius of an element and convey meaning through
@@ -32,22 +31,19 @@
   <body outputclass="language-markup">
     <section>
       <title>Simple borders</title>
-      <p>
-        The <xmlatt
-        >outputclass="border-{size}"</xmlatt> classes allow you to set a stronger border than before. The size is from 6 to 10, and 20. With the <codeph
-        >.rounded-6</codeph> outputclass you can set even larger roundings.
-      </p>
+      <p>The <xmlatt>outputclass="border-{size}"</xmlatt> classes allow you to set a stronger border than before. The
+        size is from 6 to 10, and 20. With the <codeph>.rounded-6</codeph> outputclass you can set even larger
+        roundings.</p>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col">
-          <div
-            outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark"
-          >.border-6, .rounded-6</div>
+          <div outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark">.border-6,
+            .rounded-6</div>
         </div>
         <div outputclass="col">
           <div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream text-dark">.border-7</div>
-         </div>
+        </div>
         <div outputclass="col">
           <div outputclass="border-end border-8 border-secondary m-3 p-3 bg-cream text-dark">.border-8</div>
         </div>
@@ -83,18 +79,17 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Offset border</title>
-      <p>
-        You can set offset borders with <xmlatt>outputclass="offset-border"</xmlatt> and the <xmlatt
-        >otherprops="data-border()"</xmlatt> parameter.
-        Parameters of the <codeph>data-border()</codeph> parameter in order: <codeph
-        >{relative left position} {relative top position} {relative width change} {relative height change} {border width in pixels} {color}</codeph>
+      <p>You can set offset borders with <xmlatt>outputclass="offset-border"</xmlatt> and the
+          <xmlatt>otherprops="data-border()"</xmlatt> parameter. Parameters of the <codeph>data-border()</codeph>
+        parameter in order: <codeph>{relative left position} {relative top position} {relative width change} {relative
+          height change} {border width in pixels} {color}</codeph>
       </p>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col-12 col-lg-4">
           <div outputclass="hover-zoom">
-              <image
+            <image
               outputclass="offset-border"
               otherprops="data-border(20 20 -40 -40 1 #fff)"
               scope="external"
@@ -132,10 +127,9 @@
   otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"/&gt;</codeblock>
     <section>
       <title>Colors</title>
-      <p>
-        Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in some cases you’ll want to use <xmlatt
-        >outputclass="text-*"</xmlatt> utilities.
-      </p>
+      <p>Similar to the contextual text color classes, easily set the background of an element to any contextual class.
+        Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in
+        some cases you’ll want to use <xmlatt>outputclass="text-*"</xmlatt> utilities.</p>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <div outputclass="p-3 mb-2 bg-chocolate text-white">.bg-chocolate</div>

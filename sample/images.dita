@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
-   Bootstrap Extension is designed and built by Peter Joiner.
-   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
 
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation (found at https://bootstrapextensions.com/) however DITA
-   markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
-
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.-->
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
 <topic id="images">
   <title>Images</title>
   <shortdesc>Additional grayscale and hover effects for figures and images</shortdesc>
@@ -29,8 +28,8 @@
   <body outputclass="language-markup">
     <section>
       <title>Grayscale images</title>
-      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph
-        >.hover-grayscale</codeph> outputclasses to the grayscale figures and images.</p>
+      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph>.hover-grayscale</codeph>
+        outputclasses to the grayscale figures and images.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
@@ -59,8 +58,8 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Hover zoom</title>
-      <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and <codeph
-        >hover-zoom-lg</codeph> outputclasses will magnify them.</p>
+      <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and
+          <codeph>hover-zoom-lg</codeph> outputclasses will magnify them.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
@@ -76,9 +75,9 @@
           <image scope="external" href="https://picsum.photos/1200/600?q"/>
           <p>Large zoom</p>
         </div>
-    </div>
+      </div>
     </bodydiv>
-<codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
+    <codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
   &lt;image href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-zoom"&gt;
@@ -89,14 +88,10 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Fade in overlay</title>
-        <p>Hover over the image to see the effect. Just use the <codeph
-        >hover-fade-in-overlay</codeph> outputclass and the <codeph
-        >overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and <codeph
-        >from-b</codeph> classes to specify the direction of the sliding content.
-      </p>
-      <p>
-        Where visibility is one of:
-      </p>
+      <p>Hover over the image to see the effect. Just use the <codeph>hover-fade-in-overlay</codeph> outputclass and the
+          <codeph>overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and
+          <codeph>from-b</codeph> classes to specify the direction of the sliding content.</p>
+      <p>Where visibility is one of:</p>
       <ul>
         <li>25 - for class that set opacity 25%</li>
         <li>50 - for class that set opacity 50%</li>
@@ -108,10 +103,10 @@
       <div outputclass="row">
         <div outputclass="col-md">
           <div outputclass="hover-fade-in-overlay">
-              <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
-              <div outputclass="overlay-100">
-                  <p outputclass="display-7 text-light">Strawberries!</p>
-              </div>
+            <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
+            <div outputclass="overlay-100">
+              <p outputclass="display-7 text-light">Strawberries!</p>
+            </div>
           </div>
           <p outputclass="text-secondary">Photo: Veeterzy</p>
         </div>
@@ -130,7 +125,8 @@
             <div outputclass="overlay-75 from-b bg-black">
               <p outputclass="display-7 text-light">It is a tulip!</p>
               <p outputclass="text-light">It is a paragraph!</p>
-              <p><xref outputclass="btn btn-warning" href="#">Button</xref></p>
+              <p>
+                <xref outputclass="btn btn-warning" href="#">Button</xref></p>
             </div>
           </div>
           <p outputclass="text-secondary">Photo: Ales Krivec</p>

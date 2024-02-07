@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <meta>
-        <filters directoryPatterns="" filePatterns="\Qdita-bootstrap.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns="" filePatterns="\Qdita-bootstrap-extension.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
@@ -146,7 +146,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="dita-bootstrap.xpr">
+    <projectTree name="dita-bootstrap-extension.xpr">
         <folder path="."/>
     </projectTree>
 </project>

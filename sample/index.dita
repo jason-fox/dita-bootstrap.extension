@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
-   Bootstrap Extension is designed and built by Peter Joiner.
-   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
 
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation (found at https://bootstrapextensions.com/) however DITA
-   markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
-
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.-->
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
 <topic id="extension">
-  <title>Bootstrap Extensions</title>
-  <shortdesc
-  >Incorporate the <xref href="https://bootstrapextensions.com/" scope="external">Bootstrap Extension</xref> as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
+  <title>DITA Bootstrap Extension</title>
+
+  <shortdesc>A plug-in for
+    <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the
+    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref> HTML
+    output with additional features from the
+    <xref
+      href="https://bootstrapextensions.com"
+      format="html"
+      scope="external"
+    >Bootstrap Extension</xref> library. </shortdesc>
 
   <body outputclass="language-markup">
     <section>
       <title outputclass="h3">Installing</title>
-      <p>Use the <cmdname>dita</cmdname> command to add bootstrap extentsion plug-in to your DITA Open Toolkit
-        installation:</p>
+      <p>Use the <cmdname>dita</cmdname> command to add the <term>DITA Bootstrap Extension</term> plug-in to your DITA
+        Open Toolkit installation:</p>
     </section>
     <bodydiv outputclass="nav-tabs">
       <section>
         <title>DITA-OT 3.5 and newer:</title>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
-          >install</parmname> fox.jason.extend.css
+        <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
       </section>
       <section>
         <title>DITA-OT 3.3 and newer:</title>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+        <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap
 <cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
@@ -42,9 +48,9 @@
         <title>DITA-OT 3.2 and older:</title>
         <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
+<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
 <cmdname>dita</cmdname> <parmname
-          >--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
-<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
+          >--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
       </section>
     </bodydiv>
     <section>
@@ -55,42 +61,34 @@
         >--input</parmname>=path/to/your.ditamap <parmname>--format</parmname>=html5-bootstrap</codeblock>
     </section>
     <section>
-      <title outputclass="h3">Common Bootstrap utility classes</title>
-      <p>
-        The HTML output for the following DITA elements can be annotated with common Bootstrap utility classes for borders, background, text, spacing, etc. using additional command line parameters:
-      </p>
-      <ul>
-        <li>
-          <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the <xref
-            href="./to-top.dita"
-            format="dita"
-          >to top button</xref>
-        </li>
-      </ul>
-    </section>
-    <section>
       <title outputclass="h3">Optional elements</title>
-      <p>The opt-in to-top-button can be included with the following parameter:</p>
+      <p>The optional <codeph>toTop</codeph> button can be included with the following parameter:</p>
       <ul>
         <li>
-          <parmname>to-top.include</parmname> – add Bootstrap <xref
-            href="./to-top.dita"
-            format="dita"
-          >to-top button</xref>
+          <parmname>to-top.include</parmname> – add a
+          <xref href="./to-top.dita" format="dita">toTop button</xref> that scrolls to the top of the page
         </li>
       </ul>
     </section>
     <section>
-      <note
-        type="note"
-      >Within the sample documentation, the texts describing the usage of each component have been copied directly
-        from the
+      <title outputclass="h3">Common Bootstrap utility classes</title>
+      <p>The HTML output can be annotated with common Bootstrap utility classes using additional command line
+        parameters:</p>
+      <ul>
+        <li>
+          <parmname>bootstrap.css.to-top</parmname> – common Bootstrap utility classes for the
+          <xref href="./to-top.dita" format="dita">toTop button</xref>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <note type="note">Within the sample documentation, the texts describing the usage of each component have been
+        copied directly from the
         <xref href="https://bootstrapextensions.com/" format="html" scope="external">official Bootstrap Extension
           documentation</xref>, however DITA markup is used throughout the examples describing how to implement these
         components correctly using the DITA <xmlatt>outputclass</xmlatt> attribute. This text is therefore a derivative
         of <cite>Bootstrap Extension</cite> AKK IT, Inc, and used under
-        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>
-      </note>
+        <xref href="https://opensource.org/license/MIT/" format="html" scope="external">MIT</xref>.</note>
     </section>
   </body>
 </topic>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
 
-   Bootstrap Extension is designed and built by Peter Joiner.
-   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
 
-   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
-   documentation (found at https://bootstrapextensions.com/) however DITA
-   markup is used throughout the examples describing how to implement these
-   components correctly using outputclass.
-
-   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
-   file for applicable licenses.-->
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
 <topic id="grid">
   <title>Grid System</title>
   <shortdesc>Extend Bootstrap’s grid system to cover larger gutters, rotations and more.</shortdesc>
@@ -29,8 +28,7 @@
   <body outputclass="language-markup">
     <section outputclass="row pb-5">
       <title>Gutter</title>
-      <p>Use the <codeph>.g-{breakpoint}-6</codeph> outputclass for larger spaces
-      (6rem).</p>
+      <p>Use the <codeph>.g-{breakpoint}-6</codeph> outputclass for larger spaces (6rem).</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <bodydiv outputclass="row g-lg-6">
@@ -68,9 +66,9 @@
 &lt;/bodydiv&gt;</codeblock>
     <section>
       <title>Column push and pull</title>
-      <p>Use <codeph>col-{breakpoint}-push-*</codeph> or <codeph
-        >col-{breakpoint}-pull-*</codeph> outputclasses to push or pull the elements in grid system. The <codeph
-        >col-{breakpoint}-push-*</codeph> outputclasses also shift the other elements to the right.</p>
+      <p>Use <codeph>col-{breakpoint}-push-*</codeph> or <codeph>col-{breakpoint}-pull-*</codeph> outputclasses to push
+        or pull the elements in grid system. The <codeph>col-{breakpoint}-push-*</codeph> outputclasses also shift the
+        other elements to the right.</p>
       <p>With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
@@ -79,9 +77,8 @@
           <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?e"/>
         </div>
         <div outputclass="col-md-6 col-md-pull-2 mt-5">
-          <p
-            outputclass="bg-fresh text-light p-3"
-          >With the Bootstrap extension outputclasses, you can easily set divs to pull together.</p>
+          <p outputclass="bg-fresh text-light p-3">With the Bootstrap extension outputclasses, you can easily set divs
+            to pull together.</p>
         </div>
       </div>
     </bodydiv>
@@ -95,10 +92,8 @@
 &lt;/div&gt;</codeblock>
     <section>
       <title>Column ordering</title>
-      <p>Easily change the order of built-in grid columns with <xmlatt
-        >outputclass="col-{breakpoint}-push-*"</xmlatt> and <xmlatt
-        >outputclass="col-{breakpoint}-pull-*"</xmlatt> modifier outputclasses.
-      </p>
+      <p>Easily change the order of built-in grid columns with <xmlatt>outputclass="col-{breakpoint}-push-*"</xmlatt>
+        and <xmlatt>outputclass="col-{breakpoint}-pull-*"</xmlatt> modifier outputclasses.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
@@ -117,8 +112,8 @@
 
     <section>
       <title>Content rotate</title>
-      <p
-      >You can rotate the contents 0 to 90 degrees left or right. Use the .rotate-{breakpoint}-l-{degree} outputclass to rotate left or the .rotate-{breakpoint}-r-{degree} outputclass to rotate right.</p>
+      <p>You can rotate the contents 0 to 90 degrees left or right. Use the .rotate-{breakpoint}-l-{degree} outputclass
+        to rotate left or the .rotate-{breakpoint}-r-{degree} outputclass to rotate right.</p>
       <p>Where degree is one of: 0, 5, 10, 15, 20, 25, ... , 90.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
