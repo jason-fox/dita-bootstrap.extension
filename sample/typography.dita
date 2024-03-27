@@ -27,7 +27,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <section>
       <title>Display headings</title>
       <p>Traditional heading elements are designed to work best in the meat of your page content. When you need a

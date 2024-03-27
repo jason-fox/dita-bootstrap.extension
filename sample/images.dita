@@ -25,7 +25,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <section>
       <title>Grayscale images</title>
       <p>Use <xmlatt>outputclass="grayscale"</xmlatt>, <xmlatt>outputclass="hover-color</xmlatt> and

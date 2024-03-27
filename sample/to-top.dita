@@ -25,7 +25,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <fig>
       <image scalefit="no" href="./src/to-top-button.png"/>
     </fig>

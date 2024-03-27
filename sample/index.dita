@@ -23,7 +23,7 @@
       format="html"
       scope="external"
     >Bootstrap Extension</xref> library.</shortdesc>
-  <body>
+  <body outputclass="language-markup">
     <section>
       <title outputclass="h3">Installing</title>
       <p>Use the <cmdname>dita</cmdname> command to add the <term>DITA Bootstrap Extension</term> plug-in to your DITA

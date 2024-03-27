@@ -29,7 +29,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <section>
       <title>Indicators</title>
       <p>Set <xmlatt>otherprops="indicators(round)"</xmlatt> to add rounded indicators to the carousel, alongside the

@@ -25,7 +25,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <bodydiv outputclass="slider">
         <section outputclass="card">

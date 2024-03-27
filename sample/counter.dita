@@ -26,7 +26,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <p>Scroll to start the counter</p>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <bodydiv outputclass="row">

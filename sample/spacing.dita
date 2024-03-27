@@ -25,7 +25,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <p>Where property is one of:</p>
     <ul>
       <li><codeph>m</codeph> - for classes that set margin</li>

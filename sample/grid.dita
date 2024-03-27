@@ -25,7 +25,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <section outputclass="row pb-5">
       <title>Gutter</title>
       <p>Use the <codeph>.g-{breakpoint}-6</codeph> outputclass for larger spaces (6rem).</p>

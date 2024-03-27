@@ -28,7 +28,7 @@
       </keywords>
     </metadata>
   </prolog>
-  <body>
+  <body outputclass="language-markup">
     <section>
       <title>Simple borders</title>
       <p>The <xmlatt>outputclass="border-{size}"</xmlatt> classes allow you to set a stronger border than before. The
