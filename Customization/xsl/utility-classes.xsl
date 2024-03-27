@@ -11,7 +11,6 @@
   exclude-result-prefixes="xs dita-ot"
 >
   <xsl:param name="BOOTSTRAP_ICONS_INCLUDE" select="'yes'"/>
-  <xsl:include href="plugin:net.infotexture.dita-bootstrap:Customization/xsl/utility-classes.xsl"/>
 
   <xsl:template match="/|node()|@*" mode="gen-user-bootstrap-class">
     <xsl:choose>
