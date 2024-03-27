@@ -10,8 +10,6 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-  <xsl:param name="BOOTSTRAP_ICONS_INCLUDE" select="'yes'"/>
-
   <xsl:template match="/|node()|@*" mode="gen-user-bootstrap-class">
     <xsl:choose>
       <xsl:when test="contains(@outputclass, 'dividered-')">
