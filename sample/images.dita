@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
   Bootstrap Extension is designed and built by Peter Joiner.
-  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
 
   Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
   been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
@@ -13,7 +13,7 @@
 -->
 <topic id="images">
   <title>Images</title>
-  <shortdesc>Additional grayscale and hover effects for figures and images</shortdesc>
+  <shortdesc>Additional grayscale and hover effects for figures and images.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -25,11 +25,11 @@
       </keywords>
     </metadata>
   </prolog>
-  <body outputclass="language-markup">
+  <body>
     <section>
       <title>Grayscale images</title>
-      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph>.hover-grayscale</codeph>
-        outputclasses to the grayscale figures and images.</p>
+      <p>Use <xmlatt>outputclass="grayscale"</xmlatt>, <xmlatt>outputclass="hover-color</xmlatt> and
+      <xmlatt>outputclass="hover-grayscale</xmlatt> to grayscale figures and images.</p>
     </section>
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
