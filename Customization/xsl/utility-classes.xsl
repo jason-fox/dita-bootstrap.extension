@@ -18,6 +18,9 @@
       <xsl:when test="contains(@outputclass, 'dividered-')">
         <xsl:text> dividered </xsl:text>
       </xsl:when>
+      <xsl:when test="contains(@class, ' topic/image ') and ancestor::*[contains(@outputclass, 'whitebox')]">
+        <xsl:text> w-100 </xsl:text>
+      </xsl:when>
     </xsl:choose>
   </xsl:template>
 

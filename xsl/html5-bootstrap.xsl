@@ -41,6 +41,9 @@
     right: 1em;
     bottom: 1em;
     padding-bottom: 50px;
+}
+img {
+  width: unset;
 }</style>
   </xsl:template>
 </xsl:stylesheet>
