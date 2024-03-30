@@ -11,9 +11,6 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   exclude-result-prefixes="xs dita-ot"
 >
-  <!-- Import the standard net.infotexture.dita-bootstrap customizations -->
-  <xsl:import href="plugin:net.infotexture.dita-bootstrap:xsl/html5-bootstrap.xsl"/>
-
   <xsl:include href="../Customization/xsl/carousel.xsl"/>
   <xsl:include href="../Customization/xsl/counter.xsl"/>
   <xsl:include href="../Customization/xsl/parallax.xsl"/>
@@ -26,13 +23,13 @@
     <xsl:next-match/>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@slackero/bootstrap-extension@v5.3.0/css/bootstrap-extension.min.css"
-      integrity="sha384-cWw1Syvt1NPdm17M45E5edKocSclgqQr7nynYF6TFVU/LSl0BU2bf4/60dcY3OZ6"
+      href="https://cdn.jsdelivr.net/gh/bootstrapextension/bootstrap-extension@5.3.1/css/bootstrap-extension.min.css"
+      integrity="sha384-vNt3O8wn/Wzz+qsUDG0Fnc/KlQdEWEp4wOgd21TnEvVPLUZK+O5zmqqi4nOVPYGi"
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/@slackero/bootstrap-extension@v5.3.0/js/bootstrap-extension.min.js"
-      integrity="sha384-AAsz2PZALGWtXtXt/OrrAYuzoCGFDLugSJB6R8NfmQcD7avTsVVY5D4N0TGy7+vj"
+      src="https://cdn.jsdelivr.net/gh/bootstrapextension/bootstrap-extension@5.3.1/js/bootstrap-extension.min.js"
+      integrity="sha384-ICWN/2Xrjp5UR1cWsIRT6GQLT64yibecz633fMwJaFzPeJMdp/z1BxIrOj4MQUhE"
       crossorigin="anonymous"
     />
     <style>.carousel-caption-readable {
@@ -41,6 +38,9 @@
     right: 1em;
     bottom: 1em;
     padding-bottom: 50px;
+}
+img {
+  width: unset;
 }</style>
   </xsl:template>
 </xsl:stylesheet>

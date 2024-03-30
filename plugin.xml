@@ -6,12 +6,8 @@
 -->
 <plugin id="net.infotexture.dita-bootstrap.extension" version="5.3.0">
   <require plugin="net.infotexture.dita-bootstrap"/>
-  <feature extension="ant.import" file="process_extension.xml"/>
-  <feature
-    extension="bootstrap.process.pre"
-    value="dita-bootstrap.extension.init"
-  />
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
+  <feature extension="dita.xsl.html5-bootstrap" value="xsl/xhtml.xsl" type="file"/>
 
   <transtype name="html5-bootstrap" extends="html5">
     <param
