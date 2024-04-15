@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
   Bootstrap Extension is designed and built by Peter Joiner.
-  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
 
   Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
   been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
@@ -13,8 +13,11 @@
 -->
 <topic id="to-top">
   <title>Parallax</title>
-  <shortdesc>With .parallax class and data-img-src parameter you can create simple parallax backgrounds. The data-speed
-    parameter is a number between 0 and 1 that sets the background speed..</shortdesc>
+  <shortdesc>
+    With <xmlatt>outputclass="parallax"</xmlatt> and the <xmlatt>otherprops="data-img-src()"</xmlatt>
+    parameter you can create simple parallax backgrounds. The <xmlatt>otherprops="data-speed()"</xmlatt>
+    parameter is a number between <codeph>0</codeph> and <codeph>1</codeph> that sets the background speed.
+  </shortdesc>
   <prolog>
     <metadata>
       <keywords>

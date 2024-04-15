@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
   Bootstrap Extension is designed and built by Peter Joiner.
-  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
 
   Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
   been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
@@ -13,7 +13,7 @@
 -->
 <topic id="whitebox">
   <title>Whitebox Gallery</title>
-  <shortdesc>Use <xmlelement>ol outputclass="whitebox"</xmlelement> to hold images and create a Whitebox gallery
+  <shortdesc>Use <xmlelement>ol outputclass="whitebox"</xmlelement> to hold images and create a whitebox gallery
     component.</shortdesc>
   <prolog>
     <metadata>
