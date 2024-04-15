@@ -34,27 +34,27 @@
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col-md grayscale">
-          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/id/493/1200/600"/>
           <p>Grayscale image</p>
         </div>
         <div outputclass="col-md hover-color">
-          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/id/493/1200/600"/>
           <p>Color image on hover</p>
         </div>
         <div outputclass="col-md hover-grayscale">
-          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/id/493/1200/600"/>
           <p>Grayscale image on hover</p>
         </div>
       </div>
     </bodydiv>
     <codeblock>&lt;div outputclass="grayscale"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-color"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-grayscale"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;</codeblock>
     <section>
       <title>Hover zoom</title>
@@ -64,27 +64,27 @@
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="col-md hover-zoom-sm">
-          <image scope="external" href="https://picsum.photos/1200/600?o"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?o"/>
           <p>Small Zoom</p>
         </div>
         <div outputclass="col-md hover-zoom">
-          <image scope="external" href="https://picsum.photos/1200/600?p"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?p"/>
           <p>Medium Zoom</p>
         </div>
         <div outputclass="col-md hover-zoom-lg">
-          <image scope="external" href="https://picsum.photos/1200/600?q"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?q"/>
           <p>Large zoom</p>
         </div>
       </div>
     </bodydiv>
     <codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-zoom"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-zoom-lg"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;</codeblock>
     <section>
       <title>Fade in overlay</title>
@@ -103,7 +103,7 @@
       <div outputclass="row">
         <div outputclass="col-md">
           <div outputclass="hover-fade-in-overlay">
-            <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
+            <image outputclass="w-100" scope="external" href="https://picsum.photos/id/1080/1200/800"/>
             <div outputclass="overlay-100">
               <p outputclass="display-7 text-light">Strawberries!</p>
             </div>
@@ -112,7 +112,7 @@
         </div>
         <div outputclass="col-md">
           <div outputclass="hover-fade-in-overlay">
-            <image scope="external" href="https://picsum.photos//id/798/1200/800"/>
+            <image outputclass="w-100" scope="external" href="https://picsum.photos//id/798/1200/800"/>
             <div outputclass="overlay-100 from-t bg-rose">
               <p outputclass="display-7 text-light">It is a daisy!</p>
             </div>
@@ -121,7 +121,7 @@
         </div>
         <div outputclass="col-md">
           <div outputclass="hover-fade-in-overlay hover-zoom hover-grayscale">
-            <image scope="external" href="https://picsum.photos/id/976/1200/800"/>
+            <image outputclass="w-100" scope="external" href="https://picsum.photos/id/976/1200/800"/>
             <div outputclass="overlay-75 from-b bg-black">
               <p outputclass="display-7 text-light">It is a tulip!</p>
               <p outputclass="text-light">It is a paragraph!</p>
@@ -134,19 +134,19 @@
       </div>
     </bodydiv>
     <codeblock>&lt;div outputclass="hover-fade-in-overlay"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
   &lt;div outputclass="overlay-100"&gt;
       &lt;p outputclass="display-7 text-light"&gt;Strawberries!&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-fade-in-overlay"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
   &lt;div outputclass="overlay-100 from-t bg-rose"&gt;
       &lt;p outputclass="display-7 text-light"&gt;It is a daisy!&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div outputclass="hover-fade-in-overlay"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
   &lt;div outputclass="overlay-75 from-b bg-black"&gt;
       &lt;p outputclass="display-7 text-light"&gt;It is a tulip!&lt;/p&gt;
       &lt;p outputclass="text-light"&gt;It is a paragraph!&lt;/p&gt;
@@ -160,54 +160,54 @@
     <bodydiv outputclass="bd-example container" deliveryTarget="html">
       <div outputclass="row">
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-blue">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-brown">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-fresh">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-gold">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-gray">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-green">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-red">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
         <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-purple">
-          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?u"/>
         </div>
       </div>
     </bodydiv>
     <codeblock>&lt;div outputclass="monochromatic-blue"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-brown"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-fresh"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-gold"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-gray"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-green"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-red"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;
 &lt;div outputclass="monochromatic-purple"&gt;
-  &lt;image href="..."/&gt;
+  &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;</codeblock>
   </body>
 </topic>

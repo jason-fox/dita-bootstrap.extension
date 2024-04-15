@@ -34,19 +34,19 @@
       <bodydiv outputclass="row g-lg-6">
         <section outputclass="col-md-3">
           <title>Article 1</title>
-          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?j"/>
         </section>
         <section outputclass="col-md-3">
           <title>Article 2</title>
-          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?j"/>
         </section>
         <section outputclass="col-md-3">
           <title>Article 3</title>
-          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?j"/>
         </section>
         <section outputclass="col-md-3">
           <title>Article 4</title>
-          <image scope="external" href="https://picsum.photos/1200/600?j"/>
+          <image outputclass="w-100" scope="external" href="https://picsum.photos/1200/600?j"/>
         </section>
       </bodydiv>
     </bodydiv>
