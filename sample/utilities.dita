@@ -119,11 +119,11 @@
         </div>
       </div>
     </bodydiv>
-    <codeblock>&lt;image href="..." outputclass="offset-border"
+    <codeblock>&lt;image href="..." outputclass="w-100 offset-border"
   otherprops="data-border(20 20 -40 -40 1 #fff)"/&gt;
-&lt;image href="..." outputclass="offset-border" 
+&lt;image href="..." outputclass="w-100 offset-border" 
   otherprops="data-border(-20 -20 0 0 6 #f33)"/&gt;
-&lt;image href="..." outputclass="offset-border"
+&lt;image href="..." outputclass="w-100 offset-border"
   otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"/&gt;</codeblock>
     <section>
       <title>Colors</title>
