@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <!--
   Bootstrap Extension is designed and built by Peter Joiner.
-  The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
 
   Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
   been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
@@ -90,7 +90,7 @@
         <div outputclass="col-12 col-lg-4">
           <div outputclass="hover-zoom">
             <image
-              outputclass="offset-border"
+              outputclass="w-100 offset-border"
               otherprops="data-border(20 20 -40 -40 1 #fff)"
               scope="external"
               href="https://picsum.photos/1200/600?a"
@@ -100,7 +100,7 @@
         <div outputclass="col-12 col-lg-4">
           <div outputclass="hover-zoom w-80 mx-auto mt-5">
             <image
-              outputclass="offset-border"
+              outputclass="w-100 offset-border"
               otherprops="data-border(-20 -20 0 0 6 #f33)"
               scope="external"
               href="https://picsum.photos/1200/600?b"
@@ -110,7 +110,7 @@
         <div outputclass="col-12 col-lg-4">
           <div outputclass="hover-zoom w-80 mx-auto mt-5">
             <image
-              outputclass="offset-border"
+              outputclass="w-100 offset-border"
               otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"
               scope="external"
               href="https://picsum.photos/1200/600?c"
@@ -119,11 +119,11 @@
         </div>
       </div>
     </bodydiv>
-    <codeblock>&lt;image href="..." outputclass="offset-border"
+    <codeblock>&lt;image href="..." outputclass="w-100 offset-border"
   otherprops="data-border(20 20 -40 -40 1 #fff)"/&gt;
-&lt;image href="..." outputclass="offset-border" 
+&lt;image href="..." outputclass="w-100 offset-border" 
   otherprops="data-border(-20 -20 0 0 6 #f33)"/&gt;
-&lt;image href="..." outputclass="offset-border"
+&lt;image href="..." outputclass="w-100 offset-border"
   otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"/&gt;</codeblock>
     <section>
       <title>Colors</title>

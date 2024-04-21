@@ -11,9 +11,15 @@
   exclude-result-prefixes="xs dita-ot"
 >
 
-  <xsl:template match="*[contains(@outputclass, 'dividered-')]" mode="gen-user-bootstrap-class">
-    <xsl:text> dividered </xsl:text>
-    <xsl:next-match/>
+  <xsl:template match="/|node()|@*" mode="gen-user-bootstrap-class">
+    <xsl:choose>
+      <xsl:when test="contains(@outputclass, 'dividered-')">
+        <xsl:text> dividered </xsl:text>
+      </xsl:when>
+      <xsl:when test="contains(@class, ' topic/image ') and ancestor::*[contains(@outputclass, 'whitebox')]">
+        <xsl:text> w-100 </xsl:text>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="*[contains(@outputclass, 'offset-border')]" mode="gen-user-bootstrap-attrs">
