@@ -11,9 +11,6 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   exclude-result-prefixes="xs dita-ot"
 >
-  <!-- Import the standard net.infotexture.dita-bootstrap customizations -->
-  <xsl:import href="plugin:net.infotexture.dita-bootstrap:xsl/html5-bootstrap.xsl"/>
-
   <xsl:include href="../Customization/xsl/carousel.xsl"/>
   <xsl:include href="../Customization/xsl/counter.xsl"/>
   <xsl:include href="../Customization/xsl/parallax.xsl"/>

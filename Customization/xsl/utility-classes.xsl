@@ -10,6 +10,7 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
+
   <xsl:template match="/|node()|@*" mode="gen-user-bootstrap-class">
     <xsl:choose>
       <xsl:when test="contains(@outputclass, 'dividered-')">
@@ -21,7 +22,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="*[contains(@outputclass, 'offset-border')]" mode="gen-user-bootstrap-attrs" priority="5">
+  <xsl:template match="*[contains(@outputclass, 'offset-border')]" mode="gen-user-bootstrap-attrs">
     <xsl:if test="contains(@otherprops, 'data-border(')">
       <xsl:apply-templates select="." mode="otherprops-attributes"/>
     </xsl:if>
