@@ -50,3 +50,6 @@
 <!ATTLIST parallax class CDATA "+ topic/section bs-ext-d/parallax ">
 <!ATTLIST slider class CDATA "+ topic/bodydiv bs-ext-d/slider ">
 <!ATTLIST whitebox class CDATA "+ topic/ul bs-ext-d/whitebox ">
+
+<!--                    CAROUSEL OVERRIDE                         -->
+<!ATTLIST carousel indicators CDATA #IMPLIED>

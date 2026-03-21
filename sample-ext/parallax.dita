@@ -13,6 +13,9 @@
         <indexterm>CSS
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
         </indexterm>
+        <indexterm><xmlatt>href</xmlatt></indexterm>
+        <indexterm><xmlatt>speed</xmlatt></indexterm>
+        <indexterm><xmlatt>scope</xmlatt></indexterm>
       </keywords>
     </metadata>
   </prolog>

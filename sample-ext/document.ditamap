@@ -11,6 +11,7 @@
     <topicmeta>
       <navtitle>Extension Components</navtitle>
     </topicmeta>
+    <topicref href="carousel.dita"/>
     <topicref href="slider.dita"/>
     <topicref href="counter.dita"/>
     <topicref href="parallax.dita"/>

@@ -9,8 +9,8 @@
         <indexterm>Counter</indexterm>
         <indexterm>CSS
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
-          <xmlatt>otherprops</xmlatt>
         </indexterm>
+        <indexterm><xmlatt>target</xmlatt></indexterm>
       </keywords>
     </metadata>
   </prolog>

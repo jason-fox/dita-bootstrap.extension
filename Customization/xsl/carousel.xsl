@@ -50,12 +50,12 @@
       </xsl:if>
       <xsl:attribute name="id" select="$id"/>
       <xsl:call-template name="commonattributes"/>
-      <xsl:if test="contains(@otherprops, 'indicators(true)')">
+      <xsl:if test="contains(@otherprops, 'indicators(true)') or @indicators='true'">
         <xsl:call-template name="carousel-indicators">
           <xsl:with-param name="id" select="$id"/>
         </xsl:call-template>
       </xsl:if>
-      <xsl:if test="contains(@otherprops, 'indicators(round)')">
+      <xsl:if test="contains(@otherprops, 'indicators(round)') or @indicators='round'">
         <xsl:call-template name="carousel-indicators-round">
           <xsl:with-param name="id" select="$id"/>
         </xsl:call-template>
