@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+  <title>DITA Bootstrap Extension Specialization</title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+  </frontmatter>
+  <chapter>
+    <topicmeta>
+      <navtitle>Extension Components</navtitle>
+    </topicmeta>
+    <topicref href="slider.dita"/>
+    <topicref href="counter.dita"/>
+    <topicref href="parallax.dita"/>
+    <topicref href="whitebox.dita"/>
+  </chapter>
+</bookmap>

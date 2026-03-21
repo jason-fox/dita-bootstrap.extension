@@ -1,0 +1,48 @@
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<topic id="Counter">
+  <title>Counter</title>
+  <shortdesc>You can create counters with <xmlelement>counter</xmlelement> and
+    <xmlatt>otherprops="data-target()"</xmlatt>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Counter</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+          <xmlatt>otherprops</xmlatt>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <p>Scroll to start the counter</p>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <bodydiv outputclass="row">
+        <bodydiv outputclass="col">
+          <card outputclass="w-33 text-center">
+            <title outputclass="h5">Bootstrap Extension</title>
+            <p><counter outputclass="display-1" otherprops="data-target(5)"/></p>
+            <p>release</p>
+          </card>
+        </bodydiv>
+        <bodydiv outputclass="col">
+          <card outputclass="w-33 text-center">
+            <title outputclass="h5">In more than</title>
+            <p><counter outputclass="display-1" otherprops="data-target(150)"/></p>
+            <p>countries</p>
+          </card>
+        </bodydiv>
+        <bodydiv outputclass="col">
+          <card outputclass="w-33 text-center">
+            <title outputclass="h5">More than</title>
+            <p><counter outputclass="display-1" otherprops="data-target(127000)"/></p>
+            <p>downloads</p>
+          </card>
+        </bodydiv>
+      </bodydiv>
+    </bodydiv>
+    <codeblock>&lt;counter outputclass="display-1" otherprops="data-target(5)" /&gt;
+&lt;counter outputclass="display-1" otherprops="data-target(150)" /&gt;
+&lt;counter outputclass="display-1" otherprops="data-target(127000)" /&gt;</codeblock>
+  </body>
+</topic>

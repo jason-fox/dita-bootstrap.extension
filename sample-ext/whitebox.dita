@@ -1,0 +1,84 @@
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<topic id="whitebox">
+  <title>Whitebox Gallery</title>
+  <shortdesc>Use <xmlelement>whitebox</xmlelement> to hold images and create a whitebox gallery
+    component.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Whitebox Gallery</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p>click on the image below</p>
+      <whitebox>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?a"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?b"/>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?c"/>
+        </li>
+      </whitebox>
+    </bodydiv>
+    <codeblock>&lt;whitebox&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."/&gt;
+  &lt;/li&gt;
+&lt;/whitebox&gt;</codeblock>
+    <section>
+      <title>Whitebox Gallery Titles</title>
+      <p>Use the <xmlelement>alt</xmlelement> element to display a title with each image.</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <p>click on the image below</p>
+      <whitebox>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?d">
+            <alt>First Image</alt>
+          </image>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?e">
+            <alt>Second Image</alt>
+          </image>
+        </li>
+        <li>
+          <image scope="external" href="https://picsum.photos/1200/600?f">
+            <alt>Third Image</alt>
+          </image>
+        </li>
+      </whitebox>
+    </bodydiv>
+    <codeblock>&lt;whitebox&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;First Image&lt;/alt&gt;
+    &lt;/image&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;Second Image&lt;/alt&gt;
+    &lt;/image&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..."&gt;
+      &lt;alt&gt;Third Image&lt;/alt&gt;
+    &lt;/image&gt;
+  &lt;/li&gt;
+&lt;/whitebox&gt;</codeblock>
+  </body>
+</topic>

@@ -1,0 +1,51 @@
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<topic id="slider">
+  <title>Slider</title>
+  <shortdesc>Use <xmlelement>slider</xmlelement> to hold cards and create a Slider
+    component.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Slider</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <slider>
+        <card>
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?a"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <button href="#">Go Somewhere</button>
+        </card>
+        <card>
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?b"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <button href="#">Go Somewhere</button>
+        </card>
+        <card>
+          <title outputclass="h5">Card Title</title>
+          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?c"/>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <button href="#">Go Somewhere</button>
+        </card>
+      </slider>
+    </bodydiv>
+    <codeblock>&lt;slider&gt;
+  &lt;card&gt;
+    ...
+  &lt;/card&gt;
+  &lt;card&gt;
+    ...
+  &lt;/card&gt;
+  &lt;card&gt;
+    ...
+  &lt;/card&gt;
+&lt;/slider&gt;</codeblock>
+  </body>
+</topic>

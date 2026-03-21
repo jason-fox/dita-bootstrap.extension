@@ -5,6 +5,7 @@
   See the accompanying LICENSE file for applicable licenses.
 -->
 <plugin id="net.infotexture.dita-bootstrap.extension" version="5.3.1">
+  <feature extension="dita.specialization.catalog.relative" file="catalog.xml"/>
   <require plugin="net.infotexture.dita-bootstrap"/>
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
   <feature
