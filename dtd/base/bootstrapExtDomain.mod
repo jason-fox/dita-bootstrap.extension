@@ -6,15 +6,6 @@
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!--                    ELEMENT NAME ENTITIES                      -->
-<!-- ============================================================= -->
-
-<!ENTITY % counter "counter">
-<!ENTITY % parallax "parallax">
-<!ENTITY % slider "slider">
-<!ENTITY % whitebox "whitebox">
-
-<!-- ============================================================= -->
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
@@ -37,10 +28,16 @@
 <!ATTLIST slider %slider.attributes;>
 
 <!--                    WHITEBOX                                  -->
-<!ENTITY % whitebox.content "(%li;)*">
+<!ENTITY % whitebox.content "(%li; | %whitebox-item;)*">
 <!ENTITY % whitebox.attributes "outputclass CDATA 'whitebox' otherprops CDATA #IMPLIED %univ-atts;">
 <!ELEMENT whitebox %whitebox.content;>
 <!ATTLIST whitebox %whitebox.attributes;>
+
+<!--                    WHITEBOX-ITEM                             -->
+<!ENTITY % whitebox-item.content "(%section.cnt;)*">
+<!ENTITY % whitebox-item.attributes "outputclass CDATA 'whitebox-item' %univ-atts;">
+<!ELEMENT whitebox-item %whitebox-item.content;>
+<!ATTLIST whitebox-item %whitebox-item.attributes;>
 
 <!-- ============================================================= -->
 <!--                    SPECIALIZATION ATTRIBUTE DECLARATIONS      -->
@@ -50,5 +47,4 @@
 <!ATTLIST parallax class CDATA "+ topic/section bootstrap-ext-d/parallax ">
 <!ATTLIST slider class CDATA "+ topic/bodydiv bootstrap-ext-d/slider ">
 <!ATTLIST whitebox class CDATA "+ topic/ul bootstrap-ext-d/whitebox ">
-
-
+<!ATTLIST whitebox-item class CDATA "+ topic/li bootstrap-ext-d/whitebox-item ">

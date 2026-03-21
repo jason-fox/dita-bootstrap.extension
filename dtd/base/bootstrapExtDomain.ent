@@ -6,6 +6,16 @@
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
+<!--                    ELEMENT NAME ENTITIES                      -->
+<!-- ============================================================= -->
+
+<!ENTITY % counter "counter">
+<!ENTITY % parallax "parallax">
+<!ENTITY % slider "slider">
+<!ENTITY % whitebox "whitebox">
+<!ENTITY % whitebox-item "whitebox-item">
+
+<!-- ============================================================= -->
 <!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
 <!-- ============================================================= -->
 
@@ -13,6 +23,7 @@
 <!ENTITY % bootstrap-ext-d-section "parallax">
 <!ENTITY % bootstrap-ext-d-bodydiv "slider">
 <!ENTITY % bootstrap-ext-d-ul "whitebox">
+<!ENTITY % bootstrap-ext-d-li "whitebox-item">
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATION                  -->

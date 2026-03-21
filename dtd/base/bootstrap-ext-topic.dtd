@@ -75,6 +75,7 @@
 
 <!ENTITY % ph           "ph | %hi-d-ph; | %pr-d-ph; | %bootstrap-d-ph; | %bootstrap-ext-d-ph; | %sw-d-ph; | %ui-d-ph;">
 <!ENTITY % xref "xref | %bootstrap-d-xref;">
+<!ENTITY % li "li | %bootstrap-d-li; | %bootstrap-ext-d-li;">
 <!ENTITY % ul "ul | %bootstrap-d-ul; | %bootstrap-ext-d-ul;">
 <!ENTITY % fig          "fig |
                          %ut-d-fig; |

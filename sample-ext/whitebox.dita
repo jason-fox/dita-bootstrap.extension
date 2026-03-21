@@ -10,6 +10,9 @@
         <indexterm>CSS
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
         </indexterm>
+        <indexterm><xmlelement>whitebox</xmlelement></indexterm>
+        <indexterm><xmlelement>whitebox-item</xmlelement></indexterm>
+        <indexterm><xmlelement>image</xmlelement></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -17,27 +20,27 @@
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <p>click on the image below</p>
       <whitebox>
-        <li>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?a"/>
-        </li>
-        <li>
+        </whitebox-item>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?b"/>
-        </li>
-        <li>
+        </whitebox-item>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?c"/>
-        </li>
+        </whitebox-item>
       </whitebox>
     </bodydiv>
     <codeblock>&lt;whitebox&gt;
-  &lt;li&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."/&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/whitebox-item&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."/&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/whitebox-item&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."/&gt;
-  &lt;/li&gt;
+  &lt;/whitebox-item&gt;
 &lt;/whitebox&gt;</codeblock>
     <section>
       <title>Whitebox Gallery Titles</title>
@@ -46,39 +49,39 @@
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <p>click on the image below</p>
       <whitebox>
-        <li>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?d">
             <alt>First Image</alt>
           </image>
-        </li>
-        <li>
+        </whitebox-item>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?e">
             <alt>Second Image</alt>
           </image>
-        </li>
-        <li>
+        </whitebox-item>
+        <whitebox-item>
           <image scope="external" href="https://picsum.photos/1200/600?f">
             <alt>Third Image</alt>
           </image>
-        </li>
+        </whitebox-item>
       </whitebox>
     </bodydiv>
     <codeblock>&lt;whitebox&gt;
-  &lt;li&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."&gt;
       &lt;alt&gt;First Image&lt;/alt&gt;
     &lt;/image&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/whitebox-item&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."&gt;
       &lt;alt&gt;Second Image&lt;/alt&gt;
     &lt;/image&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/whitebox-item&gt;
+  &lt;whitebox-item&gt;
     &lt;image href="..."&gt;
       &lt;alt&gt;Third Image&lt;/alt&gt;
     &lt;/image&gt;
-  &lt;/li&gt;
+  &lt;/whitebox-item&gt;
 &lt;/whitebox&gt;</codeblock>
   </body>
 </topic>

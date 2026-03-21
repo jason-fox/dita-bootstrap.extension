@@ -22,6 +22,8 @@
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
         </indexterm>
         <indexterm><xmlatt>indicators</xmlatt></indexterm>
+        <indexterm><xmlelement>carousel</xmlelement></indexterm>
+        <indexterm><xmlelement>carousel-item</xmlelement></indexterm>
         <indexterm><xmlelement>fig</xmlelement></indexterm>
         <indexterm><xmlelement>image</xmlelement></indexterm>
       </keywords>
@@ -35,27 +37,27 @@
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <carousel indicators="round">
-        <li>
+        <carousel-item>
           <image scope="external" href="https://picsum.photos/1200/600?d"/>
-        </li>
-        <li>
+        </carousel-item>
+        <carousel-item>
           <image scope="external" href="https://picsum.photos/1200/600?e"/>
-        </li>
-        <li>
+        </carousel-item>
+        <carousel-item>
           <image scope="external" href="https://picsum.photos/1200/600?f"/>
-        </li>
+        </carousel-item>
       </carousel>
     </bodydiv>
     <codeblock>&lt;carousel indicators="round"&gt;
-  &lt;li&gt;
+  &lt;carousel-item&gt;
     &lt;image href="..." /&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/carousel-item&gt;
+  &lt;carousel-item&gt;
     &lt;image href="..." /&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/carousel-item&gt;
+  &lt;carousel-item&gt;
     &lt;image href="..." /&gt;
-  &lt;/li&gt;
+  &lt;/carousel-item&gt;
 &lt;/carousel&gt;</codeblock>
 
     <section>
@@ -64,45 +66,45 @@
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
       <carousel indicators="round">
-        <li>
+        <carousel-item>
           <fig>
             <title outputclass="carousel-caption-readable">The First Slide</title>
             <image scope="external" href="https://picsum.photos/1200/600?g"/>
           </fig>
-        </li>
-        <li>
+        </carousel-item>
+        <carousel-item>
           <fig>
             <title outputclass="carousel-caption-readable">The Second Slide</title>
             <image scope="external" href="https://picsum.photos/1200/600?h"/>
           </fig>
-        </li>
-        <li>
+        </carousel-item>
+        <carousel-item>
           <fig>
             <title outputclass="carousel-caption-readable">The Third Slide</title>
             <image scope="external" href="https://picsum.photos/1200/600?i"/>
           </fig>
-        </li>
+        </carousel-item>
       </carousel>
     </bodydiv>
     <codeblock>&lt;carousel indicators="round"&gt;
-  &lt;li&gt;
+  &lt;carousel-item&gt;
     &lt;fig&gt;
       &lt;title outputclass="carousel-caption-readable"&gt;The First Slide&lt;/title&gt;
       &lt;image href="..." /&gt;
     &lt;/fig&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/carousel-item&gt;
+  &lt;carousel-item&gt;
     &lt;fig&gt;
       &lt;title outputclass="carousel-caption-readable"&gt;The Second Slide&lt;/title&gt;
       &lt;image href="..." /&gt;
     &lt;/fig&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
+  &lt;/carousel-item&gt;
+  &lt;carousel-item&gt;
     &lt;fig&gt;
       &lt;title outputclass="carousel-caption-readable"&gt;The Third Slide&lt;/title&gt;
       &lt;image href="..." /&gt;
     &lt;/fig&gt;
-  &lt;/li&gt;
+  &lt;/carousel-item&gt;
 &lt;/carousel&gt;</codeblock>
   </body>
 </topic>
