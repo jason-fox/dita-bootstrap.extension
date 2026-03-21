@@ -51,5 +51,4 @@
 <!ATTLIST slider class CDATA "+ topic/bodydiv bootstrap-ext-d/slider ">
 <!ATTLIST whitebox class CDATA "+ topic/ul bootstrap-ext-d/whitebox ">
 
-<!--                    CAROUSEL OVERRIDE                         -->
-<!ATTLIST carousel indicators CDATA #IMPLIED>
+
