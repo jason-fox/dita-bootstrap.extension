@@ -15,6 +15,9 @@
   >
     <span>
       <xsl:call-template name="commonattributes"/>
+      <xsl:if test="@target">
+        <xsl:attribute name="data-target" select="@target"/>
+      </xsl:if>
       <xsl:apply-templates select="." mode="otherprops-attributes"/>
       <xsl:apply-templates/>
     </span>

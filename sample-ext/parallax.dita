@@ -2,8 +2,8 @@
 <topic id="to-top">
   <title>Parallax</title>
   <shortdesc>
-    With <xmlelement>parallax</xmlelement> and the <xmlatt>otherprops="data-img-src()"</xmlatt>
-    parameter you can create simple parallax backgrounds. The <xmlatt>otherprops="data-speed()"</xmlatt>
+    With <xmlelement>parallax</xmlelement> and the <xmlatt>href</xmlatt>
+    parameter you can create simple parallax backgrounds. The <xmlatt>speed</xmlatt>
     parameter is a number between <codeph>0</codeph> and <codeph>1</codeph> that sets the background speed.
   </shortdesc>
   <prolog>
@@ -34,10 +34,7 @@
           nulla, dictum quis nibh a, volutpat dignissim magna. Donec interdum ex nec nibh pellentesque, et convallis
           mauris</p>
       </section>
-      <parallax
-        outputclass="py-6 px-4 text-white"
-        otherprops="data-img-src(https://picsum.photos/1200/600?d) data-speed(0.3)"
-      >
+      <parallax outputclass="py-6 px-4 text-white" href="https://picsum.photos/1200/600?d" scope="external" speed="0.3">
         <title outputclass="text-center display-4">Section Title</title>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel
           hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus.
@@ -57,10 +54,7 @@
           molestie blandit ultricies. Aenean suscipit diam est, sed consequat urna blandit sit amet. Integer ultrices
           tincidunt ultricies.</p>
       </section>
-      <parallax
-        outputclass="py-6 px-4 text-white"
-        otherprops="data-img-src(https://picsum.photos/1200/600?e) data-speed(0.3)"
-      >
+      <parallax outputclass="py-6 px-4 text-white" href="https://picsum.photos/1200/600?e" scope="external" speed="0.3">
         <title outputclass="text-center display-4">Section Title</title>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel
           hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus.
@@ -105,7 +99,7 @@
   ...
 &lt;/section&gt;
 &lt;parallax outputclass="py-6 px-4 text-white" 
-  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+  href="..." speed="0.3"&gt;
   &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
   ...
 &lt;/parallax&gt;
@@ -114,7 +108,7 @@
   ...
 &lt;/section&gt;
 &lt;parallax outputclass="py-6 px-4 text-white" 
-  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+  href="..." speed="0.3"&gt;
     &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
     ...
 &lt;/parallax&gt;

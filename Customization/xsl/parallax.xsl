@@ -19,6 +19,12 @@
       <xsl:call-template name="commonattributes"/>
       <xsl:call-template name="gen-toc-id"/>
       <xsl:call-template name="setidaname"/>
+      <xsl:if test="@href">
+        <xsl:attribute name="data-img-src" select="@href"/>
+      </xsl:if>
+      <xsl:if test="@speed">
+        <xsl:attribute name="data-speed" select="@speed"/>
+      </xsl:if>
       <xsl:apply-templates select="." mode="otherprops-attributes"/>
       <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
       <xsl:apply-templates select="." mode="dita2html:section-heading"/>

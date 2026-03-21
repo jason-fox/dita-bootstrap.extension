@@ -20,13 +20,13 @@
 
 <!--                    COUNTER                                   -->
 <!ENTITY % counter.content "(%ph.cnt;)*">
-<!ENTITY % counter.attributes "outputclass CDATA 'counter' otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % counter.attributes "outputclass CDATA 'counter' target CDATA #IMPLIED otherprops CDATA #IMPLIED %univ-atts;">
 <!ELEMENT counter %counter.content;>
 <!ATTLIST counter %counter.attributes;>
 
 <!--                    PARALLAX                                  -->
 <!ENTITY % parallax.content "(%section.cnt;)*">
-<!ENTITY % parallax.attributes "outputclass CDATA 'parallax' otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % parallax.attributes "outputclass CDATA 'parallax' href CDATA #IMPLIED speed CDATA #IMPLIED scope (local | external | peer | -dita-use-conref-target) #IMPLIED otherprops CDATA #IMPLIED %univ-atts;">
 <!ELEMENT parallax %parallax.content;>
 <!ATTLIST parallax %parallax.attributes;>
 
