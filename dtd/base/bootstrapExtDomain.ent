@@ -9,13 +9,13 @@
 <!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
 <!-- ============================================================= -->
 
-<!ENTITY % bs-ext-d-ph "counter">
-<!ENTITY % bs-ext-d-section "parallax">
-<!ENTITY % bs-ext-d-bodydiv "slider">
-<!ENTITY % bs-ext-d-ul "whitebox">
+<!ENTITY % bootstrap-ext-d-ph "counter">
+<!ENTITY % bootstrap-ext-d-section "parallax">
+<!ENTITY % bootstrap-ext-d-bodydiv "slider">
+<!ENTITY % bootstrap-ext-d-ul "whitebox">
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATION                  -->
 <!-- ============================================================= -->
 
-<!ENTITY bs-ext-d-att "(topic bs-ext-d)">
+<!ENTITY bootstrap-ext-d-att "(topic bootstrap-ext-d)">

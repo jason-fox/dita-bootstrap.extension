@@ -12,7 +12,7 @@
   exclude-result-prefixes="xs dita-ot dita2html"
 >
   <xsl:template
-    match="*[contains(@class, ' bs-ext-d/parallax ')] | *[contains(@class, ' topic/section ') and contains(@outputclass, 'parallax')]"
+    match="*[contains(@class, ' bootstrap-ext-d/parallax ')] | *[contains(@class, ' topic/section ') and contains(@outputclass, 'parallax')]"
     name="topic.section"
   >
     <section>

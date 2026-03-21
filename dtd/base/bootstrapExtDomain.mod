@@ -46,10 +46,10 @@
 <!--                    SPECIALIZATION ATTRIBUTE DECLARATIONS      -->
 <!-- ============================================================= -->
 
-<!ATTLIST counter class CDATA "+ topic/ph bs-ext-d/counter ">
-<!ATTLIST parallax class CDATA "+ topic/section bs-ext-d/parallax ">
-<!ATTLIST slider class CDATA "+ topic/bodydiv bs-ext-d/slider ">
-<!ATTLIST whitebox class CDATA "+ topic/ul bs-ext-d/whitebox ">
+<!ATTLIST counter class CDATA "+ topic/ph bootstrap-ext-d/counter ">
+<!ATTLIST parallax class CDATA "+ topic/section bootstrap-ext-d/parallax ">
+<!ATTLIST slider class CDATA "+ topic/bodydiv bootstrap-ext-d/slider ">
+<!ATTLIST whitebox class CDATA "+ topic/ul bootstrap-ext-d/whitebox ">
 
 <!--                    CAROUSEL OVERRIDE                         -->
 <!ATTLIST carousel indicators CDATA #IMPLIED>

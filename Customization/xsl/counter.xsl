@@ -11,7 +11,7 @@
   exclude-result-prefixes="xs dita-ot"
 >
   <xsl:template
-    match="*[contains(@class, ' bs-ext-d/counter ')] | *[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]"
+    match="*[contains(@class, ' bootstrap-ext-d/counter ')] | *[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]"
   >
     <span>
       <xsl:call-template name="commonattributes"/>

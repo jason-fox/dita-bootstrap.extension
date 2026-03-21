@@ -11,7 +11,7 @@
   exclude-result-prefixes="xs dita-ot"
 >
   <xsl:template
-    match="*[contains(@class,' bs-ext-d/slider ')] | *[contains(@class,' topic/bodydiv ') and contains(@outputclass, 'slider')]"
+    match="*[contains(@class,' bootstrap-ext-d/slider ')] | *[contains(@class,' topic/bodydiv ') and contains(@outputclass, 'slider')]"
   >
     <div>
       <xsl:call-template name="commonattributes"/>

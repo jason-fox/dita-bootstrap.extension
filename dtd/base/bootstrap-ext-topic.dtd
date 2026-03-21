@@ -50,15 +50,15 @@
          "uiDomain.ent"
 >%ui-d-dec;
 
-<!ENTITY % bs-d-dec
-  PUBLIC "-//Infotexture//ENTITIES DITA bs Domain//EN"
-         "bsDomain.ent"
->%bs-d-dec;
+<!ENTITY % bootstrap-d-dec
+  PUBLIC "-//Infotexture//ENTITIES DITA Bootstrap Domain//EN"
+         "bootstrapDomain.ent"
+>%bootstrap-d-dec;
 
-<!ENTITY % bs-ext-d-dec
+<!ENTITY % bootstrap-ext-d-dec
   PUBLIC "-//Infotexture//ENTITIES DITA Bootstrap Extension Domain//EN"
          "bootstrapExtDomain.ent"
->%bs-ext-d-dec;
+>%bootstrap-ext-d-dec;
 
 <!-- ============================================================= -->
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
@@ -73,9 +73,9 @@
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
 
-<!ENTITY % ph           "ph | %hi-d-ph; | %pr-d-ph; | %bs-d-ph; | %bs-ext-d-ph; | %sw-d-ph; | %ui-d-ph;">
-<!ENTITY % xref "xref | %bs-d-xref;">
-<!ENTITY % ul "ul | %bs-d-ul; | %bs-ext-d-ul;">
+<!ENTITY % ph           "ph | %hi-d-ph; | %pr-d-ph; | %bootstrap-d-ph; | %bootstrap-ext-d-ph; | %sw-d-ph; | %ui-d-ph;">
+<!ENTITY % xref "xref | %bootstrap-d-xref;">
+<!ENTITY % ul "ul | %bootstrap-d-ul; | %bootstrap-ext-d-ul;">
 <!ENTITY % fig          "fig |
                          %ut-d-fig; |
                          %pr-d-fig;
@@ -99,8 +99,8 @@
 <!ENTITY % dl           "dl |
                          %pr-d-dl;
                         ">
-<!ENTITY % bodydiv      "bodydiv | %bs-d-bodydiv; | %bs-ext-d-bodydiv;">
-<!ENTITY % section      "section | %bs-d-section; | %bs-ext-d-section;">
+<!ENTITY % bodydiv      "bodydiv | %bootstrap-d-bodydiv; | %bootstrap-ext-d-bodydiv;">
+<!ENTITY % section      "section | %bootstrap-d-section; | %bootstrap-ext-d-section;">
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
@@ -123,15 +123,15 @@
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
 
-<!ENTITY % bs-d-def
-  PUBLIC "-//Infotexture//ELEMENTS DITA bs Domain//EN"
-         "bsDomain.mod"
->%bs-d-def;
+<!ENTITY % bootstrap-d-def
+  PUBLIC "-//Infotexture//ELEMENTS DITA Bootstrap Domain//EN"
+         "bootstrapDomain.mod"
+>%bootstrap-d-def;
 
-<!ENTITY % bs-ext-d-def
+<!ENTITY % bootstrap-ext-d-def
   PUBLIC "-//Infotexture//ELEMENTS DITA Bootstrap Extension Domain//EN"
          "bootstrapExtDomain.mod"
->%bs-ext-d-def;
+>%bootstrap-ext-d-def;
 
 <!ENTITY % hi-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN"
