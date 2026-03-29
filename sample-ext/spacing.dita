@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
+
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
+
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
+<topic id="spacing">
+  <title>Spacing</title>
+  <shortdesc>The CSS classes are named using the format <codeph
+    >{property}{sides}-{breakpoint}-{size}</codeph>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Spacing</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <p>Where property is one of:</p>
+    <ul>
+      <li><codeph>m</codeph> - for classes that set margin</li>
+      <li><codeph>p</codeph> - for classes that set padding</li>
+    </ul>
+    <p>Where sides is one of:</p>
+    <ul>
+      <li><codeph>t</codeph> - for classes that set margin-top or padding-top</li>
+      <li><codeph>b</codeph> - for classes that set margin-bottom or padding-bottom</li>
+      <li><codeph>s</codeph> - for classes that set margin-left or padding-left</li>
+      <li><codeph>e</codeph> - for classes that set margin-right or padding-right</li>
+      <li><codeph>x</codeph> - for classes that set both *-left and *-right</li>
+      <li><codeph>y</codeph> - for classes that set both *-top and *-bottom</li>
+    </ul>
+    <p>Where size is one of:</p>
+    <ul>
+      <li><codeph>0-8</codeph> - for classes that set the margin or padding to various rem sizes.</li>
+    </ul>
+    <section>
+      <title>Negative margin</title>
+      <p>In CSS, margin properties can utilize negative values (padding cannot). These negative margins
+        can be applied using the <xmlatt>margin</xmlatt> attribute with a dash separator
+        (e.g., <codeph>margin="t-6"</codeph> for <codeph>.mt-n6</codeph>).</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <div padding="y6" color="primary">
+        <div outputclass="w-100 bg-primary-subtle text-dark">Any div with .py-6</div>
+      </div>
+      <div padding="y7" color="info">
+        <div outputclass="w-100 bg-info-subtle text-dark">Any div with .py-7</div>
+      </div>
+      <div padding="y8" color="warning">
+        <div outputclass="w-100 bg-warning-subtle text-dark">Any div with .py-8</div>
+      </div>
+      <div width="40" padding="6" outputclass="bg-rose text-white">
+        <div outputclass="w-100">Any div</div>
+      </div>
+      <div width="40" padding="6" margin="s6 t-6" outputclass="bg-velvet text-white">
+        <div outputclass="w-100">Any div</div>
+      </div>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;div padding="y6" color="primary"&gt;
+  Any div with .py-6
+&lt;/div&gt;
+&lt;div padding="y7" color="info"&gt;
+  Any div with .py-7
+&lt;/div&gt;
+&lt;div padding="y8" color="warning"&gt;
+  Any div with .py-8
+&lt;/div&gt;
+&lt;div width="40" padding="6" outputclass="bg-velvet text-white"&gt;
+  Any div
+&lt;/div&gt;
+&lt;div width="40" padding="6" margin="s6 t-6" outputclass="bg-rose text-white"&gt;
+  Any div
+&lt;/div&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="py-6 bg-primary text-white"&gt;
+  Any div with .py-6
+&lt;/div&gt;
+&lt;div outputclass="py-7 bg-info text-white"&gt;
+  Any div with .py-7
+&lt;/div&gt;
+&lt;div outputclass="py-8 bg-primary text-white"&gt;
+  Any div with .py-8
+&lt;/div&gt;
+&lt;div outputclass="w-40 p-6 bg-velvet text-white"&gt;
+  Any div
+&lt;/div&gt;
+&lt;div outputclass="w-40 p-6 ms-6 mt-n6 bg-rose text-white"&gt;
+  Any div
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+  </body>
+</topic>

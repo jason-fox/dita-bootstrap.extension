@@ -16,5 +16,7 @@
     <topicref href="counter.dita"/>
     <topicref href="parallax.dita"/>
     <topicref href="whitebox.dita"/>
+    <topicref href="spacing.dita"/>
+    <topicref href="sizing.dita"/>
   </chapter>
 </bookmap>

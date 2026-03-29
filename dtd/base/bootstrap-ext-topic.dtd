@@ -106,6 +106,32 @@
 <!ENTITY % section      "section | %bootstrap-d-section; | %bootstrap-ext-d-section;">
 
 <!-- ============================================================= -->
+<!--                    ATTRIBUTE OVERRIDES                        -->
+<!-- ============================================================= -->
+
+<!--                    COMMON ELEMENTS                            -->
+<!ENTITY % bootstrap-decoration-atts
+  "color (primary | secondary | success | danger | warning | info | light | dark) #IMPLIED
+   border (yes | no) #IMPLIED
+   rounded (yes | no) #IMPLIED
+   margin CDATA #IMPLIED
+   padding CDATA #IMPLIED
+   shadow (yes | no | sm | lg | none) #IMPLIED
+   width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED"
+>
+<!ATTLIST note width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST p %bootstrap-decoration-atts;>
+
+<!--                    BOOTSTRAP DOMAIN                           -->
+<!ATTLIST accordion width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST card width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST carousel width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST list-group width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST offcanvas width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST tabbed-dialog width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
+<!ATTLIST grid-row %bootstrap-decoration-atts;>
+<!ATTLIST grid-col %bootstrap-decoration-atts;>
+
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
 
@@ -121,6 +147,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Topic//EN"
          "topic.mod"
 >%topic-type;
+
+<!ENTITY % commonElements-def
+  PUBLIC "-//Infotexture//ELEMENTS DITA Bootstrap Common Overrides//EN"
+         "../../../dita-bootstrap/dtd/base/commonElements.mod"
+>%commonElements-def;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
