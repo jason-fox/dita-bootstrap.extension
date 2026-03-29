@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
+
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
+
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
+<topic id="images">
+  <title>Images</title>
+  <shortdesc>Additional grayscale and hover effects for figures and images.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Images</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+        <indexterm><xmlelement>image</xmlelement></indexterm>
+        <indexterm><xmlelement>grid-row</xmlelement></indexterm>
+        <indexterm><xmlelement>grid-col</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Grayscale images</title>
+      <p>Use the <xmlatt>grayscale</xmlatt> and <xmlatt
+        >onhover</xmlatt> attributes to grayscale images and apply hover effects.</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <grid-row>
+        <grid-col breakpoint="md">
+          <image width="100" grayscale="yes" scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Grayscale image</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <image width="100" onhover="color" scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Color image on hover</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <image width="100" onhover="grayscale" scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Grayscale image on hover</p>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;image grayscale="yes" href="..."/&gt;
+&lt;image onhover="color" href="..."/&gt;
+&lt;image onhover="grayscale" href="..."/&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="grayscale"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-color"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-grayscale"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+
+    <section>
+      <title>Hover zoom</title>
+      <p>Use the <xmlatt>zoom</xmlatt> attribute with values <codeph>sm</codeph>, <codeph>md</codeph> (or <codeph
+        >yes</codeph>), and
+          <codeph>lg</codeph> to magnify images on hover.</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <grid-row>
+        <grid-col breakpoint="md">
+          <image width="100" zoom="sm" scope="external" href="https://picsum.photos/1200/600?o"/>
+          <p>Small Zoom</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <image width="100" zoom="md" scope="external" href="https://picsum.photos/1200/600?p"/>
+          <p>Medium Zoom</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <image width="100" zoom="lg" scope="external" href="https://picsum.photos/1200/600?q"/>
+          <p>Large zoom</p>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;image zoom="sm" href="..."/&gt;
+&lt;image zoom="md" href="..."/&gt;
+&lt;image zoom="lg" href="..."/&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-zoom"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-zoom-lg"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+
+    <section>
+      <title>Fade in overlay</title>
+      <p>Hover over the image to see the effect. Just use the <codeph>hover-fade-in-overlay</codeph> outputclass and the
+          <codeph>overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and
+          <codeph>from-b</codeph> classes to specify the direction of the sliding content.</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <grid-row>
+        <grid-col breakpoint="md">
+          <div outputclass="hover-fade-in-overlay">
+            <image width="100" scope="external" href="https://picsum.photos/id/1080/1200/800"/>
+            <div outputclass="overlay-100">
+              <p outputclass="display-7 text-light">Strawberries!</p>
+            </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Veeterzy</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <div outputclass="hover-fade-in-overlay">
+            <image width="100" scope="external" href="https://picsum.photos//id/798/1200/800"/>
+            <div outputclass="overlay-100 from-t bg-rose">
+              <p outputclass="display-7 text-light">It is a daisy!</p>
+            </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Aaron Burden</p>
+        </grid-col>
+        <grid-col breakpoint="md">
+          <div outputclass="hover-fade-in-overlay hover-zoom hover-grayscale">
+            <image width="100" scope="external" href="https://picsum.photos/id/976/1200/800"/>
+            <div outputclass="overlay-75 from-b bg-black">
+              <p outputclass="display-7 text-light">It is a tulip!</p>
+              <p outputclass="text-light">It is a paragraph!</p>
+              <p><xref outputclass="btn btn-warning" href="#">Button</xref></p>
+            </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Ales Krivec</p>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+
+    <codeblock>&lt;div outputclass="hover-fade-in-overlay"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-100"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;Strawberries!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-fade-in-overlay"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-100 from-t bg-rose"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;It is a daisy!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-fade-in-overlay hover-zoom hover-grayscale"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-75 from-b bg-black"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;It is a tulip!&lt;/p&gt;
+      &lt;p outputclass="text-light"&gt;It is a paragraph!&lt;/p&gt;
+      &lt;p&gt;&lt;xref color="warning" outputclass="btn" href="#"&gt;Button&lt;/xref&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</codeblock>
+    <section>
+      <title>Monochromatic images</title>
+      <p>Use <xmlatt>monochromatic="{color}"</xmlatt> if you want a monochromatic image.</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <grid-row>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="blue" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="brown" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="fresh" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="gold" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="gray" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="green" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="red" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+        <grid-col margin="2" breakpoint="md" colspan="4" outputclass="col-xl-3">
+          <image width="100" monochromatic="purple" scope="external" href="https://picsum.photos/1200/600?u"/>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;image monochromatic="blue" href="..."/&gt;
+&lt;image monochromatic="brown" href="..."/&gt;
+&lt;image monochromatic="fresh" href="..."/&gt;
+&lt;image monochromatic="gold" href="..."/&gt;
+&lt;image monochromatic="gray" href="..."/&gt;
+&lt;image monochromatic="green" href="..."/&gt;
+&lt;image monochromatic="red" href="..."/&gt;
+&lt;image monochromatic="purple" href="..."/&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="monochromatic-blue"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-brown"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-fresh"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-gold"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-gray"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-green"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-red"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-purple"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+
+    <section>
+      <title>Thumbnails</title>
+      <p>The <xmlelement>thumbnail</xmlelement> also supports the new semantic decoration attributes.</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <grid-row>
+        <grid-col breakpoint="md" colspan="4">
+           <thumbnail monochromatic="blue" scope="external" href="https://picsum.photos/400/400?a"/>
+           <p>Monochromatic Thumbnail</p>
+        </grid-col>
+        <grid-col breakpoint="md" colspan="4">
+           <thumbnail zoom="lg" scope="external" href="https://picsum.photos/400/400?b"/>
+           <p>Zooming Thumbnail</p>
+        </grid-col>
+        <grid-col breakpoint="md" colspan="4">
+           <thumbnail onhover="grayscale" scope="external" href="https://picsum.photos/400/400?c"/>
+           <p>Hover Grayscale Thumbnail</p>
+        </grid-col>
+      </grid-row>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;thumbnail monochromatic="blue" href="..."/&gt;
+&lt;thumbnail zoom="lg" href="..."/&gt;
+&lt;thumbnail onhover="grayscale" href="..."/&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="monochromatic-blue"&gt;
+  &lt;image outputclass="img-thumbnail" href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-zoom-lg"&gt;
+  &lt;image outputclass="img-thumbnail" href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-grayscale"&gt;
+  &lt;image outputclass="img-thumbnail" href="..."/&gt;
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+  </body>
+</topic>

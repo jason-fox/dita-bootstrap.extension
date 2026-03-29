@@ -18,5 +18,7 @@
     <topicref href="whitebox.dita"/>
     <topicref href="spacing.dita"/>
     <topicref href="sizing.dita"/>
+    <topicref href="grid.dita"/>
+    <topicref href="images.dita"/>
   </chapter>
 </bookmap>

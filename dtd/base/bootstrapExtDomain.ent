@@ -35,3 +35,10 @@
 <!--                    CAROUSEL OVERRIDE                         -->
 <!-- ============================================================= -->
 <!ATTLIST carousel indicators (yes | no | round) #IMPLIED>
+
+<!ENTITY % image-decoration-atts
+  "monochromatic (blue | brown | fresh | gold | gray | green | red | purple) #IMPLIED
+   grayscale (yes | no) #IMPLIED
+   zoom (sm | md | lg | yes | no) #IMPLIED
+   onhover (color | grayscale) #IMPLIED"
+>

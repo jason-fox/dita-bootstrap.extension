@@ -131,6 +131,8 @@
 <!ATTLIST tabbed-dialog width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED>
 <!ATTLIST grid-row %bootstrap-decoration-atts;>
 <!ATTLIST grid-col %bootstrap-decoration-atts;>
+<!ATTLIST image %image-decoration-atts;>
+<!ATTLIST thumbnail %image-decoration-atts;>
 
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
