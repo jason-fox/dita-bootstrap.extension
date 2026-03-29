@@ -38,7 +38,7 @@
           mauris</p>
       </section>
       <parallax
-        padding="y-6 x-4"
+        padding="y6 x4"
         outputclass="text-white"
         href="https://picsum.photos/1200/600?d"
         scope="external"
@@ -64,7 +64,7 @@
           tincidunt ultricies.</p>
       </section>
       <parallax
-        padding="y-6 x-4"
+        padding="y6 x4"
         outputclass="text-white"
         href="https://picsum.photos/1200/600?e"
         scope="external"
@@ -116,7 +116,7 @@
   &lt;title &gt;Title 1&lt;/title&gt;
   ...
 &lt;/section&gt;
-&lt;parallax padding="y-6 x-4" outputclass="text-white" 
+&lt;parallax padding="y6 x4" outputclass="text-white" 
   href="..." speed="0.3"&gt;
   &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
   ...
@@ -125,7 +125,7 @@
   &lt;title&gt;Title 2&lt;/title&gt;
   ...
 &lt;/section&gt;
-&lt;parallax padding="y-6 x-4" outputclass="text-white" 
+&lt;parallax padding="y6 x4" outputclass="text-white" 
   href="..." speed="0.3"&gt;
     &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
     ...
