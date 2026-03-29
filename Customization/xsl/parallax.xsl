@@ -27,7 +27,23 @@
       </xsl:if>
       <xsl:apply-templates select="." mode="otherprops-attributes"/>
       <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
-      <xsl:apply-templates select="." mode="dita2html:section-heading"/>
+      <xsl:variable name="headLevel" select="dita2html:get-heading-level(.)"/>
+      <xsl:choose>
+        <xsl:when test="*[contains(@class, ' topic/title ')]">
+          <xsl:for-each select="*[contains(@class, ' topic/title ')][1]">
+            <xsl:element name="h{$headLevel}">
+              <xsl:call-template name="commonattributes"/>
+              <xsl:apply-templates/>
+            </xsl:element>
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:when test="@spectitle">
+          <xsl:element name="h{$headLevel}">
+            <xsl:call-template name="commonattributes"/>
+            <xsl:value-of select="@spectitle"/>
+          </xsl:element>
+        </xsl:when>
+      </xsl:choose>
       <xsl:apply-templates
         select="*[not(contains(@class, ' topic/title '))] | text() | comment() | processing-instruction()"
       />

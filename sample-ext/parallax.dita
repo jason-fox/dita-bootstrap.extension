@@ -37,7 +37,13 @@
           nulla, dictum quis nibh a, volutpat dignissim magna. Donec interdum ex nec nibh pellentesque, et convallis
           mauris</p>
       </section>
-      <parallax outputclass="py-6 px-4 text-white" href="https://picsum.photos/1200/600?d" scope="external" speed="0.3">
+      <parallax
+        padding="y-6 x-4"
+        outputclass="text-white"
+        href="https://picsum.photos/1200/600?d"
+        scope="external"
+        speed="0.3"
+      >
         <title outputclass="text-center display-4">Section Title</title>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel
           hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus.
@@ -57,7 +63,13 @@
           molestie blandit ultricies. Aenean suscipit diam est, sed consequat urna blandit sit amet. Integer ultrices
           tincidunt ultricies.</p>
       </section>
-      <parallax outputclass="py-6 px-4 text-white" href="https://picsum.photos/1200/600?e" scope="external" speed="0.3">
+      <parallax
+        padding="y-6 x-4"
+        outputclass="text-white"
+        href="https://picsum.photos/1200/600?e"
+        scope="external"
+        speed="0.3"
+      >
         <title outputclass="text-center display-4">Section Title</title>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo turpis in eros feugiat, vel
           hendrerit erat condimentum. Cras in mattis enim, eget condimentum enim. Ut vehicula metus non feugiat dapibus.
@@ -97,11 +109,14 @@
           mi diam quis elit. Proin lacinia urna metus, nec scelerisque ex commodo eget.</p>
       </section>
     </bodydiv>
-    <codeblock>&lt;section&gt;
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;section&gt;
   &lt;title &gt;Title 1&lt;/title&gt;
   ...
 &lt;/section&gt;
-&lt;parallax outputclass="py-6 px-4 text-white" 
+&lt;parallax padding="y-6 x-4" outputclass="text-white" 
   href="..." speed="0.3"&gt;
   &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
   ...
@@ -110,7 +125,7 @@
   &lt;title&gt;Title 2&lt;/title&gt;
   ...
 &lt;/section&gt;
-&lt;parallax outputclass="py-6 px-4 text-white" 
+&lt;parallax padding="y-6 x-4" outputclass="text-white" 
   href="..." speed="0.3"&gt;
     &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
     ...
@@ -119,5 +134,32 @@
     &lt;title&gt;Title 3&lt;/title&gt;
     ...
 &lt;/section&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;section&gt;
+  &lt;title &gt;Title 1&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section outputclass="parallax py-6 px-4 text-white" 
+  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+  &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;title&gt;Title 2&lt;/title&gt;
+  ...
+&lt;/section&gt;
+&lt;section outputclass="parallax py-6 px-4 text-white" 
+  otherprops="data-img-src(...) data-speed(0.3)"&gt;
+    &lt;title outputclass="text-center display-4"&gt;Section Title&lt;/title&gt;
+    ...
+&lt;/section&gt;
+&lt;section&gt;
+    &lt;title&gt;Title 3&lt;/title&gt;
+    ...
+&lt;/section&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
   </body>
 </topic>

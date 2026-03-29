@@ -18,25 +18,28 @@
       <slider>
         <card>
           <title outputclass="h5">Card Title</title>
-          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?a"/>
+          <image scope="external" href="https://picsum.photos/1200/600?a"/>
           <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
           <button href="#">Go Somewhere</button>
         </card>
         <card>
           <title outputclass="h5">Card Title</title>
-          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?b"/>
+          <image scope="external" href="https://picsum.photos/1200/600?b"/>
           <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
           <button href="#">Go Somewhere</button>
         </card>
         <card>
           <title outputclass="h5">Card Title</title>
-          <image outputclass="card-img-top" scope="external" href="https://picsum.photos/1200/600?c"/>
+          <image scope="external" href="https://picsum.photos/1200/600?c"/>
           <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
           <button href="#">Go Somewhere</button>
         </card>
       </slider>
     </bodydiv>
-    <codeblock>&lt;slider&gt;
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;slider&gt;
   &lt;card&gt;
     ...
   &lt;/card&gt;
@@ -47,5 +50,21 @@
     ...
   &lt;/card&gt;
 &lt;/slider&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;bodydiv outputclass="slider"&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+  &lt;section outputclass="card"&gt;
+    ...
+  &lt;/section&gt;
+&lt;/bodydiv&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
   </body>
 </topic>

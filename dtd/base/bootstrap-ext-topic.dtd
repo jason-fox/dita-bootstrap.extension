@@ -126,6 +126,8 @@
 <!--                    DOMAIN ELEMENT INTEGRATION                 -->
 <!-- ============================================================= -->
 
+<!ENTITY % carousel.attributes "outputclass CDATA #IMPLIED indicators (yes | no | round) #IMPLIED interval CDATA #IMPLIED touch (yes | no) #IMPLIED autoplay (yes | no) #IMPLIED fade (yes | no) #IMPLIED %univ-atts;">
+
 <!ENTITY % bootstrap-d-def
   PUBLIC "-//Infotexture//ELEMENTS DITA Bootstrap Domain//EN"
          "bootstrapDomain.mod"

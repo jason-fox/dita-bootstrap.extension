@@ -9,33 +9,42 @@
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
+<!--                    COMMON DECORATION ATTRIBUTES              -->
+<!ENTITY % bootstrap-ext-decoration-atts
+  "margin CDATA #IMPLIED
+   padding CDATA #IMPLIED
+   shadow (yes | no | sm | lg | none) #IMPLIED
+   indicators (yes | no | round) #IMPLIED
+   width (5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 | auto) #IMPLIED"
+>
+
 <!--                    COUNTER                                   -->
 <!ENTITY % counter.content "(%ph.cnt;)*">
-<!ENTITY % counter.attributes "outputclass CDATA 'counter' target CDATA #IMPLIED otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % counter.attributes "outputclass CDATA 'counter' target CDATA #IMPLIED otherprops CDATA #IMPLIED %bootstrap-ext-decoration-atts; %univ-atts;">
 <!ELEMENT counter %counter.content;>
 <!ATTLIST counter %counter.attributes;>
 
 <!--                    PARALLAX                                  -->
 <!ENTITY % parallax.content "(%section.cnt;)*">
-<!ENTITY % parallax.attributes "outputclass CDATA 'parallax' href CDATA #IMPLIED speed CDATA #IMPLIED scope (local | external | peer | -dita-use-conref-target) #IMPLIED otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % parallax.attributes "outputclass CDATA 'parallax' href CDATA #IMPLIED speed CDATA #IMPLIED scope (local | external | peer | -dita-use-conref-target) #IMPLIED otherprops CDATA #IMPLIED %bootstrap-ext-decoration-atts; %univ-atts;">
 <!ELEMENT parallax %parallax.content;>
 <!ATTLIST parallax %parallax.attributes;>
 
 <!--                    SLIDER                                    -->
 <!ENTITY % slider.content "(%section;)*">
-<!ENTITY % slider.attributes "outputclass CDATA 'slider' otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % slider.attributes "outputclass CDATA 'slider' otherprops CDATA #IMPLIED %bootstrap-ext-decoration-atts; %univ-atts;">
 <!ELEMENT slider %slider.content;>
 <!ATTLIST slider %slider.attributes;>
 
 <!--                    WHITEBOX                                  -->
 <!ENTITY % whitebox.content "(%li; | %whitebox-item;)*">
-<!ENTITY % whitebox.attributes "outputclass CDATA 'whitebox' otherprops CDATA #IMPLIED %univ-atts;">
+<!ENTITY % whitebox.attributes "outputclass CDATA 'whitebox' otherprops CDATA #IMPLIED %bootstrap-ext-decoration-atts; %univ-atts;">
 <!ELEMENT whitebox %whitebox.content;>
 <!ATTLIST whitebox %whitebox.attributes;>
 
 <!--                    WHITEBOX-ITEM                             -->
 <!ENTITY % whitebox-item.content "(%section.cnt;)*">
-<!ENTITY % whitebox-item.attributes "outputclass CDATA 'whitebox-item' %univ-atts;">
+<!ENTITY % whitebox-item.attributes "outputclass CDATA 'whitebox-item' %bootstrap-ext-decoration-atts; %univ-atts;">
 <!ELEMENT whitebox-item %whitebox-item.content;>
 <!ATTLIST whitebox-item %whitebox-item.attributes;>
 

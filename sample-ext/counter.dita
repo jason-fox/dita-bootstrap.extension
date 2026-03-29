@@ -17,32 +17,46 @@
   <body outputclass="language-markup">
     <p>Scroll to start the counter</p>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
-      <bodydiv outputclass="row">
-        <bodydiv outputclass="col">
-          <card outputclass="w-33 text-center">
-            <title outputclass="h5">Bootstrap Extension</title>
+      <grid-row>
+        <grid-col>
+          <card width="100" outputclass="text-center">
+            <title>Bootstrap Extension</title>
             <p><counter outputclass="display-1" target="5"/></p>
             <p>release</p>
           </card>
-        </bodydiv>
-        <bodydiv outputclass="col">
-          <card outputclass="w-33 text-center">
+        </grid-col>
+        <grid-col>
+          <card width="100" outputclass="text-center">
             <title outputclass="h5">In more than</title>
             <p><counter outputclass="display-1" target="150"/></p>
             <p>countries</p>
           </card>
-        </bodydiv>
-        <bodydiv outputclass="col">
-          <card outputclass="w-33 text-center">
+        </grid-col>
+        <grid-col>
+          <card width="100" outputclass="text-center">
             <title outputclass="h5">More than</title>
             <p><counter outputclass="display-1" target="127000"/></p>
             <p>downloads</p>
           </card>
-        </bodydiv>
-      </bodydiv>
+        </grid-col>
+      </grid-row>
     </bodydiv>
-    <codeblock>&lt;counter outputclass="display-1" target="5" /&gt;
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;counter outputclass="display-1" target="5" /&gt;
 &lt;counter outputclass="display-1" target="150" /&gt;
 &lt;counter outputclass="display-1" target="127000" /&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;ph outputclass="display-1 counter" otherprops="data-target(5)"&gt;
+&lt;/ph&gt;
+&lt;ph outputclass="display-1 counter" otherprops="data-target(150)"&gt;
+&lt;/ph&gt;
+&lt;ph outputclass="display-1 counter" otherprops="data-target(127000)"&gt;
+&lt;/ph&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
   </body>
 </topic>

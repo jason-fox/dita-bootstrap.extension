@@ -31,7 +31,7 @@
   </xsl:template>
 
   <xsl:template
-    match="*[ (contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'carousel')]"
+    match="*[contains(@class, ' bootstrap-d/carousel ') or ((contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'carousel'))]"
   >
     <xsl:variable name="id">
       <xsl:value-of select="concat('carousel_' ,dita-ot:generate-html-id(.))"/>
@@ -50,7 +50,7 @@
       </xsl:if>
       <xsl:attribute name="id" select="$id"/>
       <xsl:call-template name="commonattributes"/>
-      <xsl:if test="contains(@otherprops, 'indicators(true)') or @indicators='true'">
+      <xsl:if test="contains(@otherprops, 'indicators(true)') or @indicators='true' or @indicators='yes'">
         <xsl:call-template name="carousel-indicators">
           <xsl:with-param name="id" select="$id"/>
         </xsl:call-template>

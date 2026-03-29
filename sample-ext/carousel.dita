@@ -48,7 +48,10 @@
         </carousel-item>
       </carousel>
     </bodydiv>
-    <codeblock>&lt;carousel indicators="round"&gt;
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;carousel indicators="round"&gt;
   &lt;carousel-item&gt;
     &lt;image href="..." /&gt;
   &lt;/carousel-item&gt;
@@ -59,6 +62,22 @@
     &lt;image href="..." /&gt;
   &lt;/carousel-item&gt;
 &lt;/carousel&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;ol outputclass="carousel" otherprops="indicators(round)"&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;image href="..." /&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
 
     <section>
       <title>With captions</title>
@@ -86,7 +105,10 @@
         </carousel-item>
       </carousel>
     </bodydiv>
-    <codeblock>&lt;carousel indicators="round"&gt;
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock>&lt;carousel indicators="round"&gt;
   &lt;carousel-item&gt;
     &lt;fig&gt;
       &lt;title outputclass="carousel-caption-readable"&gt;The First Slide&lt;/title&gt;
@@ -106,5 +128,30 @@
     &lt;/fig&gt;
   &lt;/carousel-item&gt;
 &lt;/carousel&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;ol outputclass="carousel" otherprops="indicators(round)"&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The First Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The Second Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;fig&gt;
+      &lt;title outputclass="carousel-caption-readable"&gt;The Third Slide&lt;/title&gt;
+      &lt;image href="..." /&gt;
+    &lt;/fig&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
   </body>
 </topic>
