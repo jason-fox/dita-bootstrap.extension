@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
+
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
+
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
+<topic id="color">
+  <title>Colors</title>
+  <shortdesc>Easily set the background of an element to any extension-specific contextual class.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Color</indexterm>
+        <indexterm>Background</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Colors</title>
+      <p>Similar to the contextual text color classes, easily set the background of an element to any contextual class.
+        Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in
+        some cases you’ll want to use <xmlatt>outputclass="text-*"</xmlatt> utilities.</p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <div outputclass="p-3 mb-2 bg-chocolate text-white">.bg-chocolate</div>
+      <div outputclass="p-3 mb-2 bg-velvet text-white">.bg-velvet</div>
+      <div outputclass="p-3 mb-2 bg-dream text-white">.bg-dream</div>
+      <div outputclass="p-3 mb-2 bg-night text-white">.bg-night</div>
+      <div outputclass="p-3 mb-2 bg-sky text-white">.bg-sky</div>
+      <div outputclass="p-3 mb-2 bg-fresh text-white">.bg-fresh</div>
+      <div outputclass="p-3 mb-2 bg-rose text-white">.bg-rose</div>
+      <div outputclass="p-3 mb-2 bg-cream text-dark text-chocolate">.bg-cream text-dark</div>
+    </bodydiv>
+    <codeblock>&lt;div outputclass="p-3 mb-2 bg-chocolate text-white"&gt;
+  .bg-chocolate
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-velvet text-white"&gt;
+  .bg-velvet
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-dream text-white"&gt;
+  .bg-dream
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-night text-white"&gt;
+  .bg-night
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-sky text-white"&gt;
+  .bg-sky
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-fresh text-white"&gt;
+  .bg-fresh
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-rose text-white"&gt;
+  .bg-rose
+&lt;/div&gt;
+&lt;div outputclass="p-3 mb-2 bg-cream text-chocolate"&gt;
+  .bg-cream
+&lt;/div&gt;</codeblock>
+  </body>
+</topic>

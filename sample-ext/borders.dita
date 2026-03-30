@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd">
+<!--
+  Bootstrap Extension is designed and built by Peter Joiner.
+  The code is licensed using MIT. Copyright (c) 2018-2024 Peter Joiner — AKK IT, Inc.
+
+  Within this documentation, where necessary, the texts describing the Bootstrap Extension usage of each component have
+  been copied directly from the Bootstrap Extension documentation (found at https://bootstrapextensions.com/), however
+  DITA markup is used throughout the examples describing how to implement these components correctly using outputclass.
+
+  This work is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT.
+  See the accompanying LICENSE file for applicable licenses.
+-->
+<topic id="borders">
+  <title>Borders</title>
+  <shortdesc>Use extended border utilities to quickly style the border and border-radius of an element.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Borders</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+        <xmlatt>frame</xmlatt>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body outputclass="language-markup">
+    <section>
+      <title>Simple borders</title>
+      <p>The <xmlatt>outputclass="border-{size}"</xmlatt> classes allow you to set a stronger border than before. The
+        size is from 6 to 10, and 20. With the <codeph>.rounded-6</codeph> outputclass you can set even larger
+        roundings.</p>
+    </section>
+    <bodydiv border="yes" padding="3" deliveryTarget="html">
+      <div margin="3">
+        <div
+          border="6"
+          bordercolor="fresh"
+          rounded="6"
+          padding="3"
+          margin="3"
+          outputclass="bg-cream text-dark"
+        >.border-6, .rounded-6</div>
+        <div
+          border="7"
+          bordercolor="primary"
+          padding="3"
+          margin="3"
+          outputclass="border-start bg-cream text-dark"
+        >.border-7</div>
+        <div
+          border="8"
+          bordercolor="secondary"
+          padding="3"
+          margin="3"
+          outputclass="border-end bg-cream text-dark"
+        >.border-8</div>
+        <div
+          border="9"
+          bordercolor="info"
+          padding="3"
+          margin="3"
+          outputclass="border-top bg-cream text-dark"
+        >.border-9</div>
+        <div
+          border="10"
+          bordercolor="warning"
+          padding="3"
+          margin="3"
+          outputclass="border-bottom bg-cream text-dark"
+        >.border-10</div>
+        <div
+          border="20"
+          bordercolor="danger"
+          padding="3"
+          margin="3"
+          outputclass="border-start bg-cream text-dark"
+        >.border-20</div>
+      </div>
+    </bodydiv>
+
+    <tabbed-dialog style="pills" margin="t3">
+      <section>
+        <title>Specialization</title>
+        <codeblock
+        >&lt;div border="6" bordercolor="fresh" rounded="6" padding="3" margin="3" outputclass="bg-cream text-dark"&gt;
+  .border-6, .rounded-6
+&lt;/div&gt;
+&lt;div border="7" bordercolor="primary" padding="3" margin="3" outputclass="border-start bg-cream text-dark"&gt;
+  .border-7
+&lt;/div&gt;
+&lt;div border="8" bordercolor="secondary" padding="3" margin="3" outputclass="border-end bg-cream text-dark"&gt;
+  .border-8
+&lt;/div&gt;
+&lt;div border="9" bordercolor="info" padding="3" margin="3" outputclass="border-top bg-cream text-dark"&gt;
+  .border-9
+&lt;/div&gt;
+&lt;div border="10" bordercolor="warning" padding="3" margin="3" outputclass="border-bottom bg-cream text-dark"&gt;
+  .border-10
+&lt;/div&gt;
+&lt;div border="20" bordercolor="danger" padding="3" margin="3" outputclass="border-start bg-cream text-dark"&gt;
+  .border-20
+&lt;/div&gt;</codeblock>
+      </section>
+      <section>
+        <title><xmlatt>outputclass</xmlatt></title>
+        <codeblock>&lt;div outputclass="border border-6 border-fresh rounded-6 m-3 p-3 bg-cream text-dark"&gt;
+  .border-6, .rounded-6
+&lt;/div&gt;
+&lt;div outputclass="border-start border-7 border-primary m-3 p-3 bg-cream text-dark"&gt;
+  .border-7
+&lt;/div&gt;
+&lt;div outputclass="border-end border-8 border-secondary m-3 p-3 bg-cream text-dark"&gt;
+  .border-8
+&lt;/div&gt;
+&lt;div outputclass="border-top border-9 border-info m-3 p-3 bg-cream text-dark"&gt;
+  .border-9
+&lt;/div&gt;
+&lt;div outputclass="border-bottom border-10 border-warning m-3 p-3 bg-cream text-dark"&gt;
+  .border-10
+&lt;/div&gt;
+&lt;div outputclass="border-start border-20 border-danger m-3 p-3 bg-cream text-dark"&gt;
+  .border-20
+&lt;/div&gt;</codeblock>
+      </section>
+    </tabbed-dialog>
+    <section>
+      <title>Offset border</title>
+      <p>You can set offset borders with <xmlatt>outputclass="offset-border"</xmlatt> and the
+          <xmlatt>otherprops="data-border()"</xmlatt> parameter. Parameters of the <codeph>data-border()</codeph>
+        parameter in order: <codeph>{relative left position} {relative top position} {relative width change} {relative
+          height change} {border width in pixels} {color}</codeph>
+      </p>
+    </section>
+    <bodydiv outputclass="bd-example" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-12 col-lg-4">
+          <div outputclass="hover-zoom">
+            <image
+              outputclass="w-100 offset-border"
+              otherprops="data-border(20 20 -40 -40 1 #fff)"
+              scope="external"
+              href="https://picsum.photos/1200/600?a"
+            />
+          </div>
+        </div>
+        <div outputclass="col-12 col-lg-4">
+          <div outputclass="hover-zoom w-80 mx-auto mt-5">
+            <image
+              outputclass="w-100 offset-border"
+              otherprops="data-border(-20 -20 0 0 6 #f33)"
+              scope="external"
+              href="https://picsum.photos/1200/600?b"
+            />
+          </div>
+        </div>
+        <div outputclass="col-12 col-lg-4">
+          <div outputclass="hover-zoom w-80 mx-auto mt-5">
+            <image
+              outputclass="w-100 offset-border"
+              otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"
+              scope="external"
+              href="https://picsum.photos/1200/600?c"
+            />
+          </div>
+        </div>
+      </div>
+    </bodydiv>
+    <codeblock>&lt;image href="..." outputclass="w-100 offset-border"
+  otherprops="data-border(20 20 -40 -40 1 #fff)"/&gt;
+&lt;image href="..." outputclass="w-100 offset-border" 
+  otherprops="data-border(-20 -20 0 0 6 #f33)"/&gt;
+&lt;image href="..." outputclass="w-100 offset-border"
+  otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"/&gt;</codeblock>
+  </body>
+</topic>
