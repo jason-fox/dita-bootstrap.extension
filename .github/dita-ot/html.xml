@@ -15,6 +15,7 @@
       <param name="args.css" value="theme.css"/>
       <param name="args.csspath" value="css"/>
       <param name="args.cssroot" path="."/>
+      <property name="args.debug" value="yes"/>
       <param name="args.favicon" value="favicon.svg"/>
       <param name="args.faviconpath" value="favicon"/>
       <param name="args.faviconroot" path="."/>
