@@ -10,9 +10,14 @@
   version="2.0"
   exclude-result-prefixes="xs dita-ot"
 >
-  <xsl:template match="*[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]">
+  <xsl:template
+    match="*[contains(@class, ' bootstrap-ext-d/counter ')] | *[contains(@class, ' topic/ph ') and contains(@outputclass, 'counter')]"
+  >
     <span>
       <xsl:call-template name="commonattributes"/>
+      <xsl:if test="@target">
+        <xsl:attribute name="data-target" select="@target"/>
+      </xsl:if>
       <xsl:apply-templates select="." mode="otherprops-attributes"/>
       <xsl:apply-templates/>
     </span>

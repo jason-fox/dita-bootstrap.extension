@@ -11,7 +11,7 @@
   exclude-result-prefixes="xs dita-ot"
 >
   <xsl:template
-    match="*[ (contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'whitebox')]"
+    match="*[contains(@class, ' bootstrap-ext-d/whitebox ')] | *[ (contains(@class,' topic/ul ') or contains(@class, ' topic/ol ')) and contains(@outputclass, 'whitebox')]"
   >
     <xsl:variable name="id">
       <xsl:value-of select="concat('whitebox_' ,dita-ot:generate-html-id(.))"/>

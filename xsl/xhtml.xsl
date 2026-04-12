@@ -13,6 +13,7 @@
 >
   <xsl:include href="../Customization/xsl/carousel.xsl"/>
   <xsl:include href="../Customization/xsl/counter.xsl"/>
+  <xsl:include href="../Customization/xsl/images.xsl"/>
   <xsl:include href="../Customization/xsl/parallax.xsl"/>
   <xsl:include href="../Customization/xsl/slider.xsl"/>
   <xsl:include href="../Customization/xsl/to-top.xsl"/>
