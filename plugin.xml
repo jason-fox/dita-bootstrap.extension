@@ -6,7 +6,7 @@
 -->
 <plugin id="net.infotexture.dita-bootstrap.extension" version="5.3.1">
   <require plugin="net.infotexture.dita-bootstrap"/>
-  <!--require plugin="com.dita-bootstrap.extension.specialization"/ -->
+  <!--require plugin="org.dita-bootstrap.extension.specialization"/ -->
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
   <feature
     extension="dita.xsl.html5-bootstrap"
