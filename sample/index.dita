@@ -49,7 +49,7 @@
           >--install</parmname> https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
 <cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
 <cmdname>dita</cmdname> <parmname
-          >--install</parmname> https://github.com/infotexture/dita-bootstrap.extension/archive/master.zip</codeblock>
+          >--install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.extension/archive/master.zip</codeblock>
       </section>
     </bodydiv>
     <section>
