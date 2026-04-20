@@ -32,7 +32,7 @@
   "devDependencies": {
     "@prettier/plugin-xml": "3.4.2",
     "lefthook": "^2.1.4",
-    "prettier": "3.8.1",
+    "prettier": "3.8.3",
     "stylelint": "^16.26.1",
     "stylelint-config-twbs-bootstrap": "^16.1.0"
   }
