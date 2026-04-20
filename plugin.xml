@@ -4,8 +4,9 @@
   This file is part of the DITA Bootstrap Extension plug-in for DITA Open Toolkit.
   See the accompanying LICENSE file for applicable licenses.
 -->
-<plugin id="net.infotexture.dita-bootstrap.extension" version="5.3.1">
+<plugin id="org.dita-bootstrap.extension" version="5.3.1">
   <require plugin="net.infotexture.dita-bootstrap"/>
+  <!--require plugin="org.dita-bootstrap.html"/ -->
   <!--require plugin="org.dita-bootstrap.extension.specialization"/ -->
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
   <feature
