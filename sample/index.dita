@@ -28,8 +28,8 @@
       <title>Installing</title>
       <p>Use the <cmdname>dita</cmdname> command to add the plug-ins to your DITA Open Toolkit installation:</p>
     </section>
-     <accordion>
-        <accordion-item open="yes">
+     <bodydiv outputclass="accordion">
+        <section outputclass="show">
         <title>DITA-OT 3.5 and newer</title>
           <ol>  
             <li>
@@ -63,8 +63,8 @@
               >install</parmname> fox.jason.prismjs</codeblock>
             </li>
           </ol>
-      </accordion-item>
-      <accordion-item>
+      </section>
+      <section>
         <title>DITA-OT 3.3 and newer</title>
           <ol>  
             <li>
@@ -97,8 +97,8 @@
               >--install</parmname> fox.jason.prismjs</codeblock>
             </li>
           </ol>
-      </accordion-item>
-      <accordion-item>
+      </section>
+      <section>
         <title>DITA-OT 3.2 and older</title>
           <ol>  
             <li>
@@ -136,8 +136,8 @@
               >--install</parmname> https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip</codeblock>
             </li>
           </ol>   
-      </accordion-item>
-    </accordion>
+      </section>
+    </bodydiv>
     <section>
       <title>Using</title>
       <p>If using DITA specialization for the Bootstrap Extension, ensure that the <codeph
