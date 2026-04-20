@@ -16,7 +16,7 @@
 
   <shortdesc>A plug-in for
     <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the
-    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref> HTML
+    <xref href="https://dita-bootstrap.github.io/" format="html" scope="external">DITA Bootstrap</xref> HTML
     output with additional features from the
     <xref
       href="https://bootstrapextensions.com"
@@ -33,21 +33,22 @@
       <section>
         <title>DITA-OT 3.5 and newer:</title>
         <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
-<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
-<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
+<cmdname>dita</cmdname> <parmname>install</parmname> org.dita-bootstrap.html
+<cmdname>dita</cmdname> <parmname>install</parmname> org.dita-bootstrap.extension</codeblock>
       </section>
       <section>
         <title>DITA-OT 3.3 and newer:</title>
         <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> fox.jason.extend.css
-<cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap
-<cmdname>dita</cmdname> <parmname>--install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
+<cmdname>dita</cmdname> <parmname>--install</parmname> org.dita-bootstrap.html
+<cmdname>dita</cmdname> <parmname>--install</parmname> org.dita-bootstrap.extension</codeblock>
       </section>
       <section>
         <title>DITA-OT 3.2 and older:</title>
         <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
           >--install</parmname> https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
-<cmdname>dita</cmdname> <parmname>--install</parmname> https://github.com/infotexture/dita-bootstrap/archive/master.zip
+<cmdname>dita</cmdname> <parmname
+          >--install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.html/archive/master.zip
 <cmdname>dita</cmdname> <parmname
           >--install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.extension/archive/master.zip</codeblock>
       </section>
