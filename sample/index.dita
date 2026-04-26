@@ -16,7 +16,7 @@
 
   <shortdesc>A plug-in for
     <xref href="http://www.dita-ot.org" format="html" scope="external">DITA Open Toolkit</xref> that extends the
-    <xref href="https://infotexture.github.io/dita-bootstrap/" format="html" scope="external">DITA Bootstrap</xref> HTML
+    <xref href="https://dita-bootstrap.github.io/" format="html" scope="external">DITA Bootstrap</xref> HTML
     output with additional features from the
     <xref
       href="https://bootstrapextensions.com"
@@ -144,7 +144,7 @@
         >*.dita</codeph> files are using the following <codeph>DOCTYPE</codeph> declaration:</p>
         <codeblock
         outputclass="language-xml"
-      >&lt;!DOCTYPE topic PUBLIC "-//Infotexture//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd"&gt;</codeblock>
+      >&lt;!DOCTYPE topic PUBLIC "-//DITA Bootstrap//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd"&gt;</codeblock>
       <p>Specify the <option>html5-bootstrap</option> format when building output with the <cmdname>dita</cmdname>
         command:</p>
       <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
