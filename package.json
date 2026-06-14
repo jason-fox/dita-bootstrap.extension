@@ -16,6 +16,7 @@
     "format:dita": "prettier --write \"**/*.dita\"",
     "format:xml": "prettier --write \"**/*.xml\"",
     "format:xsl": "prettier --write \"**/*.xsl\"",
+    "prepare": "lefthook install",
     "prettier": "prettier --write \"**/*.{css,dita*,json,md,xml,xsl,yml}\"",
     "prettier-check": "prettier --check \"**/*.{css,dita*,json,md,xml,xsl,yml}\"",
     "stylelint": "stylelint \"**/*.css\" --globby-options '{\"dot\":true}'",
