@@ -50,35 +50,29 @@
       </xsl:if>
       <xsl:attribute name="id" select="$id"/>
       <xsl:call-template name="commonattributes"/>
-      <xsl:if test="contains(@otherprops, 'indicators(true)') or @indicators='true' or @indicators='yes'">
-        <xsl:call-template name="carousel-indicators">
-          <xsl:with-param name="id" select="$id"/>
-        </xsl:call-template>
-      </xsl:if>
-      <xsl:if test="contains(@otherprops, 'indicators(round)') or @indicators='round'">
-        <xsl:call-template name="carousel-indicators-round">
-          <xsl:with-param name="id" select="$id"/>
-        </xsl:call-template>
-      </xsl:if>
       <div class="carousel-inner pb-1">
         <xsl:apply-templates mode="carousel"/>
       </div>
-      <xsl:call-template name="carousel-previous-next">
-        <xsl:with-param name="id" select="$id"/>
-      </xsl:call-template>
+      <div class="d-flex justify-content-between align-items-center">
+        <xsl:call-template name="carousel-previous-next">
+          <xsl:with-param name="id" select="$id"/>
+        </xsl:call-template>
+        <xsl:if test="contains(@otherprops, 'indicators(true)') or @indicators='true' or @indicators='yes'">
+          <xsl:call-template name="carousel-indicators">
+            <xsl:with-param name="id" select="$id"/>
+          </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="contains(@otherprops, 'indicators(round)') or @indicators='round'">
+          <xsl:call-template name="carousel-indicators-round">
+            <xsl:with-param name="id" select="$id"/>
+          </xsl:call-template>
+        </xsl:if>
+      </div>
     </div>
   </xsl:template>
 
-  <!-- Slide Caption -->
-  <xsl:template
-    match="*[contains(@class,' topic/title ') and contains(@outputclass, 'carousel-caption-readable')]"
-    mode="carousel"
-  >
-    <div class="carousel-caption carousel-caption-readable d-none d-md-block">
-      <p>
-        <!--xsl:call-template name="commonattributes"/-->
-        <xsl:apply-templates/>
-      </p>
-    </div>
+  <!-- Carousel Items Slides with Captions -->
+  <xsl:template match="*[contains(@class,' topic/fig ')]" mode="carousel">
+    <xsl:call-template name="topic.fig"/>
   </xsl:template>
 </xsl:stylesheet>
