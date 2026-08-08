@@ -51,7 +51,7 @@
     &lt;image href="..."/&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</codeblock>
-    <section>
+    <section id="whitebox-gallery-titles">
       <title>Whitebox Gallery Titles</title>
       <p>Use the <xmlelement>alt</xmlelement> element to display a title with each image.</p>
     </section>

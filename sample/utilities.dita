@@ -29,7 +29,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section>
+    <section id="simple-borders">
       <title>Simple borders</title>
       <p>The <xmlatt>outputclass="border-{size}"</xmlatt> classes allow you to set a stronger border than before. The
         size is from 6 to 10, and 20. With the <codeph>.rounded-6</codeph> outputclass you can set even larger
@@ -77,7 +77,7 @@
 &lt;div outputclass="border-start border-20 border-danger p-3 bg-cream text-dark"&gt;
   .border-20
 &lt;/div&gt;</codeblock>
-    <section>
+    <section id="offset-border">
       <title>Offset border</title>
       <p>You can set offset borders with <xmlatt>outputclass="offset-border"</xmlatt> and the
           <xmlatt>otherprops="data-border()"</xmlatt> parameter. Parameters of the <codeph>data-border()</codeph>
@@ -125,7 +125,7 @@
   otherprops="data-border(-20 -20 0 0 6 #f33)"/&gt;
 &lt;image href="..." outputclass="w-100 offset-border"
   otherprops="data-border(-20 -20 0 0 6 #f33) style(position: relative; z-index: 1000;)"/&gt;</codeblock>
-    <section>
+    <section id="colors">
       <title>Colors</title>
       <p>Similar to the contextual text color classes, easily set the background of an element to any contextual class.
         Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in

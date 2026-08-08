@@ -46,7 +46,7 @@
       <li><codeph>7</codeph> - (by default) for classes that set the margin or padding to 10rem</li>
       <li><codeph>8</codeph> - (by default) for classes that set the margin or padding to 20rem</li>
     </ul>
-    <section>
+    <section id="negative-margin">
       <title>Negative margin</title>
       <p>In CSS, margin properties can utilize negative values (padding cannot). As of 4.2, we’ve added negative margin
         utilities for every non-zero integer size listed above (e.g., 6, 7, 8).</p>

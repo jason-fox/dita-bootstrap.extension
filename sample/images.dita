@@ -26,7 +26,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section>
+    <section id="grayscale-images">
       <title>Grayscale images</title>
       <p>Use <xmlatt>outputclass="grayscale"</xmlatt>, <xmlatt>outputclass="hover-color</xmlatt> and
       <xmlatt>outputclass="hover-grayscale</xmlatt> to grayscale figures and images.</p>
@@ -56,7 +56,7 @@
 &lt;div outputclass="hover-grayscale"&gt;
   &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;</codeblock>
-    <section>
+    <section id="hover-zoom">
       <title>Hover zoom</title>
       <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and
           <codeph>hover-zoom-lg</codeph> outputclasses will magnify them.</p>
@@ -86,7 +86,7 @@
 &lt;div outputclass="hover-zoom-lg"&gt;
   &lt;image outputclass="w-100" href="..."/&gt;
 &lt;/div&gt;</codeblock>
-    <section>
+    <section id="fade-in-overlay">
       <title>Fade in overlay</title>
       <p>Hover over the image to see the effect. Just use the <codeph>hover-fade-in-overlay</codeph> outputclass and the
           <codeph>overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and
@@ -153,7 +153,7 @@
       &lt;p&gt;&lt;xref outputclass="btn btn-warning" href="#"&gt;Button&lt;/xref&gt;&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;</codeblock>
-    <section>
+    <section id="monochromatic-images">
       <title>Monochromatic images</title>
       <p>Use <xmlatt>outputclass="monochrome-{color}"</xmlatt> if you want a monochrome image</p>
     </section>

@@ -30,7 +30,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section>
+    <section id="indicators">
       <title>Indicators</title>
       <p>Set <xmlatt>otherprops="indicators(round)"</xmlatt> to add rounded indicators to the carousel, alongside the
         previous/next controls. The indicators let users jump directly to a particular slide.</p>
@@ -60,7 +60,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;</codeblock>
 
-    <section>
+    <section id="with-captions">
       <title>With captions</title>
       <p>Add captions by using <xmlelement>fig</xmlelement> elements</p>
     </section>

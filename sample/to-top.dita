@@ -29,7 +29,7 @@
     <fig>
       <image scalefit="no" href="./src/to-top-button.png"/>
     </fig>
-    <section>
+    <section id="adding-totop-button">
       <title>Adding <codeph>toTop</codeph> button</title>
       <p>The <codeph>toTop</codeph> button is not included by default. You can add a button to each page by setting the
         parameter <parmname>--to-top.include</parmname>=<option>yes</option>

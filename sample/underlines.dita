@@ -25,7 +25,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section>
+    <section id="underlines-intro">
       <title>Underlines</title>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">

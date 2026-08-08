@@ -26,7 +26,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section outputclass="row pb-5">
+    <section id="gutter" outputclass="row pb-5">
       <title>Gutter</title>
       <p>Use the <codeph>.g-{breakpoint}-6</codeph> outputclass for larger spaces (6rem).</p>
     </section>
@@ -80,7 +80,7 @@
     &lt;/section&gt;
   &lt;/bodydiv&gt;
 &lt;/bodydiv&gt;</codeblock>
-    <section>
+    <section id="column-push-and-pull">
       <title>Column push and pull</title>
       <p>Use <codeph>col-{breakpoint}-push-*</codeph> or <codeph>col-{breakpoint}-pull-*</codeph> outputclasses to push
         or pull the elements in grid system. The <codeph>col-{breakpoint}-push-*</codeph> outputclasses also shift the
@@ -114,7 +114,7 @@
     &lt;/div&gt;
   &lt;/bodydiv&gt;
 &lt;/bodydiv&gt;</codeblock>
-    <section>
+    <section id="column-ordering">
       <title>Column ordering</title>
       <p>Easily change the order of built-in grid columns with <xmlatt>outputclass="col-{breakpoint}-push-*"</xmlatt>
         and <xmlatt>outputclass="col-{breakpoint}-pull-*"</xmlatt> modifier outputclasses.</p>
@@ -142,7 +142,7 @@
   &lt;/bodydiv&gt;
 &lt;/bodydiv&gt;</codeblock>
 
-    <section>
+    <section id="content-rotate">
       <title>Content rotate</title>
       <p>You can rotate the contents 0 to 90 degrees left or right. Use the .rotate-{breakpoint}-l-{degree} outputclass
         to rotate left or the .rotate-{breakpoint}-r-{degree} outputclass to rotate right.</p>

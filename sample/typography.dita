@@ -28,7 +28,7 @@
     </metadata>
   </prolog>
   <body outputclass="language-markup">
-    <section>
+    <section id="display-headings">
       <title>Display headings</title>
       <p>Traditional heading elements are designed to work best in the meat of your page content. When you need a
         heading to stand out, consider using a display heading—a larger, slightly more opinionated heading style.</p>
@@ -39,7 +39,7 @@
     </bodydiv>
     <codeblock>&lt;title outputclass="display-7"&gt;Display 7&lt;/title&gt;
 &lt;title outputclass="display-8"&gt;Display 8&lt;/title&gt;</codeblock>
-    <section>
+    <section id="letter-spacing">
       <title>Letter spacing</title>
     </section>
     <bodydiv outputclass="bd-example" deliveryTarget="html">
@@ -62,7 +62,7 @@
 &lt;p outputclass="display-8 text-uppercase ls-6"&gt;Text with letter spacing&lt;/p&gt;
 &lt;p outputclass="display-8 text-uppercase ls-7"&gt;Text with letter spacing&lt;/p&gt;
 &lt;p outputclass="display-8 text-uppercase ls-8"&gt;Text with letter spacing&lt;/p&gt;</codeblock>
-    <section>
+    <section id="web-safe-fonts">
       <title>Web safe fonts</title>
       <p>To access web safe fonts, use the <xmlatt>outputclasses</xmlatt> below.</p>
     </section>
