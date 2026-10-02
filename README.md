@@ -71,7 +71,7 @@ The generated HTML created by this software includes the following additional so
 - Bootstrap Extension – https://github.com/bootstrapextension/bootstrap-extension – **MIT license**
 
 > [!NOTE]
->  Within the documentation, where necessary, the texts describing the Bootstrap Extension usage of
+> Within the documentation, where necessary, the texts describing the Bootstrap Extension usage of
 > each component have been copied directly from the [Bootstrap Extension documentation](https://bootstrapextensions.com/)
 > however DITA markup is used throughout the examples describing how to implement these components correctly
 > using DITA specializations or `outputclass`. The text is therefore a derivative of "Bootstrap Extension docs"
