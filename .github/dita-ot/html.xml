@@ -29,7 +29,7 @@
       <param name="dark.mode.include" value="yes"/>
       <param
         name="open-graph.url"
-        value="https://dita-bootstrap.github.io/dita-bootstrap.extension"
+        value="https://dita-bootstrap.org/dita-bootstrap.extension"
       />
       <param name="twitter.site" value="@infotexture"/>
     </publication>

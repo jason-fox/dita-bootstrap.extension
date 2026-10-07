@@ -1,7 +1,7 @@
 {
   "name": "dita-bootstrap.extension",
   "description": "DITA Open Toolkit plug-in that extends the DITA Bootstrap HTML output with additional features from the Bootstrap Extension library.",
-  "homepage": "https://dita-bootstrap.github.io/bootstrap-extension.html",
+  "homepage": "https://dita-bootstrap.org/html/bootstrap-extension.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/dita-bootstrap/dita-bootstrap.extension.git"
