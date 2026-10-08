@@ -6,7 +6,7 @@
 -->
 <plugin id="org.dita-bootstrap.extension" version="5.3.1">
   <require plugin="org.dita-bootstrap.html"/>
-  <!--require plugin="org.dita-bootstrap.extension.specialization"/ -->
+  <!--require plugin="org.dita-bootstrap.extension.dtd/ -->
   <feature extension="dita.conductor.html5.param" file="insertParameters.xml"/>
   <feature
     extension="dita.xsl.html5-bootstrap"
