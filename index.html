@@ -124,7 +124,8 @@ img {
               <p class="p"><strong class="ph b">Optional:</strong> install the specialization plug-ins to add support for new DITA elements that
                generate Bootstrap Extension components:
               </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.dtd<span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.extension.dtd</code></pre>
+              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.dtd
+<span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.extension.dtd</code></pre>
             </li>
             <li class="li">
               <p class="p">For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
@@ -133,7 +134,6 @@ img {
 <span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.html
 <span class="keyword cmdname">dita</span> <span class="keyword parmname"><span class="ph token function">install</span></span> org.dita-bootstrap.extension</code></pre>
             </li>
-            
             <li class="li">
               <p class="p">To add syntax highlighting using the Bootstrap color scheme, install the Prism.js plug-in if required:
               </p>
@@ -143,58 +143,59 @@ img {
       </div></div></div>
       <div class="accordion-item"><h2 type="accordion-header" id="heading_extension__accordion-item__2"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#collapse_extension__accordion-item__2" aria-controls="collapse_extension__accordion-item__2">DITA-OT 3.3 and newer</button></h2><div class="accordion-collapse collapse" id="collapse_extension__accordion-item__2" aria-labelledby="heading_extension__accordion-item__2" data-bs-parent="#extension__accordion__1"><div class="accordion-body">
         
-          <ol class="ol">  
-            <li class="li">
-              <p class="p"><strong class="ph b">Optional:</strong> install the specialization plug-in to add support for new DITA elements that
-               generate Bootstrap components:
-              </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.dtd<span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.extension.dtd</code></pre>
+        <ol class="ol">  
+          <li class="li">
+            <p class="p"><strong class="ph b">Optional:</strong> install the specialization plug-in to add support for new DITA elements that
+             generate Bootstrap components:
+            </p>
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.dtd
+<span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.extension.dtd</code></pre>
           </li>
           <li class="li">
-          <p class="p">For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
-          </p>
-          <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> fox.jason.extend.css
+            <p class="p">For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
+            </p>
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> fox.jason.extend.css
 <span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.html
 <span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> org.dita-bootstrap.extension</code></pre>
           </li>
-          
-            <li class="li">
-              <p class="p">To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
-              </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> fox.jason.prismjs</code></pre>
-            </li>
-          </ol>
+          <li class="li">
+            <p class="p">To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
+            </p>
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> fox.jason.prismjs</code></pre>
+          </li>
+        </ol>
       </div></div></div>
       <div class="accordion-item"><h2 type="accordion-header" id="heading_extension__accordion-item__3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#collapse_extension__accordion-item__3" aria-controls="collapse_extension__accordion-item__3">DITA-OT 3.2 and older</button></h2><div class="accordion-collapse collapse" id="collapse_extension__accordion-item__3" aria-labelledby="heading_extension__accordion-item__3" data-bs-parent="#extension__accordion__1"><div class="accordion-body">
         
-          <ol class="ol">  
-            <li class="li">
-              <p class="p"><strong class="ph b">Optional:</strong> install the specialization plug-in to add support for new DITA elements that
-               generate Bootstrap components:
-              </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/dita-bootstrap/dita-bootstrap.dtd/archive/develop.zip
+        <ol class="ol">  
+          <li class="li">
+            <p class="p"><strong class="ph b">Optional:</strong> install the specialization plug-in to add support for new DITA elements that
+             generate Bootstrap components:
+            </p>
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/dita-bootstrap/dita-bootstrap.dtd/archive/develop.zip
 <span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/dita-bootstrap/dita-bootstrap.extension/dtd/archive/develop.zip</code></pre>
-            </li>
-            <li class="li">
-              <p class="p">For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
-              </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/jason-fox/fox.jason.extend.css/archive/develop.zip
+          </li>
+          <li class="li">
+            <p class="p">For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
+            </p>
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/jason-fox/fox.jason.extend.css/archive/develop.zip
 <span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/dita-bootstrap/dita-bootstrap.html/archive/develop.zip
 <span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/dita-bootstrap/dita-bootstrap.extension/archive/develop.zip</code></pre>
-            </li>
-            
-            <li class="li">
-              <p class="p">To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
+          </li>
+          <li class="li">
+            <p class="p">To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
               </p>
-              <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip</code></pre>
-            </li>
-          </ol>   
+            <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--install</span> https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip</code></pre>
+          </li>
+        </ol>   
       </div></div></div>
     </div>
     <section class="section" id="extension__using"><h2 class="title h4">Using</h2>
       
       <p class="p">If using DITA specialization for the Bootstrap Extension, ensure that the <code class="ph codeph language-markup">*.dita</code> files are using the following <code class="ph codeph language-markup">DOCTYPE</code> declaration:</p>
-        <pre class="pre codeblock alert alert-secondary language-xml"><code><span class="ph token doctype"><span class="ph token punctuation">&lt;!</span><span class="ph token doctype-tag">DOCTYPE</span> <span class="ph token name">topic</span> <span class="ph token name">PUBLIC</span> <span class="ph token string">"-//DITA Bootstrap//DTD DITA Bootstrap Extension Topic//EN"</span> <span class="ph token string">"bootstrap-ext-topic.dtd"</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+        <pre class="pre codeblock alert alert-secondary language-xml"><code><span class="ph token doctype"><span class="ph token punctuation">&lt;!</span><span class="ph token doctype-tag">DOCTYPE</span> <span class="ph token name">topic</span> <span class="ph token name">PUBLIC</span> 
+  <span class="ph token string">"-//DITA Bootstrap//DTD DITA Bootstrap Extension Topic//EN"</span>
+  <span class="ph token string">"bootstrap-ext-topic.dtd"</span><span class="ph token punctuation">&gt;</span></span></code></pre>
       <p class="p">Specify the <span class="keyword option">html5-bootstrap</span> format when building output with the <span class="keyword cmdname">dita</span>
         command:</p>
       <pre class="pre codeblock alert alert-secondary language-bash"><code><span class="keyword cmdname">dita</span> <span class="keyword parmname">--input</span><span class="ph token operator">=</span>path/to/your.ditamap <span class="keyword parmname">--format</span><span class="ph token operator">=</span>html5-bootstrap</code></pre>
