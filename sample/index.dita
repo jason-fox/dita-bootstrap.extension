@@ -48,14 +48,6 @@
 <cmdname>dita</cmdname> <parmname>install</parmname> org.dita-bootstrap.html
 <cmdname>dita</cmdname> <parmname>install</parmname> org.dita-bootstrap.extension</codeblock>
             </li>
-            <!-- li>
-              <p>For PDF generation, install the PDF plug-in, and then <b
-              >optionally</b> add the PDF theme plug-in as shown:
-              </p>
-              <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
-              >install</parmname> org.dita-bootstrap.pdf
-<cmdname>dita</cmdname> <parmname>install</parmname> org.dita-bootstrap.pdf.theme</codeblock>
-            </li-->
             <li>
               <p>To add syntax highlighting using the Bootstrap color scheme, install the Prism.js plug-in if required:
               </p>
@@ -74,22 +66,15 @@
               <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
               >--install</parmname> org.dita-bootstrap.dtd<cmdname>dita</cmdname> <parmname
               >--install</parmname> org.dita-bootstrap.extension.dtd</codeblock>
-          </li>
-          <li>
-          <p>For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
-          </p>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
+            </li>
+            <li>
+              <p>For HTML generation, install the CSS plug-in and the HTML plug-in as shown:
+              </p>
+              <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
               >--install</parmname> fox.jason.extend.css
 <cmdname>dita</cmdname> <parmname>--install</parmname> org.dita-bootstrap.html
 <cmdname>dita</cmdname> <parmname>--install</parmname> org.dita-bootstrap.extension</codeblock>
-          </li>
-          <!--li>
-          <p>For PDF generation, install the PDF plug-in, and then <b>optionally</b> add the PDF theme plug-in as shown:
-          </p>
-          <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
-              >-/-install</parmname> org.dita-bootstrap.pdf
-<cmdname>dita</cmdname> <parmname>-/-install</parmname> org.dita-bootstrap.pdf.theme</codeblock>
-            </li-->
+            </li>
             <li>
               <p>To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
               </p>
@@ -120,15 +105,6 @@
 <cmdname>dita</cmdname> <parmname
               >--install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.extension/archive/master.zip</codeblock>
             </li>
-            <!--li>
-              <p>For PDF generation, install the PDF plug-in, and then <b
-              >optionally</b> add the PDF theme plug-in as shown:
-              </p>
-              <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
-              >-/-install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.pdf/archive/master.zip
-<cmdname>dita</cmdname> <parmname
-              >-/-install</parmname> https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/master.zip</codeblock>
-            </li-->
             <li>
               <p>To add syntax highlighting using the bootstrap color scheme, install the Prism.js plug-in if required:
               </p>
@@ -142,9 +118,9 @@
       <title>Using</title>
       <p>If using DITA specialization for the Bootstrap Extension, ensure that the <codeph
         >*.dita</codeph> files are using the following <codeph>DOCTYPE</codeph> declaration:</p>
-        <codeblock
-        outputclass="language-xml"
-      >&lt;!DOCTYPE topic PUBLIC "-//DITA Bootstrap//DTD DITA Bootstrap Extension Topic//EN" "bootstrap-ext-topic.dtd"&gt;</codeblock>
+        <codeblock outputclass="language-xml">&lt;!DOCTYPE topic PUBLIC
+  "-//DITA Bootstrap//DTD DITA Bootstrap Extension Topic//EN"
+  "bootstrap-ext-topic.dtd"&gt;</codeblock>
       <p>Specify the <option>html5-bootstrap</option> format when building output with the <cmdname>dita</cmdname>
         command:</p>
       <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname
